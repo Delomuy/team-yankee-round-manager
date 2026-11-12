@@ -1,0 +1,77 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "British",
+  "formations": [
+    {
+      "id": "british_challenger_armoured_squadron",
+      "name": "Challenger Armoured Squadron",
+      "hq": "TB201",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_challenger_armoured_squadron_romor",
+      "name": "Challenger Armoured Squadron (ROMOR)",
+      "hq": "TB201r",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_chieftain_armoured_squadron",
+      "name": "Chieftain Armoured Squadron",
+      "hq": "TB101a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_fv432_mechanised_company",
+      "name": "FV432 Mechanised Company",
+      "hq": "TB104a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_lynx_airmobile_company",
+      "name": "Lynx Airmobile Company",
+      "hq": "TB116",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_spartan_recce_squadron",
+      "name": "Spartan Recce Squadron",
+      "hq": "TB110",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_warrior_mechanised_company",
+      "name": "Warrior Mechanised Company",
+      "hq": "TB203",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "british_wheeled_recce_squadron",
+      "name": "Wheeled Recce Squadron",
+      "hq": "TB207",
+      "slots": [],
+      "exclusive": []
+    }
+  ]
+}

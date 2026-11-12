@@ -1,0 +1,1467 @@
+{
+  "units": [
+    {
+      "id": "TBE101",
+      "name": "Leopard 1 Tank Eskadron HQ",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 9,
+      "armour_side": 5,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x Leopard 1",
+          "models": 1,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE103",
+      "name": "AIFV-B Infanterie Compagnie HQ",
+      "nation": "Belgian",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x FAL rifle team + 1x Blindicide anti-tank team + 1x AIFV-B-C25",
+          "models": 2,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "FAL rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Blindicide anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "AIFV-B-C25",
+              "unit_id": "TBE105"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace AIFV-B-C25 with AIFV-B-.50 (TBE120) at no cost",
+          "cost": 0,
+          "per_model": false
+        },
+        {
+          "text": "Replace AIFV-B-C25 with M113 (TBE121) at no cost.",
+          "cost": 0,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TBE105",
+      "transport_name": "AIFV-B-C25",
+      "transport_ids": [
+        "TBE105"
+      ],
+      "weapons": [
+        {
+          "name": "FAL rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Blindicide anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "25mm KBA gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE104",
+      "name": "AIFV-B Infanterie Peloton",
+      "nation": "Belgian",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x FN-FAL & MAG team with LAW anti-tank + 1x Blindicide anti-tank team + 3x AIFV-B-C25",
+          "models": 6,
+          "transport_models": 3,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 5,
+              "name": "FN-FAL & MAG team with LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Blindicide anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "AIFV-B-C25",
+              "unit_id": "TBE105"
+            }
+          ]
+        },
+        {
+          "label": "7x FN-FAL & MAG team with LAW anti-tank + 1x Blindicide anti-tank team + 1x 60mm mortar team + 4x AIFV-B-C25",
+          "models": 9,
+          "transport_models": 4,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 7,
+              "name": "FN-FAL & MAG team with LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Blindicide anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "60mm mortar team"
+            },
+            {
+              "count": 4,
+              "name": "AIFV-B-C25",
+              "unit_id": "TBE105"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x Milan 2 missile team (TBE106) for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Add 1x Milan missile team (TBE106) for +1 point or",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace 1x Blindicide anti-tank team with a APILAS anti-tank team (TBE106) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TBE105",
+      "transport_name": "AIFV-B-C25",
+      "transport_ids": [
+        "TBE105"
+      ],
+      "weapons": [
+        {
+          "name": "FN-FAL & MAG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Blindicide anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "25mm KBA gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "60mm mortar team",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE105",
+      "name": "AIFV-B-C25 Transport",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Milan Mount",
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "25mm KBA gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE121",
+      "name": "M113 Transport",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE122",
+      "name": "M113 Infanterie Peloton",
+      "nation": "Belgian",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x FN-FAL & MAG team with LAW anti-tank + 1x Blindicide anti-tank team + 3x M113",
+          "models": 6,
+          "transport_models": 3,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 5,
+              "name": "FN-FAL & MAG team with LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Blindicide anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "M113",
+              "unit_id": "TBE121"
+            }
+          ]
+        },
+        {
+          "label": "7x FN-FAL & MAG team with LAW anti-tank + 1x Blindicide anti-tank team + 1x 60mm mortar team + 4x M113",
+          "models": 9,
+          "transport_models": 4,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 7,
+              "name": "FN-FAL & MAG team with LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Blindicide anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "60mm mortar team"
+            },
+            {
+              "count": 4,
+              "name": "M113",
+              "unit_id": "TBE121"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x Milan 2 missile team (TBE106) for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Add 1x Milan missile team (TBE106) for +1 point, or",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace 1x Blindicide anti-tank team with a APILAS anti-tank team (TBE106) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace all M113 with AIFV-B-.50 (TBE120) at no cost.",
+          "cost": 0,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TBE121",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TBE121"
+      ],
+      "weapons": [
+        {
+          "name": "FN-FAL & MAG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Blindicide anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "60mm mortar team",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE110",
+      "name": "Verkennings Eskadron HQ",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Spartan",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Spartan"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE111",
+      "name": "Scimitar Verkennings Troep",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Scout",
+        "Spearhead"
+      ],
+      "tactical": 15,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Scimitar",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Scimitar"
+            }
+          ]
+        },
+        {
+          "label": "4x Scimitar",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Scimitar"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm L21 Rarden gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Sneak and Peek"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE117",
+      "name": "M109 Artillerie Batterij",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x M109",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "4x M109",
+          "models": 4,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M109"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M185 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M185 155mm howitzer or Direct Fire",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE118",
+      "name": "AIFV-B OP",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Observer",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x AIFV-B OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AIFV-B OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE116",
+      "name": "Gepard Pantserluchtdoel Peloton",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Gepard",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Gepard"
+            }
+          ]
+        },
+        {
+          "label": "3x Gepard",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Gepard"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Twin 35mm L/90 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE119",
+      "name": "Mirage 5 Jager Vlucht",
+      "nation": "Belgian",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x Mirage 5",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mirage 5"
+            }
+          ]
+        },
+        {
+          "label": "4x Mirage 5",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mirage 5"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm auto-cannon",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "BLG-66 cluster bomb",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE102",
+      "name": "Leopard 1 Tank Peloton",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 9,
+      "armour_side": 5,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x Leopard 1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Leopard 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TBE112",
+      "name": "Scorpion Verkennings Troep",
+      "nation": "Belgian",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Scout",
+        "Spearhead"
+      ],
+      "tactical": 15,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Scorpion",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Scorpion"
+            }
+          ]
+        },
+        {
+          "label": "4x Scorpion",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Scorpion"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "76mm L23 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 2,
+          "rules": [
+            "HEAT",
+            "Smoke",
+            "Sneak and Peek"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

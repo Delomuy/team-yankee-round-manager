@@ -1,0 +1,986 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "Soviet",
+  "formations": [
+    {
+      "id": "ussr_btr60_motor_rifle_battalion",
+      "name": "BTR-60 Motor Rifle Battalion",
+      "division": "228th Guards",
+      "hq": "TS124a",
+      "slots": [
+        {
+          "id": "company_1",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS125a"
+          ]
+        },
+        {
+          "id": "company_2",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS125a"
+          ]
+        },
+        {
+          "id": "company_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS125a"
+          ]
+        },
+        {
+          "id": "tanks",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS138",
+            "TS123",
+            "TS102",
+            "TS136",
+            "TS144",
+            "TS151",
+            "TS167"
+          ]
+        },
+        {
+          "id": "recon",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS111",
+            "TS110",
+            "TS128"
+          ]
+        },
+        {
+          "id": "anti_tank",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS130"
+          ]
+        },
+        {
+          "id": "artillery",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "aa_guns",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS112"
+          ]
+        },
+        {
+          "id": "sam",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS129",
+            "TS113"
+          ]
+        }
+      ],
+      "exclusive": [],
+      "_source": "FowList force diagram (relevant docs/FormationHtml.txt). TS128 (BRDM-2 Recon) and TS112 (ZSU-23-4 Shilka) have no card in data/ussr_units.json yet: they show as 'no card' until they are added."
+    },
+    {
+      "id": "soviet_formation",
+      "name": "T-80 Tank Battalion",
+      "division": "55th Guards",
+      "hq": "TS137",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS138"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS138"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS138"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_air_assault_battalion",
+      "name": "Afgansy Air Assault Battalion",
+      "division": "345th guards",
+      "hq": "TS118a",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS119a"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS119a"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS119a"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Aircraft",
+          "compulsory": true,
+          "units": [
+            "TS114a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Aircraft",
+          "compulsory": true,
+          "units": [
+            "TS114a"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Aircraft",
+          "compulsory": false,
+          "units": [
+            "TS114a"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_bmp_motor_rifle_battalion",
+      "name": "BMP Motor Rifle Battalion",
+      "division": "204th guards",
+      "hq": "TS103c",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Infantry",
+          "compulsory": true,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS138",
+            "TS102",
+            "TS151",
+            "TS123",
+            "TS167",
+            "TS136"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS112",
+            "TS139"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS129",
+            "TS113"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Red Banner",
+          "compulsory": false,
+          "units": [
+            "TS130",
+            "TS108"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_80_tank_battalion_copy",
+      "name": "T-64BV Tank Battalion",
+      "division": "162nd tank regiment",
+      "hq": "TS166",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS167"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS167"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS167"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_80_tank_battalion_copy_2",
+      "name": "T-72 Tank Battalion",
+      "division": "360th Guards",
+      "hq": "TS101b",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS102"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS102"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS102"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_80_tank_battalion_copy_3",
+      "name": "T-72B Tank Battalion",
+      "division": "Ludowe wojosko poslkie",
+      "hq": "TS150",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS151"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS151"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS151"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_62m_tank_battalion_copy",
+      "name": "T-55AM Tank Battalion",
+      "division": "124th Guards",
+      "hq": "TS143",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS144"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS144"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS144"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_80_tank_battalion_copy_4",
+      "name": "T-80 Shock Tank Battalion",
+      "division": "26th Guards",
+      "hq": "TS201",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS202"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS202"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS202"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_62m_tank_battalion_copy_2",
+      "name": "T-62M Tank Battalion",
+      "division": "1st Guards",
+      "hq": "TS135a",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS135a"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TS135a"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TS135a"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Infantry",
+          "compulsory": false,
+          "units": [
+            "TS104a",
+            "TS106a",
+            "TS141",
+            "TS125a"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TS110",
+            "TS111",
+            "TS146",
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS139",
+            "TS112"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Anti-aircraft",
+          "compulsory": false,
+          "units": [
+            "TS113",
+            "TS129"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Artillery",
+          "compulsory": false,
+          "units": [
+            "TS108"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_formation_2",
+      "name": "VDV BMD Air Assault Battalion",
+      "division": "97th guards parachute regiments",
+      "hq": "TS153",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "VDV",
+          "compulsory": true,
+          "units": [
+            "TS154",
+            "TS157"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "VDV",
+          "compulsory": true,
+          "units": [
+            "TS154",
+            "TS157"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS154",
+            "TS157"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS128"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS163"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS174"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS161"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS162"
+          ]
+        },
+        {
+          "id": "slot_9",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS164"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_vdv_bmd_air_assault_battalion_copy_2",
+      "name": "VDV BMD Afganty Air Assault Battalion",
+      "division": "38th Independent air assault brigade",
+      "hq": "TS170",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "VDV",
+          "compulsory": true,
+          "units": [
+            "TS171"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "VDV",
+          "compulsory": true,
+          "units": [
+            "TS171"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS171"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS174"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS163"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS161"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS162"
+          ]
+        },
+        {
+          "id": "slot_9",
+          "group": "VDV",
+          "compulsory": false,
+          "units": [
+            "TS164"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_afgantsy_bmd_air_assault_company",
+      "name": "Afgantsy BMD Air Assault Company",
+      "hq": "TS170",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "soviet_t_64_tank_battalion",
+      "name": "T-64 Tank Battalion",
+      "hq": "TS122a",
+      "slots": [],
+      "exclusive": []
+    }
+  ]
+}

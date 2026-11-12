@@ -1,0 +1,2686 @@
+{
+  "units": [
+    {
+      "id": "TB101a",
+      "name": "Chieftain Armoured Squadron HQ",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 17,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Chieftain",
+          "models": 2,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Chieftain"
+            }
+          ]
+        },
+        {
+          "label": "1x Chieftain",
+          "models": 1,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Chieftain"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any or all Chieftain tanks with Chieftain Stillbrew (TB102a) for +1 point each",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB104a",
+      "name": "FV432 Mechanised Company HQ",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x SLR rifle team + 1x FV432",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "SLR rifle team"
+            },
+            {
+              "count": 1,
+              "name": "FV432",
+              "unit_id": "TB106"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add up to two SF GPMG teams for +1 point each",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "transport_id": "TB106",
+      "transport_name": "FV432",
+      "transport_ids": [
+        "TB106"
+      ],
+      "weapons": [
+        {
+          "name": "SLR rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG or Artillery",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 1,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 6,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB110",
+      "name": "Spartan Recce Squadron HQ",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Spartan",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Spartan"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB116",
+      "name": "Lynx Airmobile Company HQ",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x SLR rifle team",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "SLR rifle team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add up to two SF GPMG teams for +1 point each",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": "SLR rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG or Artillery",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 1,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 6,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB201",
+      "name": "Challenger Armoured Squadron HQ",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 20,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Challenger",
+          "models": 1,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Challenger"
+            }
+          ]
+        },
+        {
+          "label": "2x Challenger",
+          "models": 2,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Challenger"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB201r",
+      "name": "Challenger Armoured Squadron HQ (ROMOR)",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 21,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Challenger",
+          "models": 1,
+          "transport_models": 0,
+          "points": 0,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Challenger"
+            }
+          ]
+        },
+        {
+          "label": "1x Challenger (ROMOR)",
+          "models": 1,
+          "transport_models": 0,
+          "points": 13,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Challenger (ROMOR)"
+            }
+          ]
+        },
+        {
+          "label": "2x Challenger (ROMOR)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 26,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Challenger (ROMOR)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB203",
+      "name": "Warrior Mechanised Company HQ",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x SLR rifle team + 1x Warrior",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "SLR rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Warrior",
+              "unit_id": "TB205"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add up to two SF GPMG teams for +1 point each",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Replace Warrior with Warrior (Uparmoured) [TB209] for +1 point",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TB205",
+      "transport_name": "Warrior",
+      "transport_ids": [
+        "TB205"
+      ],
+      "weapons": [
+        {
+          "name": "SLR rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "30mm Rarden gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Sneak and Peek"
+          ]
+        },
+        {
+          "name": "7.62mm co-ax chain gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG or Artillery",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 1,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "SF GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 6,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB207",
+      "name": "Wheeled Recce Squadron HQ",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 5,
+      "remount": 5,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Spartan",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Spartan"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB121",
+      "name": "M109 Field Battery",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x M109",
+          "models": 4,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "8x M109",
+          "models": 8,
+          "transport_models": 0,
+          "points": 20,
+          "points_dynamic": 20,
+          "composition": [
+            {
+              "count": 8,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "2x M109",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "3x M109",
+          "models": 3,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M109"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M185 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M185 155mm howitzer or Direct Fire",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB127",
+      "name": "MLRS Medium Rocket Battery",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Minelets",
+        "MLRS"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x MLRS",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "MLRS"
+            }
+          ]
+        },
+        {
+          "label": "2x MLRS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "MLRS"
+            }
+          ]
+        },
+        {
+          "label": "3x MLRS",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "MLRS"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all MLRS with Minelets for +1 point for the battery",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M269 MLRS",
+          "range_cm_min": 0,
+          "range_cm": 300,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB122a",
+      "name": "FV432 FOO",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Observer",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x FV432 FOO",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "FV432 FOO"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB123",
+      "name": "Spartan Blowpipe SAM Section",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Spartan Blowpipe",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Spartan Blowpipe"
+            }
+          ]
+        },
+        {
+          "label": "4x Spartan Blowpipe",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Spartan Blowpipe"
+            }
+          ]
+        },
+        {
+          "label": "6x Spartan Blowpipe",
+          "models": 6,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Spartan Blowpipe"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Blowpipe AA missile",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        },
+        {
+          "name": "Blowpipe or Firing at Tanks and Infantry",
+          "range_cm_min": 40,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 4,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB128",
+      "name": "Chieftain Marksman Battery",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 45,
+      "road_dash": 50,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 6,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Chieftain Marksman",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Chieftain Marksman"
+            }
+          ]
+        },
+        {
+          "label": "3x Chieftain Marksman",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Chieftain Marksman"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Twin 35mm L/90 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB124",
+      "name": "Tracked Rapier SAM Section",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Tracked Rapier",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Tracked Rapier"
+            }
+          ]
+        },
+        {
+          "label": "4x Tracked Rapier",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Tracked Rapier"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Rapier missile",
+          "range_cm_min": 0,
+          "range_cm": 160,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 3,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB125",
+      "name": "OW Lynx HELARM Flight",
+      "nation": "British",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer",
+        "Infra-Red (IR)"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x TOW Lynx",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 4,
+              "name": "TOW Lynx"
+            }
+          ]
+        },
+        {
+          "label": "2x TOW Lynx",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "TOW Lynx"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB126",
+      "name": "Harrier Close Air Support Flight",
+      "nation": "British",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [
+        "Jump Jet"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x Harrier",
+          "models": 4,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Harrier"
+            }
+          ]
+        },
+        {
+          "label": "2x Harrier",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Harrier"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm Aden gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "BL-755 cluster bombs",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB102",
+      "name": "Chieftain Armoured Troop",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 17,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Chieftain",
+          "models": 2,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Chieftain"
+            }
+          ]
+        },
+        {
+          "label": "3x Chieftain",
+          "models": 3,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Chieftain"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any or all Chieftain tanks with Chieftain Stillbrew (TB102a) for +1 point each",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB202",
+      "name": "Challenger Armoured Troop",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 20,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Challenger",
+          "models": 2,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Challenger"
+            }
+          ]
+        },
+        {
+          "label": "3x Challenger",
+          "models": 3,
+          "transport_models": 0,
+          "points": 33,
+          "points_dynamic": 25,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Challenger"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB202r",
+      "name": "Challenger Armoured Troop (ROMOR)",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 21,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Challenger",
+          "models": 1,
+          "transport_models": 0,
+          "points": 0,
+          "points_dynamic": 0,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Challenger"
+            }
+          ]
+        },
+        {
+          "label": "2x Challenger (ROMOR)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 26,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Challenger (ROMOR)"
+            }
+          ]
+        },
+        {
+          "label": "3x Challenger (ROMOR)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 39,
+          "points_dynamic": 28,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Challenger (ROMOR)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L11 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB105",
+      "name": "FV432 Mechanised Platoon",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x GPMG team with 66mm anti-tank + 2x Carl Gustav anti-tank team + 1x 2\" mortar team + 3x FV432",
+          "models": 6,
+          "transport_models": 3,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Carl Gustav anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 3,
+              "name": "FV432",
+              "unit_id": "TB106"
+            }
+          ]
+        },
+        {
+          "label": "4x GPMG team with 66mm anti-tank + 3x Carl Gustav anti-tank team + 1x 2\" mortar team + 4x FV432",
+          "models": 8,
+          "transport_models": 4,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "Carl Gustav anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 4,
+              "name": "FV432",
+              "unit_id": "TB106"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add two Milan missile teams & one FV432 for +2 points",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile",
+          "count": 2
+        }
+      ],
+      "transport_id": "TB106",
+      "transport_name": "FV432",
+      "transport_ids": [
+        "TB106"
+      ],
+      "weapons": [
+        {
+          "name": "66mm anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Carl Gustav anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "2\" mortar team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan 2 missile team (A4)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 4+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB106",
+      "name": "FV432 Transport",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB117",
+      "name": "Lynx Airmobile Platoon",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x GPMG team with 66mm anti-tank + 2x Milan missile team + 1x 2\" mortar team + 2x Lynx",
+          "models": 6,
+          "transport_models": 2,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 2,
+              "name": "Lynx",
+              "unit_id": "TB119"
+            }
+          ]
+        },
+        {
+          "label": "4x GPMG team with 66mm anti-tank + 3x Milan missile team + 1x 2\" mortar team + 3x Lynx",
+          "models": 8,
+          "transport_models": 3,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 3,
+              "name": "Lynx",
+              "unit_id": "TB119"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "transport_id": "TB119",
+      "transport_name": "Lynx",
+      "transport_ids": [
+        "TB119"
+      ],
+      "weapons": [
+        {
+          "name": "66mm anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan Missile team (A4)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 4",
+            "Assault 4+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "2\" mortar team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A4)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 4+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB119",
+      "name": "Lynx Transport Helicopter",
+      "nation": "British",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Attachment",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [],
+      "weapons": [],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB204",
+      "name": "Warrior Mechanised Platoon",
+      "nation": "British",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x GPMG team with 66mm anti-tank + 2x Carl Gustav anti-tank team + 1x 2\" mortar team + 3x Warrior",
+          "models": 6,
+          "transport_models": 3,
+          "points": 10,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Carl Gustav anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 3,
+              "name": "Warrior",
+              "unit_id": "TB205"
+            }
+          ]
+        },
+        {
+          "label": "4x GPMG team with 66mm anti-tank + 3x Carl Gustav anti-tank team + 1x 2\" mortar team + 4x Warrior",
+          "models": 8,
+          "transport_models": 4,
+          "points": 14,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "GPMG team with 66mm anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "Carl Gustav anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "2\" mortar team"
+            },
+            {
+              "count": 4,
+              "name": "Warrior",
+              "unit_id": "TB205"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add two Milan missile teams & one Warrior [TB205] for +4 points",
+          "cost": 4,
+          "per_model": false
+        },
+        {
+          "text": "Replace all Warrior with Warrior (Uparmoured) [TB209] for +1 point",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile",
+          "count": 2
+        }
+      ],
+      "transport_id": "TB205",
+      "transport_name": "Warrior",
+      "transport_ids": [
+        "TB205"
+      ],
+      "weapons": [
+        {
+          "name": "66mm anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "GPMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Carl Gustav anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "2\" mortar team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "30mm Rarden gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Sneak and Peek"
+          ]
+        },
+        {
+          "name": "7.62mm co-ax chain gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A4)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 4+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB205",
+      "name": "Warrior Transport",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 15,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "30mm Rarden gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Sneak and Peek"
+          ]
+        },
+        {
+          "name": "7.62mm co-ax chain gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB111",
+      "name": "Scimitar Recce Troop",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Scout",
+        "Spearhead"
+      ],
+      "tactical": 15,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Scimitar",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Scimitar"
+            }
+          ]
+        },
+        {
+          "label": "4x Scimitar",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Scimitar"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm L21 Rarden gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Sneak and Peek"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TB112",
+      "name": "Scorpion Recce Troop",
+      "nation": "British",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Scout",
+        "Spearhead"
+      ],
+      "tactical": 15,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Scorpion",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Scorpion"
+            }
+          ]
+        },
+        {
+          "label": "4x Scorpion",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Scorpion"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "76mm L23 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 2,
+          "rules": [
+            "HEAT",
+            "Smoke",
+            "Sneak and Peek"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

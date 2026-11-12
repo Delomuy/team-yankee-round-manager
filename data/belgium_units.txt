@@ -1,0 +1,392 @@
+Leopard 1 Tank Eskadron HQ TBE101
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    1x Leopard 1 (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 9
+SIDE 5
+TOP 1
+Leopard 1 Tank Peloton TBE102
+Tank Unit, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    3x Leopard 1 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 9
+SIDE 5
+TOP 1
+AIFV-B Infanterie Compagnie HQ TBE103
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x FAL rifle team
+    1x Blindicide anti-tank team
+    1x AIFV-B-C25 (TBE105) (2 points)
+
+    Replace AIFV-B-C25 with AIFV-B-.50 (TBE120) at no cost
+    Replace AIFV-B-C25 with M113 (TBE121) at no cost.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+FAL rifle team 	16"/40cm 	1 	1 	2 	6 	
+Blindicide anti-tank team 	8"/20cm 	1 	1 	14 	4+ 	Assault +1, HEAT, Slow Firing
+25mm KBA gun 	28"/70cm 	3 	2 	8 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+AIFV-B-C25 Transport TBE105
+Tank Attachment, Amphibious, Infra-Red (IR), Milan Mount, Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+25mm KBA gun 	28"/70cm 	3 	2 	8 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+AIFV-B Infanterie Peloton TBE104
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x FN-FAL & MAG team with LAW anti-tank
+    1x Blindicide anti-tank team
+    3x AIFV-B-C25 (TBE105) (5 points)
+    7x FN-FAL & MAG team with LAW anti-tank
+    1x Blindicide anti-tank team
+    1x 60mm mortar team
+    4x AIFV-B-C25 (TBE105) (8 points)
+
+    Add 1x Milan 2 missile team (TBE106) for +2 points.
+    Add 1x Milan missile team (TBE106) for +1 point or
+    Replace 1x Blindicide anti-tank team with a APILAS anti-tank team (TBE106) for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+FN-FAL & MAG team 	16"/40cm 	2 	1 	2 	6 	
+M72 LAW anti-tank 	12”/30cm 	1 	1 	12 	5+ 	HEAT, Slow Firing
+Blindicide anti-tank team 	8"/20cm 	1 	1 	14 	4+ 	Assault +1, HEAT, Slow Firing
+25mm KBA gun 	28"/70cm 	3 	2 	8 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+60mm mortar team 	32”/80cm 	1 	1 	1 	4+ 	Assault +1, Overhead Fire, Slow Firing
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+APILAS anti-tank 	16"/40cm 	1 	1 	21 	3+ 	HEAT, Slow Firing
+	
+COURAGE 4+
+Morale 4+
+Rally 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+AIFV-B-C25 Transport TBE105
+Tank Attachment, Amphibious, Infra-Red (IR), Milan Mount, Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+25mm KBA gun 	28"/70cm 	3 	2 	8 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+M113 Transport TBE121
+Tank Attachment, Amphibious, Infra-Red (IR), Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+M113 Infanterie Peloton TBE122
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x FN-FAL & MAG team with LAW anti-tank
+    1x Blindicide anti-tank team
+    3x M113 (TBE121) (4 points)
+    7x FN-FAL & MAG team with LAW anti-tank
+    1x Blindicide anti-tank team
+    1x 60mm mortar team
+    4x M113 (TBE121) (7 points)
+
+    Add 1x Milan 2 missile team (TBE106) for +2 points.
+    Add 1x Milan missile team (TBE106) for +1 point, or
+    Replace 1x Blindicide anti-tank team with a APILAS anti-tank team (TBE106) for +1 point.
+    Replace all M113 with AIFV-B-.50 (TBE120) at no cost.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+FN-FAL & MAG team 	16"/40cm 	2 	1 	2 	6 	
+M72 LAW anti-tank 	12”/30cm 	1 	1 	12 	5+ 	HEAT, Slow Firing
+Blindicide anti-tank team 	8"/20cm 	1 	1 	14 	4+ 	Assault +1, HEAT, Slow Firing
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+60mm mortar team 	32”/80cm 	1 	1 	1 	4+ 	Assault +1, Overhead Fire, Slow Firing
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+APILAS anti-tank 	16"/40cm 	1 	1 	21 	3+ 	HEAT, Slow Firing
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Rally 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Verkennings Eskadron HQ TBE110
+Tank Formation, Scout
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+    2x Spartan (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 1
+TOP 1
+Scimitar Verkennings Troep TBE111
+Tank Unit, Infra-Red (IR), Scout, Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+6"/15cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+    2x Scimitar (2 points)
+    4x Scimitar (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm L21 Rarden gun 	24"/60cm 	3 	2 	10 	5+ 	Sneak and Peek
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 1
+TOP 1
+Scorpion Verkennings Troep TBE112
+Tank Unit, Infra-Red (IR), Scout, Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+6"/15cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+    2x Scorpion (2 points)
+    4x Scorpion (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+76mm L23 gun 	24"/60cm 	2 	1 	14 	2+ 	HEAT, Smoke, Sneak and Peek
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 1
+TOP 1
+M109 Artillerie Batterij TBE117
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    2x M109 (5 points)
+    4x M109 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M185 155mm howitzer 	96"/240cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Smoke Bombardment
+M185 155mm howitzer or Direct Fire 	36"/90cm 	1 	1 	15 	1+ 	Brutal, Slow Firing, Smoke
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 1
+AIFV-B OP TBE118
+Independent Tank Unit, Amphibious, Infra-Red (IR), Observer, Scout
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x AIFV-B OP (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Gepard Pantserluchtdoel Peloton TBE116
+Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    2x Gepard (4/dynamic: 6 points)
+    3x Gepard (6/dynamic: 9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Twin 35mm L/90 gun 	28”/70cm 	5 	4 	11 	4+ 	Dedicated AA, Radar
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Mirage 5 Jager Vlucht TBE119
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    2x Mirage 5 (3 points)
+    4x Mirage 5 (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm auto-cannon 	8"/20cm 	- 	3 	7 	5+ 	Anti-helicopter
+BLG-66 cluster bomb 	6"/15cm 	SALVO 	SALVO 	8 	3+ 	
+	
+COURAGE 4+
+Morale 4+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Leopard 1 Tank Peloton TBE102
+Tank Unit, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    3x Leopard 1 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 9
+SIDE 5
+TOP 1
+Scorpion Verkennings Troep TBE112
+Tank Unit, Infra-Red (IR), Scout, Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+6"/15cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+    2x Scorpion (2 points)
+    4x Scorpion (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+76mm L23 gun 	24"/60cm 	2 	1 	14 	2+ 	HEAT, Smoke, Sneak and Peek
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 1
+TOP 1

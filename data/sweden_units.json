@@ -1,0 +1,1450 @@
+{
+  "units": [
+    {
+      "id": "TSV101",
+      "name": "Strv 103 S-Tank Tank Company HQ",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Ambush Tank",
+        "Amphibious",
+        "Slat Armour"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 12,
+      "armour_side": 5,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Strv 103 S-Tank",
+          "models": 2,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Strv 103 S-Tank"
+            }
+          ]
+        },
+        {
+          "label": "3x Strv 103 S-Tank",
+          "models": 3,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Strv 103 S-Tank"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L74 gun",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Forward Firing",
+            "Laser Rangefinder",
+            "Overworked",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA Mgs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV102",
+      "name": "Strv 103 S-Tank Tank Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Ambush Tank",
+        "Amphibious",
+        "Slat Armour"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 12,
+      "armour_side": 5,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x Strv 103 S-Tank",
+          "models": 3,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Strv 103 S-Tank"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L74 gun",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Forward Firing",
+            "Laser Rangefinder",
+            "Overworked",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA Mgs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV103",
+      "name": "Pbv 302 Armoured Rifle Company HQ",
+      "nation": "Swedish",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x AK 4 rifle team + 1x Pbv 302",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK 4 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Pbv 302",
+              "unit_id": "TSV105"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TSV105",
+      "transport_name": "Pbv 302",
+      "transport_ids": [
+        "TSV105"
+      ],
+      "weapons": [
+        {
+          "name": "AK 4 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "20mm m/47 autocannon",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV107",
+      "name": "Strv 104 Centurion Tank Company HQ",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 45,
+      "road_dash": 45,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 14,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Strv 104 Centurion",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Strv 104 Centurion"
+            }
+          ]
+        },
+        {
+          "label": "3x Strv 104 Centurion",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Strv 104 Centurion"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV108",
+      "name": "Strv 104 Centurion Tank Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 45,
+      "road_dash": 45,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 14,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x Strv 104 Centurion",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Strv 104 Centurion"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV112",
+      "name": "Bandkanon 1 Armoured Howitzer Battery",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 35,
+      "road_dash": 40,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x Bandkanon 1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Bandkanon 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "15.5cm Kanon M/60",
+          "range_cm_min": 0,
+          "range_cm": 260,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Autoloader",
+            "Forward Firing",
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "15.5cm Kanon M/60 Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Forward Firing",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV113",
+      "name": "Epbv 3022 Forward Observer",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Observer",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x Epbv 3022 OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Epbv 3022 OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "20mm m/47 autocannon",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV111",
+      "name": "Lvrbv 701 Anti-Aircraft Missile Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 45,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x Lvrbv 701",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Lvrbv 701"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "RBS 70 AA missile",
+          "range_cm_min": 0,
+          "range_cm": 140,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV117",
+      "name": "Hkp 9 Helicopter Platoon",
+      "nation": "Swedish",
+      "category": "air",
+      "unit_type": "Helicopter Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer",
+        "Thermal Imaging"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x HKP 9",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 4,
+              "name": "HKP 9"
+            }
+          ]
+        },
+        {
+          "label": "2x HKP 9",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HKP 9"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV106",
+      "name": "Ikv 91 Tracked Anti-Tank Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x Ikv 91",
+          "models": 3,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Ikv 91"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "9cm gun",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV114",
+      "name": "Pbv 302 Armoured Recon Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Scout",
+        "Spearhead"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Pbv 302 Scout",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Pbv 302 Scout"
+            }
+          ]
+        },
+        {
+          "label": "3x Pbv 302 Scout",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Pbv 302 Scout"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "20mm m/47 autocannon",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV110",
+      "name": "Pvrbv 551 Anti-Tank Missile Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 45,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x Pvrbv 551",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Pvrbv 551"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV116",
+      "name": "Pvpjtgb Rbs Anti-Tank Missile Platoon",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 4,
+      "options": [
+        {
+          "label": "2x Pvpjtgb RBS-55",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Pvpjtgb RBS-55"
+            }
+          ]
+        },
+        {
+          "label": "2x Pvpjtgb RBS-56",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Pvpjtgb RBS-56"
+            }
+          ]
+        },
+        {
+          "label": "3x Pvpjtgb RBS-55",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Pvpjtgb RBS-55"
+            }
+          ]
+        },
+        {
+          "label": "3x Pvpjtgb RBS-56",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Pvpjtgb RBS-56"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "RBS-55 (iTOW) missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "RBS-56 BILL missile team",
+          "range_cm_min": 20,
+          "range_cm": 100,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV118",
+      "name": "Viggen Attack Group",
+      "nation": "Swedish",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x Viggen",
+          "models": 4,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Viggen"
+            }
+          ]
+        },
+        {
+          "label": "2x Viggen",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Viggen"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "135mm rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 3,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "30mm cannon",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "Maverick missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 27,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV104",
+      "name": "Pbv 302 Armoured Rifle Platoon",
+      "nation": "Swedish",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x Ksp-58 MG team with P-skott m/68 anti-tank + 2x Grg m/48 anti-tank team + 2x Pbv 302",
+          "models": 4,
+          "transport_models": 2,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Ksp-58 MG team with P-skott m/68 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Grg m/48 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "Pbv 302",
+              "unit_id": "TSV105"
+            }
+          ]
+        },
+        {
+          "label": "3x Ksp-58 MG team with P-skott m/68 anti-tank + 3x Grg m/48 anti-tank team + 3x Pbv 302",
+          "models": 6,
+          "transport_models": 3,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Ksp-58 MG team with P-skott m/68 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "Grg m/48 anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "Pbv 302",
+              "unit_id": "TSV105"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all P-skott m/68 anti-tank weapons with P-skott m/86 anti-tank weapons for +1 point for the Unit.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace one Grg m/48 anti-tank team with RBS-56 BILL missile team for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TSV105",
+      "transport_name": "Pbv 302",
+      "transport_ids": [
+        "TSV105"
+      ],
+      "weapons": [
+        {
+          "name": "Ksp-58 MG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "P-skott m/68 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Grg m/48 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "20mm m/47 autocannon",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "P-skott m/86 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RBS-56 BILL missile team",
+          "range_cm_min": 20,
+          "range_cm": 100,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TSV105",
+      "name": "Pbv 302 Transport",
+      "nation": "Swedish",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "20mm m/47 autocannon",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

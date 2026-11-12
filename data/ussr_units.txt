@@ -1,0 +1,1689 @@
+2S1 Carnation SP Howitzer Battery TS108
+Tank Unit, Amphibious, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    6x 2S1 Carnation (10 points)
+    3x 2S1 Carnation (5 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+122mm 2A31 howitzer 	88”/220cm 	ARTILLERY 	ARTILLERY 	4 	3+ 	Smoke Bombardment
+122mm 2A31 howitzer Direct fire 	24"/60cm 	1 	1 	21 	2+ 	Brutal, HEAT, Slow Firing, Smoke
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+2S3 Acacia Heavy SP Howitzer Battery TS133
+Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	4+
+
+    6x 2S3 Acacia (10 points)
+    6x 2S3 Acacia with Krasnopol Projectiles (14 points)
+    3x 2S3 Acacia (5 points)
+    3x 2S3 Acacia with Krasnopol Projectiles (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+152mm howitzer 	88”/220cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Smoke Bombardment
+152mm howitzer Direct fire 	16”/40cm 	1 	1 	14 	AUTO 	Brutal, HEAT, Slow Firing, Smoke
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Krasnopol Projectiles 	88”/220cm 	1 	- 	4 	AUTO 	Brutal, Krasnopol Projectile
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+TOS-1 Thermobaric Rocket Launcher Battery TS145
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    3x TOS-1 (10 points)
+    6x TOS-1 (20 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+TOS-1 rocket launcher 	48”/120cm 	SALVO 	SALVO 	2 	Auto 	Brutal
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 5
+SIDE 2
+TOP 1
+TOS-1 Thermobaric Rocket Launcher Battery TS145
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    3x TOS-1 (10 points)
+    6x TOS-1 (20 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+TOS-1 rocket launcher 	48”/120cm 	SALVO 	SALVO 	2 	Auto 	Brutal
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 5
+SIDE 2
+TOP 1
+BM-21 Hail Rocket Launcher Battery TS109
+Unarmoured Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	14"/35cm 	36"/90cm 	4+
+
+    3x BM-21 Hail (4 points)
+    6x BM-21 Hail (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+BM-21 rocket launcher 	96”/240cm 	SALVO 	SALVO 	3 	4+ 	Smoke Bombardment
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault -
+Counterattack -
+IS HIT ON 3+
+Tank 5+
+BM-27 Hurricane Rocket Launcher Battery TS147
+Unarmoured Tank Unit, Minelets
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	16"/40cm 	32"/80cm 	5+
+
+    6x BM-27 Hurricane (14 points)
+    3x BM-27 Hurricane (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+BM-27 rocket launcher 	120”/300cm 	SALVO 	SALVO 	4 	3+ 	Smoke Bombardment
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault -
+Counterattack -
+IS HIT ON 3+
+Tank 5+
+BMP-1 OP TS117b
+Independent Tank Unit, Amphibious, Infra-Red (IR), Observer, Scout
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	3+
+
+    1x BMP-1 OP (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+SA-13 Gopher SAM Platoon TS113
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    2x SA-13 Gopher (2/dynamic: 3 points)
+    4x SA-13 Gopher (4/dynamic: 5 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+SA-13 Gopher AA missile 	56”/140cm 	2 	- 	- 	4+ 	Guided AA
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault -
+Counterattack -
+IS HIT ON 3+
+FRONT 1
+SIDE 1
+TOP 1
+SA-9 Gaskin SAM Platoon TS129
+Tank Unit, Amphibious
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	18"/45cm 	44"/110cm 	4+
+
+    2x SA-9 Gaskin (1/dynamic: 2 points)
+    4x SA-9 Gaskin (2/dynamic: 3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+SA-9 Gaskin AA missile 	48”/120cm 	2 	- 	- 	5+ 	Guided AA
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault -
+Counterattack -
+IS HIT ON 3+
+FRONT 1
+SIDE 0
+TOP 0
+SA-8 Gecko SAM Platoon TS132
+Unarmoured Tank Unit, Amphibious, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	16"/40cm 	36"/90cm 	5+
+
+    2x SA-8 Gecko (4/dynamic: 5 points)
+    4x SA-8 Gecko (8/dynamic: 10 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+SA-8 Gecko AA missile 	72”/180cm 	3 	- 	- 	3+ 	Guided AA
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault -
+Counterattack -
+IS HIT ON 3+
+Tank 5+
+BMP-1 Recon Platoon TS110
+Tank Unit, Amphibious, Infra-Red (IR), Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	3+
+
+    2x BMP-1 (2 points)
+    3x BMP-1 (3 points)
+    4x BMP-1 (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+BMP-2 Recon Platoon TS111
+Tank Unit, Amphibious, Infra-Red (IR), Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    2x BMP-2 (3 points)
+    3x BMP-2 (5 points)
+    4x BMP-2 (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+BMP-3 Recon Platoon TS146
+Tank Unit, Amphibious, Infra-Red (IR), Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+    2x BMP-3 (5 points)
+    3x BMP-3 (7 points)
+    4x BMP-3 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+100mm 2A70 gun 	24"/60cm 	1 	1 	5 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+30mm 2A42 gun (BMP-3) 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 5
+SIDE 3
+TOP 1
+Spandrel Anti-Tank Platoon TS130
+Tank Unit, Amphibious, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	18"/45cm 	44"/110cm 	4+
+
+    2x Spandrel (1 points)
+    3x Spandrel (2 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 1
+SIDE 0
+TOP 0
+Storm Anti-Tank Platoon TS131a
+Tank Unit, Amphibious, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    2x Storm (AT-6 Spiral) (2 points)
+    2x Storm-2 (AT-9 Spiral-2) (3 points)
+    3x Storm (AT-6 Spiral) (3 points)
+    3x Storm-2 (AT-9 Spiral-2) (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AT-6 Spiral missile 	8”/20cm - 20”/50cm 	- 	1 	23 	3+ 	Guided, HEAT
+AT-9 Spiral-2 missile 	8”/20CM - 24”/60CM 	- 	1 	24 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 6+
+IS HIT ON 3+
+FRONT 1
+SIDE 1
+TOP 1
+MI-24 Hind Assault Helicopter Company TS114a
+Helicopter Aircraft Unit, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x Mi-24 Hind (AT-6 Spiral) (10/dynamic: 12 points)
+    4x Mi-24 Hind (AT-9 Spiral-2) (12/dynamic: 14 points)
+    6x Mi-24 Hind (AT-6 Spiral) (15/dynamic: 18 points)
+    6x Mi-24 Hind (AT-9 Spiral-2) (18/dynamic: 21 points)
+    2x Mi-24 Hind (AT-6 Spiral) (5/dynamic: 6 points)
+    2x Mi-24 Hind (AT-9 Spiral-2) (6/dynamic: 7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm Yak-B Gatling gun 	8”/20cm 	- 	3 	5 	5+ 	Anti-helicopter
+57mm UB-32 rocket launcher 	20”/50cm 	SALVO 	SALVO 	3 	6 	One Shot
+AT-6 Spiral missile 	8”/20cm - 20”/50cm 	- 	1 	23 	3+ 	Guided, HEAT
+AT-9 Spiral-2 missile 	8”/20CM - 24”/60CM 	- 	1 	24 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+SKILL 5+
+IS HIT ON 3+
+Aircraft 4+
+MI-24 Hind Assault Landing Company TS115a
+Infantry Attachment, Landing Company
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x AK-74 team with RPG-18 anti-tank
+    2x RPG-7 anti-tank team (2 points)
+    4x AK-74 team with RPG-18 anti-tank
+    4x RPG-7 anti-tank team (4 points)
+    6x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+SU-25 Frogfoot Aviation Company TS116
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x SU-25 Frogfoot (14 points)
+    6x SU-25 Frogfoot (21 points)
+    2x SU-25 Frogfoot (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm GSh-30-2 gun 	8”/20cm 	- 	3 	7 	5+ 	Anti-helicopter
+57mm UB-32 rocket launcher 	20”/50cm 	SALVO 	SALVO 	3 	6 	One Shot
+Kh-25 air-ground missile 	8”/20cm - 28”/70cm 	- 	1 	27 	2+ 	Brutal, Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+SKILL 5+
+IS HIT ON 3+
+Aircraft 4+
+T-62M Tank Company TS136
+Tank Unit, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	4+
+
+    5x T-62M (10 points)
+    6x T-62M (13 points)
+    7x T-62M (17 points)
+    8x T-62M (21 points)
+    9x T-62M (25 points)
+    10x T-62M (29 points)
+    3x T-62M (5 points)
+    4x T-62M (7 points)
+
+    Add AT-10 Stabber missiles to all T-62M tanks for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+115mm 2A20 gun 	32”/80cm 	1 	1 	21 	2+ 	Brutal, Laser Rangefinder
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 14
+SIDE 9
+TOP 2
+T-64BV Tank Company TS167
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    3x T-64BV (16/dynamic: 14 points)
+    4x T-64BV (22/dynamic: 18 points)
+    5x T-64BV (28/dynamic: 23 points)
+    6x T-64BV (34/dynamic: 27 points)
+    7x T-64BV (40/dynamic: 32 points)
+    8x T-64BV (46/dynamic: 36 points)
+    9x T-64BV (52/dynamic: 41 points)
+    10x T-64BV (58/dynamic: 46 points)
+
+    Add AT-8 Songster missiles to all T-64BV tanks for +2 points.
+    Fit up to three T-64BV tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+AT-8 Songster missile 	16”/40cm - 48”/120cm 	1 	1 	21 	3+ 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 18
+SIDE 10
+TOP 2
+T-55AM Tank Company TS144
+Tank Unit, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	4+
+
+    7x T-55AM (11 points)
+    8x T-55AM (13 points)
+    9x T-55AM (15 points)
+    10x T-55AM (16 points)
+    5x T-55AM (7 points)
+    6x T-55AM (9 points)
+
+    Add AT-10 Stabber missiles to all T-55AM tanks for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+100mm D10-T gun 	32”/80cm 	1 	1 	18 	2+ 	Laser Rangefinder
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 14
+SIDE 9
+TOP 2
+T-72B Tank Company TS151
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    3x T-72B (15/dynamic: 13 points)
+    4x T-72B (21/dynamic: 18 points)
+    5x T-72B (27/dynamic: 22 points)
+    6x T-72B (33/dynamic: 26 points)
+    7x T-72B (39/dynamic: 31 points)
+    8x T-72B (45/dynamic: 35 points)
+    9x T-72B (51/dynamic: 40 points)
+    10x T-72B (57/dynamic: 44 points)
+
+    Add AT-11 Sniper missiles to all T-72B tanks for +1 point per tank.
+    Fit up to three T-72B tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun (T-72B) 	32”/80cm 	1 	1 	22 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 18
+SIDE 9
+TOP 2
+T-72 Tank Company TS102
+Tank Unit, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    3x T-72 (12/dynamic: 11 points)
+    4x T-72 (17/dynamic: 16 points)
+    5x T-72 (22/dynamic: 19 points)
+    6x T-72 (27/dynamic: 23 points)
+    7x T-72 (32/dynamic: 27 points)
+    8x T-72 (37/dynamic: 31 points)
+    9x T-72 (42/dynamic: 35 points)
+    10x T-72 (47/dynamic: 39 points)
+
+    Fit up to three T-72 tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun (T-72) 	32”/80cm 	1 	1 	22 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 16
+SIDE 8
+TOP 2
+T-64 Tank Company TS123
+Tank Unit, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    3x T-64 (13/dynamic: 12 points)
+    4x T-64 (19/dynamic: 17 points)
+    5x T-64 (25/dynamic: 21 points)
+    6x T-64 (31/dynamic: 25 points)
+    7x T-64 (37/dynamic: 29 points)
+    8x T-64 (43/dynamic: 33 points)
+    9x T-64 (49/dynamic: 38 points)
+    10x T-64 (55/dynamic: 42 points)
+
+    Add AT-8 Songster missiles to all T-64 tanks for +2 points.
+    Fit up to three T-64 tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-8 Songster missile 	16”/40cm - 48”/120cm 	1 	1 	21 	3+ 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 17
+SIDE 9
+TOP 2
+BTR-60 Motor Rifle Company TS125a
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    1x PKM LMG team
+    8x BTR-60 (TS126) (10 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    1x PKM LMG team
+    11x BTR-60 (TS126) (15 points)
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    4x BTR-60 (TS126) (5 points)
+
+    Add a AGS-17 grenade launcher team (TS127a) & BTR-60 for +1 point.
+    Add a SA-14 Gremlin AA missile team (TS127a) & BTR-60 for +1 point.
+    Add up to two AT-4 Spigot missile team (TS127a), each in BTR-60, for +2 points each.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+14.5mm MG 	20”/50cm 	3 	2 	5 	5+ 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BTR-60 Transport TS126
+Tank Attachment, Amphibious, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	16"/40cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+14.5mm MG 	20”/50cm 	3 	2 	5 	5+ 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 1
+SIDE 0
+TOP 0
+Air Assault Company TS119a
+Infantry Unit, Air Assault
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    2x PKM LMG team (10 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    2x PKM LMG team (15 points)
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team (4 points)
+
+    Add a AGS-17 grenade launcher team (TS120a) for +1 point.
+    Add a AT-4 Spigot missile team (TS120a) for +2 points.
+    Add a SA-14 Gremlin AA missile team (TS120a) for +1 point.
+    Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+AGS-17 grenade launcher team 	16”/40cm 	9 	3 	3 	6 	Heavy Weapon
+AT-4 Spigot missile team 	8"/20cm - 40"/100cm 	3 	- 	19 	3+ 	Guided, HEAT, Heavy Weapon
+SA-14 Gremlin AA missile team 	48”/120cm 	3 	- 	- 	5+ 	Guided AA, Heavy Weapon
+Door PK MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 4+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BMP-3 Motor Rifle Company TS141
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    4x BMP-3 (TS142) (10 points)
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    2x PKM LMG team
+    9x BMP-3 (TS142) (22 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    2x PKM LMG team
+    12x BMP-3 (TS142) (30 points)
+
+    Add a AGS-17 grenade launcher team (TS134a) & BMP-3 for +2 points.
+    Add a SA-14 Gremlin AA missile team (TS134a) & BMP-3 for +2 points.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+100mm 2A70 gun 	24"/60cm 	1 	1 	5 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+30mm 2A42 gun (BMP-3) 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BMP-3 Motor Rifle Company TS141
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    4x BMP-3 (TS142) (10 points)
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    2x PKM LMG team
+    9x BMP-3 (TS142) (22 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    2x PKM LMG team
+    12x BMP-3 (TS142) (30 points)
+
+    Add a AGS-17 grenade launcher team (TS134a) & BMP-3 for +2 points.
+    Add a SA-14 Gremlin AA missile team (TS134a) & BMP-3 for +2 points.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+100mm 2A70 gun 	24"/60cm 	1 	1 	5 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+30mm 2A42 gun (BMP-3) 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BMP-2 Motor Rifle Company TS106a
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    2x PKM LMG team
+    9x BMP-2 (TS107) (18 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    2x PKM LMG team
+    12x BMP-2 (TS107) (24 points)
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    4x BMP-2 (TS107) (8 points)
+
+    Add a AGS-17 grenade launcher team (TS134a) & BMP-2 for +2 points.
+    Add a SA-14 Gremlin AA missile team (TS134a) & BMP-2 for +2 points.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BMP-2 Transport TS107
+Tank Attachment, Amphibious, Infra-Red (Ir), Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+BMP-1 Motor Rifle Company TS104a
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18 anti-tank
+    6x RPG-7 anti-tank team
+    2x PKM LMG team
+    9x BMP-1 (TS105) (14 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    2x PKM LMG team
+    12x BMP-1 (TS105) (19 points)
+    4x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    4x BMP-1 (TS105) (6 points)
+
+    Add a AGS-17 grenade launcher team (TS134a) & BMP-1 for +1 points.
+    Add a SA-14 Gremlin AA missile team (TS134a) & BMP-1 for +1 points.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+PKM LMG team 	16”/40cm 	7 	4 	2 	6 	Assault +1, Heavy Weapon
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 5+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+BMP-1 Transport TS105
+Tank Attachment, Amphibious, Infra-Red (Ir), Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+VDV BMD-1 Air Assault Company TS154
+Infantry Unit, Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18
+    6x RPG-7 anti-tank team
+    7x BMD-1 (TS155) (14 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    10x BMD-1 (TS155) (21 points)
+    4x AK-74 team with RPG-18
+    3x RPG-7 anti-tank team
+    4x BMD-1 (TS155) (7 points)
+
+    Add a AGS-17 grenade launcher team (TS156) & BTR-D (TS159) for +1 point.
+    Add a PKM LMG team & BTR-D (TS159) for +1 point.
+    Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.
+    Add up to 2 SA-14 Gremlin AA missile team (TS156) & BTR-D (TS159) for +1 point each.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+Door PK MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 4+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+VDV BMD-1 Transport TS155
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	32"/80cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+VDV BMD-2 Air Assault Company TS157
+Infantry Unit, Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    7x AK-74 team with RPG-18
+    6x RPG-7 anti-tank team
+    7x BMD-2 (TS158) (16 points)
+    10x AK-74 team with RPG-18 anti-tank
+    9x RPG-7 anti-tank team
+    10x BMD-2 (TS158) (24 points)
+    4x AK-74 team with RPG-18
+    3x RPG-7 anti-tank team
+    4x BMD-2 (TS158) (8 points)
+
+    Add a AGS-17 grenade launcher team (TS156) & BTR-D (TS159) for +1 point.
+    Add a PKM LMG team & BTR-D (TS159) for +1 point.
+    Add up to 2 SA-14 Gremlin AA missile team (TS156) & BTR-D (TS159) for +1 point each.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 4+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+VDV BMD-2 Transport TS158
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	32"/80cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+Afgantsy BMD Air Assault Platoon TS171
+Infantry Unit, Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x AK-74 team with RPG-18
+    2x RPG-7 anti-tank team
+    2x Afgantsy BMD-1 (TS172) (5 points)
+    3x AK-74 team with RPG-18 anti-tank
+    3x RPG-7 anti-tank team
+    3x Afgantsy BMD-1 (TS172) (8 points)
+
+    Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.
+    Replace all Afgantsy BMD-1 with Afgantsy BMD-2 (TS173) for +1 point for the platoon.
+    Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+RPG-18 anti-tank 	8”/20cm 	1 	1 	14 	5+ 	HEAT, Slow Firing
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+Door PK MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+RPG-7VR anti-tank team 	8”/20cm 	1 	1 	19 	2+ 	Assault +1, HEAT, Slow Firing, Tandem Warhead
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 3+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+Afgantsy BMD-1 Transport TS172
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	32"/80cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+Afgantsy Mi-24 Hind Assault Helicopter Company TS121a
+Helicopter Aircraft Unit, Air Assault, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x Mi-24 Hind (AT-6 Spiral) (12/dynamic: 14 points)
+    4x Mi-24 Hind (AT-9 Spiral-2) (14/dynamic: 16 points)
+    2x Mi-24 Hind (AT-6 Spiral) (6/dynamic: 7 points)
+    2x Mi-24 Hind (AT-9 Spiral-2) (7/dynamic: 8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm Yak-B Gatling gun 	8”/20cm 	- 	3 	5 	5+ 	Anti-helicopter
+57mm UB-32 rocket launcher 	20”/50cm 	SALVO 	SALVO 	3 	6 	One Shot
+AT-6 Spiral missile 	8”/20cm - 20”/50cm 	- 	1 	23 	3+ 	Guided, HEAT
+AT-9 Spiral-2 missile 	8”/20CM - 24”/60CM 	- 	1 	24 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 3+
+Morale 3+
+SKILL 4+
+IS HIT ON 3+
+Aircraft 4+
+Air Assault Battalion HQ TS118a
+Infantry Formation, Air Assault
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x AK-74 assault rifle team (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+	
+COURAGE 2+
+Morale 2+
+Rally 2+
+SKILL 3+
+Assault 4+
+Counterattack 2+
+IS HIT ON 3+
+Infantry 3+
+T-72 Tank Battalion HQ TS101b
+Tank Formation, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x T-72 (5/dynamic: 4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun (T-72) 	32”/80cm 	1 	1 	22 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 16
+SIDE 8
+TOP 2
+BMP Motor Rifle Battalion HQ TS103c
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x AK-74 assault rifle team
+    1x BMP-1 (TS105) (1 points)
+    1x AK-74 assault rifle team
+    1x BMP-2 (TS107) (2 points)
+    1x AK-74 assault rifle team
+    1x BMP-3 (TS142) (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+100mm 2A70 gun 	24"/60cm 	1 	1 	5 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+30mm 2A42 gun (BMP-3) 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Laser Rangefinder, Stabiliser
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 4+
+Assault 5+
+Counterattack 2+
+IS HIT ON 3+
+Infantry 3+
+BMP-1 Transport TS105
+Tank Attachment, Amphibious, Infra-Red (Ir), Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+BMP-2 Transport TS107
+Tank Attachment, Amphibious, Infra-Red (Ir), Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 2
+TOP 1
+BMP-3 Transport TS142
+Tank Attachment, Amphibious, Infra-Red (Ir), Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+100mm 2A70 gun 	24"/60cm 	1 	1 	5 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+30mm 2A42 gun (BMP-3) 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 5
+SIDE 3
+TOP 1
+T-64 Tank Battalion HQ TS122a
+Tank Formation, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x T-64 (6/dynamic: 4 points)
+
+    Add AT-8 Songster missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-8 Songster missile 	16”/40cm - 48”/120cm 	1 	1 	21 	3+ 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 17
+SIDE 9
+TOP 2
+BTR-60 Motor Rifle Battalion HQ TS124a
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x AK-74 assault rifle team
+    1x BTR-60 (TS126) (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+14.5mm MG 	20”/50cm 	3 	2 	5 	5+ 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 4+
+Assault 5+
+Counterattack 2+
+IS HIT ON 3+
+Infantry 3+
+BTR-60 Transport TS126
+Tank Attachment, Amphibious, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	10"/25cm 	16"/40cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+14.5mm MG 	20”/50cm 	3 	2 	5 	5+ 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 1
+SIDE 0
+TOP 0
+T-62M Tank Battalion HQ TS135a
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	4+
+
+    1x T-62M (4 points)
+
+    Add AT-10 Stabber missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+115mm 2A20 gun 	32”/80cm 	1 	1 	21 	2+ 	Brutal, Laser Rangefinder
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 14
+SIDE 9
+TOP 2
+T-80 Tank Battalion HQ TS137
+Tank Formation, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    1x T-80 (8/dynamic: 6 points)
+
+    Add AT-11 Sniper missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 20
+SIDE 10
+TOP 2
+T-80 Tank Company TS138
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    3x T-80 (22/dynamic: 17 points)
+    4x T-80 (31/dynamic: 23 points)
+    5x T-80 (40/dynamic: 29 points)
+    6x T-80 (49/dynamic: 34 points)
+    7x T-80 (58/dynamic: 40 points)
+    8x T-80 (68/dynamic: 46 points)
+    9x T-80 (78/dynamic: 51 points)
+    10x T-80 (88/dynamic: 57 points)
+
+    Add AT-11 Sniper missiles to all T-80 tanks for +1 point per tank.
+    Fit up to three T-80 tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 5+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 20
+SIDE 10
+TOP 2
+T-55AM Tank Battalion HQ TS143
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	4+
+
+    1x T-55AM (2 points)
+
+    Add AT-10 Stabber missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+100mm D10-T gun 	32”/80cm 	1 	1 	18 	2+ 	Laser Rangefinder
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-10 Stabber missile 	16”/40cm - 48”/120cm 	1 	1 	11 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 14
+SIDE 9
+TOP 2
+T-80 Shock Tank Company HQ TS201
+Tank Formation, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    1x T-80 (10/dynamic: 7 points)
+
+    Add AT-11 Sniper missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 20
+SIDE 10
+TOP 2
+2S6 Tunguska AA Platoon TS139
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/25cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+    4x  2S6 Tunguska (8 points)
+    2x  2S6 Tunguska (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Twin 30mm 2A38M gun	24"/60cm	7	5	10	5+	Dedicated AA, Radar
+SA-19 Grendel AA missile	64"/160cm	2	-	-	3+	Guided AA
+
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 1
+SIDE 1
+TOP 1
+ZSU-23-4 Shilka AA Platoon TS112
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x ZSU-23-4 Shilka (2 points)
+    4x ZSU-23-4 Shilka (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+23mm 2A7 AA gun 	20”/50cm 	6 	4 	6 	5+ 	Dedicated AA, Radar
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 1
+SIDE 1
+TOP 1
+BRDM-2 Recon Platoon TS128
+Tank Unit, Amphibious, Infra-Red (IR), Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/25cm 	18"/25cm 	28"/45cm 	32"/110cm 	4+
+
+     4x BRDM-2 (2 points)
+     2x BRDM-2 (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+14.5mm MG	20"/50cm	3	2	5	5+	
+7.62mm MG	16"/40cm	1	1	2	6	
+
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 5+
+Assault 6
+Counterattack 4+
+T-80 Shock Tank Platoon TS202
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	2+
+
+    2x T-80 (19 points)
+    3x T-80 (29 points)
+
+    Add AT-11 Sniper missiles to all T-80 tanks for +1 point per tank.
+    Fit one T-80 tanks with Mine Clearing Devices for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 20
+SIDE 10
+TOP 2
+T-72B Tank Company HQ TS150
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x T-72B (6 points)
+
+    Add AT-11 Sniper missiles to T-72B tanks for +1 point 
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun (T-72B) 	32”/80cm 	1 	1 	22 	2+ 	Brutal, Laser Rangefinder, Stabiliser
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AT-11 Sniper missile 	16”/40cm - 48”/120cm 	1 	1 	22 	3+ 	Guided, HEAT, Tandem Warhead
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 18
+SIDE 9
+TOP 2
+2S9 Nona-S SP Mortar Battery TS161
+Tank Unit, Amphibious, Infra-Red (IR), Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    6x 2S9 NONA-S (12 points)
+    3x 2S9 NONA-S (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm 2A51 gun-mortar 	64"/160cm 	ARTILLERY 	ARTILLERY 	4 	3+ 	Smoke Bombardment
+120mm 2A51 gun-mortar or Direct fire 	20”/50cm 	1 	1 	20 	2+ 	Brutal, HEAT, Slow Firing, Smoke
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 3+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+Afgantsy BM-37 Mortar Platoon TS174
+Mortar Group, Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x BM-37 82mm mortar team
+    2x Afgantsy BTR-D (TS175) (5 points)
+
+    Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+BM-37 82mm mortar team 	56"/140cm 	ARTILLERY 	ARTILLERY 	1 	4+ 	Smoke Bombardment
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+AGS-17 grenade MG 	16"/40cm 	3 	1 	3 	6 	
+Door PK MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+Afgantsy BTR-D Transport TS175
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+BTR-RD Anti-Tank Platoon TS162
+Tank Unit, Amphibious, Infra-Red (IR), Parachute
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    2x BTR-RD (2 points)
+    3x BTR-RD (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+Afgantsy BMD Air Assault Company HQ TS170
+Infantry Formation, HQ Transport, Airborne
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x AK-74 assault rifle team
+    1x Afgantsy BMD-1 (TS172) (2 points)
+    1x AK-74 assault rifle team
+    1x Afgantsy BMD-2 (TS173) (3 points)
+
+    Add 1x AGS-17 grenade launcher team (TS176) & Afgantsy BTR-D (TS175) for +1 point.
+    Add 1x PKM LMG team (TS176) & Afgantsy BTR-D (TS175) for +1 point.
+    Add 1x SA-14 Gremlin AA missile team (TS176) & Afgantsy BTR-D (TS175) for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK-74 assault rife team 	8”/20cm 	3 	3 	1 	5+ 	Pinned ROF 1
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+73mm 2A28 gun 	16”/40cm 	1 	1 	12 	3+ 	HEAT
+AT-3 Sagger missile 	16”/40cm - 44”/110cm 	1 	- 	19 	3+ 	Guided, HEAT
+30mm 2A42 gun 	20”/50cm 	3 	2 	10 	5+ 	Anti-helicopter, Stabiliser
+AT-5 Spandrel missile 	8”/20cm - 48”/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 2+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 3+
+Counterattack 2+
+IS HIT ON 3+
+Infantry 3+
+Afgantsy BMD-1 Transport TS172
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	32"/80cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+Afgantsy BMD-2 Transport TS173
+Tank Attachment, Amphibious, Infra-Red (IR), Parachute, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	32"/80cm 	36"/90cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 2
+SIDE 1
+TOP 1
+T-64BV Tank Battalion HQ TS166
+Tank Formation, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x T-64BV (6 points)
+
+    Add AT-8 Songster missile for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+12.7mm AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+125mm 2A46 gun 	32”/80cm 	1 	1 	22 	2+ 	Advanced Stabiliser, Brutal, Laser Rangefinder
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+AT-8 Songster missile 	16”/40cm - 48”/120cm 	1 	1 	21 	3+ 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 4+
+Assault 5+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 18
+SIDE 10
+TOP 2

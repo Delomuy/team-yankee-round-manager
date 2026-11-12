@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Exported builds of the program (Project > Export): share them as GitHub Releases, not in the code
+/export/
+*.pck
+
+# Rulebook, Quick Reference and Special Rules PDF: Battlefront's copyrighted material, kept on this computer only
+/relevant docs/
+
+# Personal: the armies saved in the program (remove this line to share them with the repository)
+/saved_army/
+
+# Python and system clutter
+__pycache__/
+*.pyc
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,63 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "French",
+  "formations": [
+    {
+      "id": "french_amx_10p_compagnie_de_chasseurs",
+      "name": "Amx-10P Compagnie De Chasseurs",
+      "hq": "TF103a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "french_amx_30_escadron_blind",
+      "name": "Amx-30 Escadron Blindé",
+      "hq": "TF101",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "french_escadron_de_cavalerie",
+      "name": "Escadron De Cavalerie",
+      "hq": "TF136",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "french_leclerc_escadron_blind",
+      "name": "Leclerc Escadron Blindé",
+      "hq": "TF121",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "french_vab_compagnie_d_infanterie",
+      "name": "Vab Compagnie D’Infanterie",
+      "hq": "TF109a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "french_vbl_escadron_d_clairage",
+      "name": "Vbl Escadron D’Éclairage",
+      "hq": "TF132",
+      "slots": [],
+      "exclusive": []
+    }
+  ]
+}

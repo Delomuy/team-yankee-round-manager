@@ -1,0 +1,2179 @@
+{
+ "source": "World War III: Team Yankee - Complete Special Rules (PDF)",
+ "rules": [
+  {
+   "name": "AA MG",
+   "key": "aa mg",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Machine-guns need high-angle mountings and rapid traverse to track fast-moving aircraft.",
+   "text": "AA MG weapons can Shoot at Aircraft with a ROF of 1 (see page 39).",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Accurate",
+   "key": "accurate",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Weapons with advanced range finders or sights are very accurate at long range, but need time to use properly.",
+   "text": "Accurate weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away and the Shooting Team did not Move.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Advanced Stabilisers",
+   "key": "advanced stabilisers",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Modern three-axis stabilisers allow tanks to fire accurately on the move over almost any terrain.",
+   "text": "A Team using weapons fitted with an Advanced Stabiliser has a higher Tactical speed. Only stabilised weapons can Shoot, and the Team cannot Assault, if the Team moves more than 10”/25cm.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Anti-Helicopter",
+   "key": "anti-helicopter",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Some automatic cannons, while unsuitable for attacking other types of aircraft, can engage helicopters.",
+   "text": "Anti-Helicopter weapons can shoot at Helicopters with a ROF of 1 (see page 39).",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Brutal",
+   "key": "brutal",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Large-calibre guns pack enough explosive to destroy any unprotected target outright.",
+   "text": "Infantry and Unarmoured Tank Teams re-roll successful Saves against Brutal Weapons.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Dedicated AA",
+   "key": "dedicated aa",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Units tasked with air defence constantly scan the skies. They react quickly and lethally whenever enemy aircraft appear.",
+   "text": "Dedicated AA weapons use their normal ROF (rather than ROF 1) when firing at Aircraft.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Forward Firing",
+   "key": "forward firing",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Hull-mounted weapons and most towed guns cannot traverse to track targets to the side of the weapon.",
+   "text": "Forward-firing weapons can only target Teams fully in front of the shooting Team, and can only fire an Artillery Bombardment if the Aiming Point is fully in front of the shooting Team.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Guided",
+   "key": "guided",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "The Missile Age heralded weapons that could be guided on to the target giving a high probability of hitting targets at any range. They are expensive though, so aren’t wasted on targets better handled by other weapons.",
+   "text": "Guided weapons do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away. Guided weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Guided AA",
+   "key": "guided aa",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Anti-aircraft missiles are specialised for shooting down strike aircraft and helicopters, making them useless against ground targets.",
+   "text": "Guided AA weapons are Guided weapons that cannot target Tank or Infantry Teams. Guided AA weapons use their normal ROF (rather than ROF 1) when firing at Aircraft.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "HEAT",
+   "key": "heat",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "When a High Explosive Anti-Tank (HEAT) warhead explodes it forms a jet of metal that can punch through a tank’s armour. Since it doesn’t rely on velocity, it is equally effective at any range.",
+   "text": "The target Team’s Armour rating is not increased if the targeted Team is more than 16”/40cm away when hit by HEAT weapons, but these weapons are also affected by Bazooka Skirts, BDD, Chobham, and ERA armour (see page 46).",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Laser Rangefinder",
+   "key": "laser rangefinder",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "High-tech laser rangefinders significantly improve the chance of a long-range hit.",
+   "text": "Weapons equipped with Laser Rangefinders do not suffer the usual +1 to hit penalty if the targeted Team is more than 16”/40cm away, whether the Team Moved or not.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "One Shot",
+   "key": "one shot",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 2,
+   "flavor": "Some weapons systems are one-shot weapons. Once they are fired, that’s it for the battle.",
+   "text": "One Shot weapons can only fire once per game.",
+   "pages": [
+    2
+   ]
+  },
+  {
+   "name": "Overhead Fire",
+   "key": "overhead fire",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Light mortars sit back firing over the heads of the advancing troops to knock out enemy machine-gun nests.",
+   "text": "Grenade launchers and light mortars capable of Overhead Fire can fire over friendly teams.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Pinned ROF 1",
+   "key": "pinned rof 1",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Submachine-gun and assault rifle-type weapons are very effective on the move, but lose their effectiveness when Pinned Down.",
+   "text": "These weapons have a ROF of 1 when Pinned Down.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "Weapons equipped with Radar increase their Range by +12”/30cm and do not suffer the usual +1 penalty To Hit for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Recoilless",
+   "key": "recoilless",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Recoilless weapons are light enough to be carried by their crew or mounted on a jeep. The downside is the huge backblast that makes them easy to spot.",
+   "text": "A Team firing a Recoilless weapon cannot be Concealed if it shot in its previous Shooting Step.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Slow Firing",
+   "key": "slow firing",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Large calibre guns are slow to reload at the best of times, severely limiting their ability to hit anything while moving.",
+   "text": "Slow-firing weapons add +1 to the score needed To Hit when moving.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Smoke",
+   "key": "smoke",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Blowing the enemy up is always a good option, but sometimes blinding them is better.",
+   "text": "Smoke weapons can Shoot Smoke ammunition (see page 50).",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Smoke Bombardment",
+   "key": "smoke bombardment",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Artillery delivered smoke screens allow you to cover the flank of your advance or blind the enemy defences as you advance.",
+   "text": "Smoke Bombardment weapons can fire a Smoke Bombardment once per game (see page 56).",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Stabiliser",
+   "key": "stabiliser",
+   "scope": "general",
+   "category": "Weapon",
+   "nation": "",
+   "book": "",
+   "page": 3,
+   "flavor": "Stabilisers keep the gun on target while moving across country. They are not perfect, especially at high speed, but they make fighting on the move possible.",
+   "text": "A Team using weapons fitted with Stabilisers may increase its Tactical speed to 14”/35cm, but increases the score needed To Hit by +1 if it does so. Only stabilised weapons can Shoot and the Team cannot Assault if the Team moves more than 10”/25cm.",
+   "pages": [
+    3
+   ]
+  },
+  {
+   "name": "Amphibious",
+   "key": "amphibious",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Many light tanks can swim, slowly, if needed, allowing them to cross rivers without the need for a bridge.",
+   "text": "Amphibious Teams treat Impassable Water as Difficult Going.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "BDD Armour",
+   "key": "bdd armour",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Starting with late models of the T-72, Soviet tanks were built with layered armour, particularly on the turret front. Nicknamed ‘Dolly Parton’ for their twin bulges, these tanks are well protected, especially against HEAT warheads.",
+   "text": "Teams with BDD Armour have a Side Armour rating of 13 against HEAT weapons.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "After seeing the effectiveness of German ‘bazookas’ in the Second World War, the British fitted their post-war battle tanks with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 (unless already higher) against HEAT weapons.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Chobham Armour",
+   "key": "chobham armour",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Chobham is a high-tech armour that is very effective at stopping anti-tank rounds, particularly HEAT warheads.",
+   "text": "Teams with Chobham Armour have a Side Armour rating of 16 against HEAT weapons.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Dragon Mount",
+   "key": "dragon mount",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "The M113 personnel carrier has a mounting for the M47 Dragon missile beside its.50 cal machine-gun.",
+   "text": "M47 Dragon missile teams may fire while Mounted as a Passenger in a M113 Transport, using the Passenger Fired M47 Dragon missile weapons line.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "ERA Armour",
+   "key": "era armour",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Explosive Reactive Armour (ERA) covers a tank in slabs of explosive covered in metal plates. When an anti-tank round hits it, the ERA explodes, disrupting the round and reducing its effect. ERA armour works best against HEAT ammunition.",
+   "text": "Teams with ERA Armour have a Side Armour rating of 16 against HEAT weapons.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Hammerhead",
+   "key": "hammerhead",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "The M901 Improved Tow Vehicle mounts its armament in a ‘hammerhead’ turret, allowing it to remain concealed behind cover while shooting.",
+   "text": "A Team with a Hammerhead can remain Gone to Ground while shooting its missiles.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Heavy Weapon",
+   "key": "heavy weapon",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "The infantry contains a mix of rifle teams and support weapons teams. These heavy weapons are not very mobile.",
+   "text": "A Heavy Weapon Team cannot Charge into Contact, but may be an Assaulting Team if in Contact with an enemy Team.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Infra-Red",
+   "key": "infra-red",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Infra-red night-vision equipment makes it much easier to locate targets at night.",
+   "text": "A Unit with an Infra-red rolls two dice on the Night Visibility Table and chooses the highest score (see page 84).",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Mine Clearing Devices",
+   "key": "mine clearing devices",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "",
+   "text": "Mine ploughs, rollers, and flails allow tanks to clear minefields (see page 85).",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Passengers #",
+   "key": "passengers #",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Armoured personnel carriers have space to carry troops inside.",
+   "text": "A Transport Team can carry Infantry Teams as Passengers. The # indicates how many Teams can be carried.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Thermal Imaging",
+   "key": "thermal imaging",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "Thermal-imaging sights give a gunner a huge advantage in identifying and hitting a target at night.",
+   "text": "A Unit using Thermal Imaging rolls two dice on the Night Visibility Table (see page 84) and chooses the highest score. In addition, Teams using Thermal Imaging do not suffer the +1 to hit penalties for Night and Smoke (see pages 44, 50, and 56).",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Unarmoured",
+   "key": "unarmoured",
+   "scope": "general",
+   "category": "Equipment",
+   "nation": "",
+   "book": "",
+   "page": 4,
+   "flavor": "While mounting a gun on a truck or half-track gives it mobility, it’s still not a tank and can’t assault.",
+   "text": "An Unarmoured Tank team cannot Charge into Contact and must Break Off if Assaulted.",
+   "pages": [
+    4
+   ]
+  },
+  {
+   "name": "Assault #",
+   "key": "assault #",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "Small weapons teams and those carrying heavy weapons are not as deadly in assault combat as specialist rifle teams.",
+   "text": "Teams with the Assault # special rule use this number for To Hit rolls in Assaults rather than the normal one shown on the card.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "HQ Transport",
+   "key": "hq transport",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "A Formation Commander has his own transport so he can move between units when required.",
+   "text": "A Formation HQ Transport Team remains part of HQ Unit.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Helicopter",
+   "key": "helicopter",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "Helicopters keep low and weave in and out of terrain, often making them hard to hit by none specialised anti-aircraft troops.",
+   "text": "Infantry Teams (other than Heavy Weapons) and AA MG weapons must re-roll successful Firepower tests when shooting at Helicopter Teams.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Hunter-Killer",
+   "key": "hunter-killer",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "Western helicopters use hunter-killer tactics to tackle enemy tanks. The helicopters fly extremely low, often below tree-top height to avoid detection. Once in position, they pop up over the terrain, locate their target and fire their missiles. Once the missile hits, they duck back down again, ready to repeat the exercise.",
+   "text": "Hunter-killer Helicopters can use terrain for Concealment (see pages 41 to 42), and are Gone to Ground unless they Shoot (see page 44).",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Independent",
+   "key": "independent",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "The specialists of Independent Teams are valuable and are protected by those around them.",
+   "text": "An Independent Team can use the Mistaken Target rule (see page 45) to reassign hits to nearby Units, but cannot Charge into Contact (see page 57), nor take an Objective (see page 76).",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Observer",
+   "key": "observer",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "Artillery observers have extra radios and other specialist equipment to allow them to call in artillery fire quickly and accurately.",
+   "text": "An Observer Team can Spot for any friendly Artillery Unit (see page 51). An Observer Team reduces the score required to Range In by -1.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Scout",
+   "key": "scout",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "Scouts are there to keep track of the enemy, not to get into a fight. The best way to do this is ‘sneak and peek’.",
+   "text": "Scouts are Gone to Ground unless they Shoot or Assault (see page 44).",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Spearhead",
+   "key": "spearhead",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "The spearhead travels ahead of the main force during advances and screens retreats. This allows the combat elements to move quickly into position, secure in the knowledge that they will not bump into unexpected enemy units.",
+   "text": "When a Spearhead Unit is placed on table during Deployment (but not if it arrives from Reserves or is placed outside the normal Deployment Area using this rule), the player may immediately Move its Teams at Tactical or Dash speed.\nThis movement may not use any Movement Orders, and may not take a Team within:\n• 16”/40cm of an enemy Team it is not Concealed from,\n• 8”/20cm of any enemy Team,\n• 16”/40cm of the enemy Deployment Area or any Objective outside your own Deployment Area.\nWhen Deploying their remaining Units, a player may treat the area entirely within 8”/20cm of a Spearhead Team that is In Command as an extension of their Deployment Area. Teams placed here may not be placed in the areas that a Spearhead Team may not move into.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Strike Aircraft",
+   "key": "strike aircraft",
+   "scope": "general",
+   "category": "Ability",
+   "nation": "",
+   "book": "",
+   "page": 5,
+   "flavor": "The air force has many tasks across the breadth and depth of the enemy forces. Your battle is just one small part of the big picture to them, so the aircraft supporting you will often be called away to more urgent tasks.",
+   "text": "At the start of each of their turns, the owning player may roll a die. On a score of 4+, the Strike Aircraft Unit arrives and will be placed anywhere on table in the Movement Step as long as the Aircraft stand can be placed flat on the table or suitable terrain.\nIf the Strike Aircraft Unit is held in Reserve (see page 78), do not start rolling until the Unit arrives from Reserve.\nAircraft shoot or bombard as normal in the Shooting Step. Just before an Aircraft attacks, the enemy can shoot their Anti-aircraft weapons at it (see page 39).\nAA MG weapons must re-roll successful Firepower tests when shooting at Strike Aircraft Teams.\nAll Strike Aircraft are removed from the table at the end of the Shooting Step. Any casualties they suffer carry over when the Unit returns to the table.",
+   "pages": [
+    5
+   ]
+  },
+  {
+   "name": "Appliqué Armour",
+   "key": "applique armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "Packages of additional armour were designed for the M2A2 and M3A2 Bradley vehicles to provide them with extra protection in combat situations.",
+   "text": "Teams with Appliqué Armour have a Front and Side Armour rating of 13 against HEAT weapons.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Door Guns",
+   "key": "door guns",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "UH-1 Huey helicopters have door mounted M60 machine-guns to cover their passengers when they dismount and mount during air assault missions. Helicopters are vulnerable to enemy ground fire when coming into the landing zone, so unload and load quickly, and tend not to waste precious ammunition and time on other targets.",
+   "text": "Unlike other Helicopters, UH-1 Hueys with Door Guns can Shoot while Landed. Door Guns can only Shoot in the turn that they Land.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Jump Jet",
+   "key": "jump jet",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "The AV-8 Harrier jump jet can get airborne with a full armament load after a short take-off run. This allows it to operate from hidden locations near the front, like supermarket car parks, enabling them to quickly rearm and return to the front after a sortie.",
+   "text": "Jump Jet Strike Aircraft arrive each turn on a roll of 3+, rather than the usual 4+.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "MLRS",
+   "key": "mlrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "Each MLRS launcher can deliver almost 8,000 munitions in fewer than 60 seconds at ranges exceeding 32km.",
+   "text": "Each MLRS rocket launcher counts as two weapons firing.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Passenger Fired",
+   "key": "passenger fired",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "Red Dawn",
+   "page": 6,
+   "flavor": "The Militia's pickup trucks usually just have a driver and when they do mount a machine-gun on them they are usually only manned by fighters riding in the truck.",
+   "text": "A Pickup Truck Team must be carrying a Passenger Infantry Team to be able to shoot its Passenger Fired weapon.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 36”/90cm for a M247 Sergeant York,\n• 32”/80cm for a M163 VADS.\n• 36”/90cm for a LAV-AD.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Resistance",
+   "key": "resistance",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "Red Dawn",
+   "page": 6,
+   "flavor": "The resistance of the citizen's militia is by its very nature covert. They stay hidden in remote areas or among the population, appearing when the enemy least expects it, to cause chaos and destruction before disappearing back into the wilderness to plan their next attack!",
+   "text": "Your Militia Group cannot be held in Reserve, but are not deployed on the table. Instead, each turn in the Roll for Reserves part of the Starting Step, roll a die for each Militia Group.\nOn a score of 5+, place the Militia Group and its Transport Attachment as if from Ambush, but in the enemy Deployment Area or No Man's Land. The Militia Group cannot move in the turn it is placed and may not be placed within 8\"/20cm of an Objective they can take.\nMilitia Platoons count as being 0 points when calculating Reserves.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "TOW-2 Weapons",
+   "key": "tow-2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "",
+   "page": 6,
+   "flavor": "The new BGM-71D TOW-2 anti-tank guided missile enlarged the warhead again over that of the Improved TOW missile.",
+   "text": "A number of Units have options to have TOW-2 missiles instead of Improved TOW missiles.\nIf you take any units with TOW-2 missiles you must take ALL options with TOW-2 missiles in your Force.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Unit Transport",
+   "key": "unit transport",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "American",
+   "book": "Red Dawn",
+   "page": 6,
+   "flavor": "The Militia's pickup trucks are the best means for a fast escape so they are protected as a precious commodity.",
+   "text": "The Unit Leader of the Transport Attachment must end the Movement Step within 6”/15cm of the Unit Leader of its Passenger Unit while on table. If it cannot do this, then the Transport Attachment must be Sent to the Rear.",
+   "pages": [
+    6
+   ]
+  },
+  {
+   "name": "Appliqué Armour",
+   "key": "applique armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "Packages of additional armour were designed for the Warrior to provide it with extra protection in combat situations.",
+   "text": "Teams with Appliqué Armour have a Front and Side Armour rating of 13 against HEAT weapons.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "After seeing the effectiveness of German ‘bazookas’ in the Second World War, the British fitted all of their post-war battle tanks with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Jump Jet",
+   "key": "jump jet",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "The Harrier jump jet can get airborne with a full armament load after a short take-off run. This allows it to operate from hidden locations near the front, like supermarket car parks, enabling them to quickly rearm and return to the front after a sortie.",
+   "text": "Jump Jet Strike Aircraft arrive each turn on a roll of 3+, rather than the usual 4+.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "MLRS",
+   "key": "mlrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "Each MLRS launcher can deliver almost 8,000 munitions in fewer than 60 seconds at ranges exceeding 32km.",
+   "text": "Each MLRS rocket launcher counts as two weapons when firing.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Milan Mount",
+   "key": "milan mount",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "The addition of a pintle mounting for a Milan firing post on the right side of the uparmoured Warrior’s turret roof allowed Milan crews to mount their launcher on their transport.",
+   "text": "Milan Missile teams may fire while Mounted as a Passenger in a Warrior (Uparmoured) transport, using the Passenger Fired Milan Missile weapons line.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Overhead Fire",
+   "key": "overhead fire",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "Despite being used by their grandfathers fighting in Germany back in WWII, the 2” mortar gives the squaddies good service as a grenade launcher firing both smoke and explosive rounds. Its arcing fire allows it to shoot over friendly troops as they attack.",
+   "text": "A 2” mortar team can shoot over friendly teams. A 2” mortar team cannot shoot at Aircraft.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, a Chieftain Marksman equipped with Radar does not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to 40”/100cm.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Sneak and Peek",
+   "key": "sneak and peek",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "The Fox, Scorpion, Scimitar and Warrior are all designed with a small two-man turret. As the tank commander also doubles as the main gun’s loader, it is tricky to manoeuvre when firing the main gun, so the gunner can only fire the co-ax machine-gun when advancing at speed.",
+   "text": "A tank with Sneak and Peek can move 10”/25cm at Tactical if it is not firing its main gun that turn.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Swingfire",
+   "key": "swingfire",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "British",
+   "book": "",
+   "page": 7,
+   "flavor": "The Swingfire anti-tank guided missile has several unique features. The first, which gave it its name, is the ability to ‘swing’ up to 90 degrees on launch, giving it an impressive field of fire from a fixed launcher. The second is the capability for the missile controller to be dismounted and moved up to 50m from the firing vehicle. These features allow the launch vehicle to remain hidden while firing.",
+   "text": "A Team firing Swingfire missiles can remain Gone to Ground while shooting.",
+   "pages": [
+    7
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "The West Germans are familiar with the effectiveness of infantry hand-held anti-tank weapons like the original Panzerfaust and Bazooka. The West Germans have fitted their modern battle tanks with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 (unless already higher) against HEAT weapons.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Door Guns",
+   "key": "door guns",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "West German UH-1 Huey helicopters have door mounted MG3 machine-guns to cover their passengers when they dismount and mount during air assault missions.",
+   "text": "Unlike other Helicopters, UH-1 Hueys with Door Guns can Shoot while Landed. Door Guns can only Shoot in the turn that they Land.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Forward Defence",
+   "key": "forward defence",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "With the West German doctrine of forward defence it is important to have your anti-tank weapons where they can cause the most damage. While most of the panzers are in reserve waiting to counterattack, the Jaguar Jagdpanzers are in the front line ready to wreak havoc on the advancing enemy tanks.",
+   "text": "Jaguar 1 and Jaguar 2 Jagdpanzer Zugs can be placed on table in missions with Deep Reserves in addition to the normal limit of one Tank Unit with with Front Armour 4 or more, or one Aircraft Unit.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "MLRS",
+   "key": "mlrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "Each 227mm MARS (MLRS) launcher can deliver almost 8000 munitions in fewer than 60 seconds at ranges exceeding 32km.",
+   "text": "Each MLRS rocket launcher counts as two weapons firing.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Milan Mount",
+   "key": "milan mount",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "Marder and Fuchs infantry fighting vehicles could mount the Milan missile system to their turrets, allowing it to be used while the panzergrenadiers were mounted.",
+   "text": "Milan missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan missile weapons line.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Mountaineers",
+   "key": "mountaineers",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "Gebirgsjäger mountian infantry are trained to fight in the mountains of central Europe and are expert climbers.",
+   "text": "Teams that start their Movement Step adjacent to a cliff or mountain side (or another similar terrain feature) roll a Skill Test. If successful, the Team may move using Terrain Dash across the terrain.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "WestGerman",
+   "book": "",
+   "page": 8,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 40”/100cm for a Gepard.",
+   "pages": [
+    8
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "EastGerman",
+   "book": "",
+   "page": 9,
+   "flavor": "Czech-manufactured T-72M tanks did not have the BDD armour of the later model T-72 tanks used by the Soviets. To compensate for this, the T-72M was fitted with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    9
+   ]
+  },
+  {
+   "name": "ERA Armour",
+   "key": "era armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "EastGerman",
+   "book": "",
+   "page": 9,
+   "flavor": "Explosive Reactive Armour (ERA) covers a tank in slabs of explosive covered in metal plates. When an anti-tank round hits it, the ERA explodes, disrupting the round and reducing its effect. ERA armour works best against HEAT ammunition.",
+   "text": "Teams with ERA Armour have a Side Armour rating of 16 against HEAT weapons and can not carry passengers.",
+   "pages": [
+    9
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "EastGerman",
+   "book": "",
+   "page": 9,
+   "flavor": "Anti-aircraft radar makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 32”/80cm for a ZSU-23-4 Shilka.",
+   "pages": [
+    9
+   ]
+  },
+  {
+   "name": "Air Assault",
+   "key": "air assault",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "The air assault battalions struck deep behind the NATO lines, seizing bridges and other essential objectives. The forward detachments of the relieving troops arrived a few hours later, if they arrived at all.",
+   "text": "An Air Assault Unit may only be held in Reserve if all of the Units deployed on table are Air Assault Units.\nExample: A Force containing four Air Assault Units and two other Units must deploy as many of their Air Assault Units on table at the start of a game as it can to satisfy the Reserves rule, but may need to hold Air Assault Units in Reserve to satisfy the requirement that at least 40% of the Forces points total is be held in Reserve.",
+   "pages": [
+    10
+   ]
+  },
+  {
+   "name": "ERA Armour",
+   "key": "era armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "Explosive Reactive Armour (ERA) covers a tank in slabs of explosive covered in metal plates. When an anti-tank round hits it, the ERA explodes, disrupting the round and reducing its effect. ERA armour works best against HEAT ammunition.",
+   "text": "Teams with ERA Armour have a Side Armour rating of 16 against HEAT weapons and can not carry passengers.",
+   "pages": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Elite Helicopter Force",
+   "key": "elite helicopter force",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "The 104th Guards Afgantsy Air Assault Division are elite veterans of the war in Afghanistan, and as a dedicated division, they have all the helicopter assets they need.",
+   "text": "If your Force contains an Afgantsy Air Assault Battalion (TS118) you can't take a Red Banner Mi-24 Hind Assault Helicopter Company (TS114a) support unit. Nor can you take a Afgantsy Mi-24 Hind Assault Helicopter Company (TS121a) as a Support Unit if you have already taken a Red Banner Mi-24 Hind Assault Helicopter Company (TS114a) as a Support Unit.",
+   "pages": [
+    10
+   ]
+  },
+  {
+   "name": "RPG-7VR Weapon Upgrade",
+   "key": "rpg-7vr weapon upgrade",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "The new RPG-7VR anti-tank rocket enlarged the warhead and added a tandem charge to improve its performance.",
+   "text": "A number of Units have options to upgrade their RPG-7 anti-tank teams to RPG-7VR anti-tank teams.\nIf you replace any RPG-7 anti-tank teams with RPG-7VR anti-tank teams in your Force, you must replace ALL with RPG-7VR anti-tank teams in Units that have the option.",
+   "pages": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 36”/90cm for a 2S6 Tunguska,\n• 32”/80cm for a ZSU-23-4 Shilka.",
+   "pages": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Tandem Warhead",
+   "key": "tandem warhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 10,
+   "flavor": "Weapons like the RPG-7VR have a dual HEAT warhead for defeating vehicles equipped with explosive reactive armour. The first warhead detonates the reactive armour block prematurely and the second warhead passes through the gap to hit the exposed armour underneath.",
+   "text": "A Tandem Warhead HEAT weapon is unaffected by ERA armour. The tank rolls its Armour Save based on its normal armour rating, not that of the ERA.",
+   "pages": [
+    10,
+    11
+   ]
+  },
+  {
+   "name": "Airborne",
+   "key": "airborne",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 11,
+   "flavor": "Airborne units are specially trained, equipped, and organised to conduct airborne operations.",
+   "text": "This Formation may make an Airborne Assault in missions that use the Airborne Assault rules (page 41).",
+   "pages": [
+    11
+   ]
+  },
+  {
+   "name": "Attachment",
+   "key": "attachment",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 11,
+   "flavor": "VDV Afgantsy veterans’ commanders allocate AGS-17 grenade launchers, PKM light machine-guns, and SA-14 Gremlin anti-aircraft missiles out to their platoons as they see fit.",
+   "text": "Each PKM LMG team, AGS-17 grenade launcher team, and SA-14 Gremlin AA missile team, with their Afgantsy BTR-D transport team, from a VDV Afgantsy BMD Air Assault Company HQ (TS170) must be attached to a VDV Afgantsy BMD Air Assault Platoon (TS171) before the game. Teams allocated to a Unit in this way become part of the Unit for all purposes and its Transport team becomes part of the Unit’s Transport attachment.",
+   "pages": [
+    11
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 11,
+   "flavor": "Anti-aircraft weapons without modern radars or other electronic tracking systems have difficulty targeting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Aircraft that are not Helicopters.",
+   "pages": [
+    11
+   ]
+  },
+  {
+   "name": "Mortar Group",
+   "key": "mortar group",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 11,
+   "flavor": "Mortars are the ideal support weapon for airborne operations. These light weapons and their crews can be dropped together with the airborne troops to be ready to supply quick responsive artillery fire. Soviet mortars, like many of their heavy weapons, work in teams to coordinate their fire.",
+   "text": "Each 82mm mortar team counts as two weapons firing when firing an Artillery Bombardment.",
+   "pages": [
+    11
+   ]
+  },
+  {
+   "name": "Parachute",
+   "key": "parachute",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Soviet",
+   "book": "",
+   "page": 11,
+   "flavor": "Some Airborne units arrive on the battlefield by parachute and can be immediately ready for combat.",
+   "text": "This Unit uses Parachute Deployment in the Airborne Assaults Assault rules (pages 41-42).",
+   "pages": [
+    11
+   ]
+  },
+  {
+   "name": "Autoloader",
+   "key": "autoloader",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Czechoslovak",
+   "book": "",
+   "page": 12,
+   "flavor": "The Dana 152mm howitzer is fitted with an auto-loading system, allowing it to lay down quick, devastating barrages.",
+   "text": "When a weapon with an Autoloader fires an Artillery Bombardment reduce the score required To Hit Teams under the Template by 1.",
+   "pages": [
+    12
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Czechoslovak",
+   "book": "",
+   "page": 12,
+   "flavor": "Czech-manufactured T-72M tanks did not have the BDD armour of the later model T-72 tanks used by the Soviets. To compensate for this, the T-72M was fitted with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    12
+   ]
+  },
+  {
+   "name": "ERA Armour",
+   "key": "era armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Czechoslovak",
+   "book": "",
+   "page": 12,
+   "flavor": "Explosive Reactive Armour (ERA) covers a tank in slabs of explosive covered in metal plates. When an anti-tank round hits it, the ERA explodes, disrupting the round and reducing its effect. ERA armour works best against HEAT ammunition.",
+   "text": "Teams with ERA Armour have a Side Armour rating of 16 against HEAT weapons and can not carry passengers.",
+   "pages": [
+    12
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Czechoslovak",
+   "book": "",
+   "page": 12,
+   "flavor": "Anti-aircraft weapons without modern radars or other electronic tracking systems, like the M53/59 Praga, have difficulty tracking and targeting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Strike Aircraft.",
+   "pages": [
+    12
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Czechoslovak",
+   "book": "",
+   "page": 12,
+   "flavor": "Anti-aircraft radar makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 32”/80cm for a ZSU-23-4 Shilka.",
+   "pages": [
+    12
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Cuban",
+   "book": "",
+   "page": 13,
+   "flavor": "Anti-aircraft weapons without modern radars or other electronic tracking systems have difficulty targeting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Aircraft that are not Helicopters.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Cuban",
+   "book": "",
+   "page": 13,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 32”/80cm for a ZSU-23-4 Shilka.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "Autoloader",
+   "key": "autoloader",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Polish",
+   "book": "",
+   "page": 13,
+   "flavor": "The Dana 152mm howitzer is fitted with an auto-loading system, allowing it to lay down quick, devastating barrages.",
+   "text": "When a weapon with an Autoloader fires an Artillery Bombardment reduce the score required To Hit Teams under the Template by 1.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Polish",
+   "book": "",
+   "page": 13,
+   "flavor": "Czech-manufactured T-72M tanks did not have the BDD armour of the later model T-72 tanks used by the Soviets. To compensate for this, the T-72M was fitted with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "ERA Armour",
+   "key": "era armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Polish",
+   "book": "",
+   "page": 13,
+   "flavor": "Explosive Reactive Armour (ERA) covers a tank in slabs of explosive covered in metal plates. When an anti-tank round hits it, the ERA explodes, disrupting the round and reducing its effect. ERA armour works best against HEAT ammunition.",
+   "text": "Teams with ERA Armour have a Side Armour rating of 16 against HEAT weapons and can not carry passengers.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Polish",
+   "book": "",
+   "page": 13,
+   "flavor": "Anti-aircraft radar makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "When Shooting at Aircraft, vehicles equipped with Radar do not suffer the usual +1 penalty To Hit for range over 16”/40cm and extend their range to:\n• 32”/80cm for a ZSU-23-4 Shilka.",
+   "pages": [
+    13
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Finnish",
+   "book": "",
+   "page": 14,
+   "flavor": "Finnish T-72FM1 and T-55M tanks did not have the BDD or ERA armour of the later model T-72 tanks used by the Soviets. To compensate for this, they are fitted with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Finnish",
+   "book": "",
+   "page": 14,
+   "flavor": "Anti-aircraft weapons without modern radars or other electronic tracking systems have difficulty targetting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Aircraft that are not Helicopters.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Finnish",
+   "book": "",
+   "page": 14,
+   "flavor": "Anti-aircraft radar on the T-55 Marksman makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "The Twin 35mm L/90 gun on a T-55 Marksman has a Range of 40”/100cm against aircraft and does not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Accurate",
+   "key": "accurate",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Swedish",
+   "book": "",
+   "page": 14,
+   "flavor": "The Bofors 90mm recoilless anti-tank gun is fitted with a modified rifle as ranging or spotting rifle.",
+   "text": "If stationary, a Team Weapon with Accurate has no To Hit penalty for shooting at ranges over 16”/40cm.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Ambush Tank",
+   "key": "ambush tank",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Swedish",
+   "book": "",
+   "page": 14,
+   "flavor": "Though the S-Tank is primarily intened as a main battle tank, to be equally at home in offensive and defensive actions, its low silhouette and hydropneumatic suspension made it particularly good in defence among the wooded terrain of Sweden.",
+   "text": "If stationary, a Team with the Ambush Tank rule can remain Gone to Ground while shooting its main gun.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Autoloader",
+   "key": "autoloader",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Swedish",
+   "book": "",
+   "page": 14,
+   "flavor": "Like the French AMX AuF1 155mm howitzer, the Swedish Bandkanon 1 self-propelled 155mm howitzer is fitted with an auto-loading system, allowing it to lay down quick devastating barrages.",
+   "text": "When a weapon with an Autoloader fires an Artillery Bombardment reduce the score required To Hit Teams under the Template by 1.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Overworked",
+   "key": "overworked",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Swedish",
+   "book": "",
+   "page": 14,
+   "flavor": "The Swedish S-Tank does not have a stabiliser so relies on short halts while firing on the move. This requires well-drilled coordination between the driver/gunner and commander.",
+   "text": "Overworked weapons add +1 to the score needed To Hit when moving.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Slat Armour",
+   "key": "slat armour",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Swedish",
+   "book": "",
+   "page": 14,
+   "flavor": "The Swedish S-Tank mounted slat bar armour on its front hull and used “Jerry” fuel cans as a form of spaced armour side skirts.",
+   "text": "Teams with Slat Armour have a Front and Side Armour rating of 13 against HEAT weapons.",
+   "pages": [
+    14
+   ]
+  },
+  {
+   "name": "Accurate",
+   "key": "accurate",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Danish",
+   "book": "",
+   "page": 15,
+   "flavor": "The Centurion Mk V tanks used by the Danish tank-hunting units are fitted with a co-ax.50 cal (12.7mm) machine-gun for ranging the 20 pdr (84mm) main gun.",
+   "text": "If stationary, a Weapon with Accurate has no To Hit penalty for shooting at ranges over 16”/40cm.",
+   "pages": [
+    15
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Danish",
+   "book": "",
+   "page": 15,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    15
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Norwegian",
+   "book": "",
+   "page": 15,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    15
+   ]
+  },
+  {
+   "name": "No Assault",
+   "key": "no assault",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Norwegian",
+   "book": "",
+   "page": 15,
+   "flavor": "The Eryx is a short range wire-guided anti-tank missile system. Like all guided missiles it has a minimum range so cannot be used in the very close range of close combat like LAW or Carl Gustav anti-tank weapons.",
+   "text": "Infantry teams with Eryx missile weapons cannot be used To Hit Side armour in Assaults, but instead have Anti-tank 2, Firepower 1+ and hit Top armour in Assaults. They can still be used to conduct Defensive Fire as normal.",
+   "pages": [
+    15
+   ]
+  },
+  {
+   "name": "TOW-2 Weapons",
+   "key": "tow-2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Norwegian",
+   "book": "",
+   "page": 15,
+   "flavor": "The new TOW-2 anti-tank guided missile enlarged the warhead again over that of the Improved TOW missile.",
+   "text": "A number of Units have options to have TOW-2 missiles instead of Improved TOW missiles.\nIf you take any units with TOW-2 missiles you must take ALL options with TOW-2 missiles in your Force.",
+   "pages": [
+    15
+   ]
+  },
+  {
+   "name": "Airborne",
+   "key": "airborne",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "Airborne units are specially trained, equipped, and organised to conduct airborne operations.",
+   "text": "This Formation may make an Airborne Assault in missions that use the Airborne Assault rules (page 43 of Red Dawn).",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "Hammerhead",
+   "key": "hammerhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "The M113 TUA (TOW Under Armour) missile turret works on a similar principle as the US ‘hammerhead’ turret on the M901 and Dutch YPR-765. Like those vehicles, the M113 TUA can remain concealed behind cover while shooting.",
+   "text": "A Team with the Hammerhead rule can remain Gone to Ground while shooting HOT anti-tank guided missiles.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "No Assault",
+   "key": "no assault",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "The Eryx is a short range wire-guided anti-tank missile system. Like all guided missiles it has a minimum range so cannot be used in the very close range of close combat like LAW or Carl Gustav anti-tank weapons.",
+   "text": "Infantry teams with Eryx missile weapons cannot be used To Hit Side armour in Assaults, but instead have Anti-tank 2, Firepower 1+ and hit Top armour in Assaults. They can still be used to conduct Defensive Fire as normal.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "Overhead Fire",
+   "key": "overhead fire",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "The M19 60mm mortar gives good service as a commando mortar firing both smoke and explosive rounds. Its arcing fire allows it to shoot over friendly troops as they attack.",
+   "text": "An M19 60mm mortar team can shoot over friendly Teams. It cannot Shoot at Aircraft.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "TOW-2 Weapons",
+   "key": "tow-2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "The new BGM-71D TOW-2 anti-tank guided missile enlarged the warhead again over that of the Improved TOW missile.",
+   "text": "A number of Units have options to have TOW-2 missiles instead of Improved TOW missiles.\nIf you take any units with TOW-2 missiles you must take ALL options with TOW-2 missiles in your Force.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "Tandem Warhead",
+   "key": "tandem warhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Canadian",
+   "book": "",
+   "page": 16,
+   "flavor": "Weapons like the Eryx missile have a dual HEAT warhead for defeating vehicles equipped with explosive reactive armour (ERA). The first warhead detonates the reactive armour block prematurely and the second warhead passes through the gap to hit the exposed armour underneath.",
+   "text": "A Tandem Warhead HEAT weapon is unaffected by ERA armour. The tank rolls its Armour Save based on its normal armour rating, not that of the ERA.",
+   "pages": [
+    16
+   ]
+  },
+  {
+   "name": "Autoloader",
+   "key": "autoloader",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "The AMX AuF1 155mm howitzer is fitted with an auto-loading system, allowing it to lay down quick devastating barrages.",
+   "text": "When a weapon with an Autoloader fires an Artillery Bombardment reduce the score required To Hit Teams under the Template by 1.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Gun Slinger",
+   "key": "gun slinger",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "Gazelle helicopters armed with 20mm autocannons were used to suppress the enemy and hunt other helicopters, leaving the coast clear for the Gazelle HOTs to do their anti-tank work.",
+   "text": "A Gun Slinger helicopter can use Tall terrain for Concealment (see page 42 of World War III: Team Yankee), and can remain Gone to Ground while moving.\nEnemy Anti-aircraft, Anti-helicopter, and Infantry weapons Shoot at a Gun Slinger helicopter after it Shoots in its own turn (instead of before when normally shooting at Aircraft).",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "HOT 2 Weapons",
+   "key": "hot 2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "The HOT 2 missile is an improved variant of the HOT missile with a more effective 150mm HEAT warhead.",
+   "text": "A number of Units have options to have HOT 2 missiles instead of HOT missiles.\nIf you take any units with HOT 2 missiles you must take ALL options with HOT 2 missiles in your Force.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Hammerhead",
+   "key": "hammerhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "The VAB Mephisto’s HOT missile turret works on a similar principle to the US ‘hammerhead’ turret on the M901 and Dutch YPR-765. Like those vehicles, the Mephisto can remain concealed behind cover while shooting.",
+   "text": "A Team with the Hammerhead rule can remain Gone to Ground while shooting HOT anti-tank guided missiles.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "MLRS",
+   "key": "mlrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "Each MLRS launcher can deliver almost 8,000 submunitions in fewer than 60 seconds at ranges exceeding 32km.",
+   "text": "Each MLRS rocket launcher counts as two weapons when firing.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Milan 2 Weapons",
+   "key": "milan 2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "The MILAN 2 variant, which entered service with many NATO armies in 1984, uses an improved 115mm high-explosive anti-tank (HEAT) shaped charge warhead fitted with a standoff probe to increase its penetration to 550mm of rolled homogenous armour.",
+   "text": "A number of Units have options to have Milan 2 missiles instead of Milan missiles.\nIf you take any units with Milan 2 missiles you must take ALL options with Milan 2 missiles in your Force.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Milan Mount",
+   "key": "milan mount",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "Both the AMX-10P and VAB armoured transports could mount their passengers’ Milan anti-tank guided missile to be fired from the vehicle.",
+   "text": "Milan or Milan 2 missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan or Milan 2 missile weapons line as appropriate.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "No Assault",
+   "key": "no assault",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "The Eryx is a short range wire-guided anti-tank missile system. Like all guided missiles it has a minimum range so cannot be used at very close range like LRAC 89mm or APILAS anti-tank weapons.",
+   "text": "Infantry teams with Eryx missile weapons cannot be used To Hit Side armour in Assaults, but instead have Anti-tank 2, Firepower 1+ and hit Top armour in Assaults. They can be still used to conduct Defensive Fire as normal.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "Anti-aircraft radar on the AMX-13 DCA makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "The Twin 30mm AA gun on an AMX-13 DCA has a Range of 36”/90cm against aircraft and does not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Tandem Warhead",
+   "key": "tandem warhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "French",
+   "book": "",
+   "page": 17,
+   "flavor": "Weapons like the Eryx missile have a dual HEAT warhead for defeating vehicles equipped with explosive reactive armour (ERA). The first warhead detonates the reactive armour block prematurely and the second warhead passes through the gap to hit the exposed armour underneath.",
+   "text": "A Tandem Warhead HEAT weapon is unaffected by ERA armour. The tank rolls its Armour Save based on its normal armour rating, not that of the ERA.",
+   "pages": [
+    17
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "ANZAC",
+   "book": "",
+   "page": 18,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Milan 2 Weapons",
+   "key": "milan 2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "ANZAC",
+   "book": "",
+   "page": 18,
+   "flavor": "The MILAN 2 variant, which entered service with many NATO armies in 1984, uses an improved 115mm high-explosive anti-tank (HEAT) shaped charge warhead fitted with a standoff probe to increase its penetration to 550mm of rolled homogenous armour.",
+   "text": "A number of Units have options to have Milan 2 missiles instead of Milan missiles.\nIf you take any units with Milan 2 missiles you must take ALL options with Milan 2 missiles in your Force.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Recoilless",
+   "key": "recoilless",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "ANZAC",
+   "book": "",
+   "page": 18,
+   "flavor": "Recoilless weapons are light enough to be mounted on a jeep. The downside is the huge backblast that makes them easy to spot.",
+   "text": "A Team firing a Recoilless weapon cannot be Concealed if it shot in its previous Shooting Step.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Sneak and Peek",
+   "key": "sneak and peek",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "ANZAC",
+   "book": "",
+   "page": 18,
+   "flavor": "The Scorpion is designed to find the enemy, not fight them. If it comes to a scrap, they prefer a quick ambush and an equally quick departure. As the tank commander also doubles as the main gun’s loader, it is tricky to manoeuvre when firing the main gun, so the gunner can only fire the co-ax machine-gun when advancing at speed.",
+   "text": "A tank with Sneak and Peek can move 10”/25cm at Tactical speed if it is not firing its main gun.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Dutch",
+   "book": "",
+   "page": 18,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Hammerhead",
+   "key": "hammerhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Dutch",
+   "book": "",
+   "page": 18,
+   "flavor": "The YPR-765 PRAT mounts the same ‘hammerhead’ turret as the US M901 Improved Tow Vehicle. This allows it to remain concealed behind cover while shooting.",
+   "text": "A Team with the Hammerhead rule can remain Gone to Ground while shooting Improved TOW missiles.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "MLRS",
+   "key": "mlrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Dutch",
+   "book": "",
+   "page": 18,
+   "flavor": "Each MLRS launcher can deliver almost 8,000 munitions in fewer than 60 seconds at ranges exceeding 32km.",
+   "text": "Each MLRS rocket launcher counts as two weapons when firing.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Dutch",
+   "book": "",
+   "page": 18,
+   "flavor": "Anti-aircraft radar on the PRTL makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "The Twin 35mm L/90 guns on a PRTL have a Range of 40”/100cm against aircraft and does not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "TOW-2 or Dragon 2 Weapons",
+   "key": "tow-2 or dragon 2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Dutch",
+   "book": "",
+   "page": 18,
+   "flavor": "The new BGM-71D TOW-2 and Dragon 2 anti-tank guided missiles have enlarged warheads.",
+   "text": "A number of Units have options to have TOW-2 missiles instead of Improved TOW missiles, or M47 Dragon 2 instead of M47 Dragon missiles.\nIf you take any units with TOW-2 missiles you must take ALL options with TOW-2 missiles in your Force.\nIf you take any units with M47 Dragon 2 missiles you must take ALL options with M47 Dragon 2 missiles in your Force.",
+   "pages": [
+    18
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "Leopard 1 tanks are fitted with 'bazooka skirts', spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Front and Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Forward Defence",
+   "key": "forward defence",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "It is important to have your infantry supporting anti-tank weapons where they can cause the most damage. While most of the Belgian tanks are in reserve waiting to counterattack, the Kanonenjagdpanzers are in the front line ready to wreak havoc on the advancing enemy tanks.",
+   "text": "Kanonenjagdpanzer Antitank Peloton can be placed on table in missions with Deep Reserves in addition to the normal limit of one Tank Unit with Front Armour 4 or more, or one Aircraft Unit.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Milan 2 Weapons",
+   "key": "milan 2 weapons",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "The MILAN 2 variant, which entered service with many NATO armies in 1984, uses an improved 115mm high-explosive anti-tank (HEAT) shaped charge warhead fitted with a standoff probe to increase its penetration to 550mm of rolled homogenous armour.",
+   "text": "A number of Units have options to have Milan 2 missiles instead of Milan missiles.\nIf you take any units with Milan 2 missiles you must take ALL options with Milan 2 missiles in your Force.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Milan Mount",
+   "key": "milan mount",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "AIFV-B infantry fighting vehicles could mount the Milan missile system to their turrets or cupolas, allowing it to be used while the armoured infantry were mounted.",
+   "text": "Milan or Milan 2 missile teams may fire while Mounted as a Passenger in a transport with a Milan Mount, using the Optional Milan or Milan 2 missile weapons line as appropriate.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Overhead Fire",
+   "key": "overhead fire",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "Despite being used in Germany by the American and French back in WWII, the 60mm mortar gives good service as a grenade launcher firing explosive rounds. Its arcing fire allows it to shoot over friendly troops as they attack.",
+   "text": "A 60mm mortar team can shoot over friendly teams. A 60mm mortar team cannot shoot at Aircraft.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "Anti-aircraft radar on the Gepard makes tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "The Twin 35mm L/90 guns on a Gepard have a Range of 40”/100cm against Aircraft and does not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "Sneak and Peek",
+   "key": "sneak and peek",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Belgian",
+   "book": "",
+   "page": 19,
+   "flavor": "The Scorpion and Scimitar are all designed with a small two-man turret. As the tank commander also doubles as the main gun’s loader, it is tricky to manoeuvre when firing the main gun, so the gunner can only fire the co-ax machine-gun when advancing at speed.",
+   "text": "A tank with Sneak and Peek can move 10”/25cm at Tactical if it is not firing its main gun that turn.",
+   "pages": [
+    19
+   ]
+  },
+  {
+   "name": "NLOS (Non Line of Sight)",
+   "key": "nlos",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Israeli",
+   "book": "",
+   "page": 20,
+   "flavor": "Israel's top-secret Pereh anti-tank guided missile vehicle fires the Tamuz missile which can be used in both ‘fire and forget’ and ‘man-in-the-loop’ modes. When the vehicle doesn't have direct line-of-sight the gunner guides the missile home via a video link through a camera in the missile using the ‘man-in-the-loop’ mode.",
+   "text": "A weapon with NLOS has no To Hit penalty for ranges over 16”/40cm and does not require a Line of Sight to Shoot at an enemy Team. The target Team always counts as Concealed to the NLOS weapon, even when in Line of Sight. NLOS weapons cannot hit Infantry Teams unless the Infantry are stationary and in Bulletproof Cover.",
+   "pages": [
+    20
+   ]
+  },
+  {
+   "name": "Napalm",
+   "key": "napalm",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Israeli",
+   "book": "",
+   "page": 20,
+   "flavor": "The Israelis used napalm against Arab columns and troop concentrations.",
+   "text": "Infantry and Unarmoured Tank Teams re-roll successful Saves if hit by an Aircraft Unit firing an Artillery Bombardment using Napalm bombs.\nArmoured Tank Teams use Top armour for Saves when hit by Napalm bombs.",
+   "pages": [
+    20
+   ]
+  },
+  {
+   "name": "Overhead Fire",
+   "key": "overhead fire",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Israeli",
+   "book": "",
+   "page": 20,
+   "flavor": "Despite being used ince 1948 in some form, the 52mm (or 2”) mortar still see extensive use with the infantry in the IDF. It’s arcing fire allows it to shoot over friendly troops as they attack.",
+   "text": "A 52mm mortar team can shoot over friendly teams.",
+   "pages": [
+    20
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Israeli",
+   "book": "",
+   "page": 20,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "Weapons equipped with Radar increase their Range by +12”/30cm against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    20
+   ]
+  },
+  {
+   "name": "Autoloader",
+   "key": "autoloader",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "The AMX AuF1 155mm howitzer is fitted with an auto-loading system, allowing it to lay down quick devastating barrages.",
+   "text": "When a weapon with an Autoloader fires an Artillery Bombardment reduce the score required To Hit Teams under the Template by 1.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "Czech-manufactured T-72M tanks did not have the BDD armour of the later model T-72 tanks used by the Soviets. To compensate for this, the T-72M was fitted with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Hammerhead",
+   "key": "hammerhead",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "The VCR/TH HOT missile turret works on a similar principle as the US ‘Hammerhead’ turret on the M901 and Dutch YPR-765. Like those vehicles, the VCR/TH can remain concealed behind cover while shooting.",
+   "text": "A Team with the Hammerhead rule can remain Gone to Ground while shooting HOT anti-tank guided missiles.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "Anti-aircraft weapons without modern radars or other electronic tracking systems have difficulty targetting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Aircraft that are not Helicopters.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Milan Mount",
+   "key": "milan mount",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "The AMX-10P armoured transport could mount their passengers’ Milan anti-tank guided missile to be fired from the vehicle.",
+   "text": "A BTR Mech Company (TIQ113) mounted in AMP-10P transports may remove a Milan missile team before the game, mounting Milan missiles on up to three of the Transport Attachment’s AMX-10Ps.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iraqi",
+   "book": "",
+   "page": 21,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "Weapons equipped with Radar increase their Range by +12”/30cm against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    21
+   ]
+  },
+  {
+   "name": "Basij Assault",
+   "key": "basij assault",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "The Iranian Basij volunteers would often lead the attacks by the Islamic Revolutionary Guards Corps and the Army, advancing ahead of the regular troops to attack the enemy frontlines.",
+   "text": "Before the start of a game a Player with a Force that contains a Basij Infantry Battalion may chose to do a Basij Assault.\nIf making a Basij Assault, Basij Units do not benefit from Bulletproof Cover and may not be placed in Reserve.\nWhen a Basij Unit making a Basij Assault is placed on the table during Deployment (but not if it is placed outside the normal Deployment Area using the Spearhead rule), the player may immediately Move its Teams at Tactical or Dash speed.\nThis movement may not use any Movement Orders, and may not take a Team within:\n• 16”/40cm of an enemy Team it is not Concealed from,\n• 8”/20cm of any enemy Team,\n• 16”/40cm of the enemy Deployment Area or any Objective outside your own Deployment Area.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Bazooka Skirts",
+   "key": "bazooka skirts",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "The British fitted all of their post-war battle tanks, including exported Chieftains, with ‘bazooka skirts’, spaced armour to protect them from light, hand-held anti-tank weapons.",
+   "text": "Teams with Bazooka Skirts have a Side armour rating of 10 against HEAT weapons.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Manual Tracking",
+   "key": "manual tracking",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "Anti-aircraft weapons without radars or other electronic tracking systems have difficulty targetting fast-moving aircraft.",
+   "text": "Anti-aircraft Weapons with Manual Tracking add +1 to the score required To Hit Aircraft that are not Helicopters.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Martyrs",
+   "key": "martyrs",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "Thrown into battle with little training and only their Islamic revolutionary zeal and the assurance of God's rewards to guide them, the volunteers of the Basij were willing to take high casaulties to ensure the victory of the Islamic Revolution.",
+   "text": "Martyr Units may move 6”/15cm (rather than 4”/10cm) when Charging into Contact.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Radar",
+   "key": "radar",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "Anti-aircraft radars make tracking fast-moving aircraft much easier, especially at long range.",
+   "text": "Weapons equipped with Radar increase their Range by +12”/30cm against Aircraft and do not suffer the usual +1 To Hit penalty for range over 16”/40cm when Shooting at Aircraft.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Recoilless",
+   "key": "recoilless",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "Recoilless weapons are light enough to be carried by their crew or mounted on a jeep. The downside is the huge backblast that makes them easy to spot.",
+   "text": "A Team firing a Recoilless weapon cannot be Concealed if it shot in its previous Shooting Step.",
+   "pages": [
+    22
+   ]
+  },
+  {
+   "name": "Sneak and Peek",
+   "key": "sneak and peek",
+   "scope": "nation",
+   "category": "Nation",
+   "nation": "Iranian",
+   "book": "",
+   "page": 22,
+   "flavor": "The Scorpion is designed to find the enemy, not fight them. If it comes to a scrap, they prefer a quick ambush and an equally quick departure. As the tank commander also doubles as the main gun’s loader, it is tricky to manoeuvre when firing the main gun, so the gunner can only fire the coaxial machine-gun when advancing at speed.",
+   "text": "A tank with Sneak and Peek can move 10”/25cm at Tactical if it is not firing its main gun",
+   "pages": [
+    22
+   ]
+  }
+ ]
+}

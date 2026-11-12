@@ -1,0 +1,1195 @@
+Leopard 2 Panzer Kompanie HQ TG101a
+Tank Formation, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	20"/50cm 	32"/80cm 	32"/80cm 	2+
+
+    1x Leopard 2 (11/dynamic: 8 points)
+    2x Leopard 2 (22/dynamic: 16 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 18
+SIDE 7
+TOP 2
+Leopard 2 Panzer Zug TG102a
+Tank Unit, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	20"/50cm 	32"/80cm 	32"/80cm 	2+
+
+    2x Leopard 2 (22/dynamic: 16 points)
+    3x Leopard 2 (33/dynamic: 24 points)
+    4x Leopard 2 (44/dynamic: 32 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 18
+SIDE 7
+TOP 2
+Marder Panzergrenadier Kompanie HQ TG104a
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 rifle team
+    1x Marder (TG115a) (1 points)
+    1x G3 rifle team
+    1x MG3 team with Panzerfaust 44 anti-tank rocket
+    2x Marder (TG115a) (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Marder Transport TG115a
+Tank Attachment, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 1
+Marder Panzergrenadier Zug TG105a
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    2x Marder (TG115a) (4 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    2x Milan missile team
+    3x Marder (TG115a) (7 points)
+
+    Add a Carl Gustav anti-tank team for +1 point.
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+Carl Gustav anti-tank team 	16”/40cm 	1 	1 	17 	3+ 	HEAT, Slow Firing
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Marder Transport TG115a
+Tank Attachment, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 1
+Leopard 1 Panzeraufklärungs Kompanie HQ TG110a
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    1x Leopard 1 (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 9
+SIDE 5
+TOP 1
+Luchs Späh Trupp TG111a
+Tank Unit, Amphibious, Scout, Spearhead, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	40"/100cm 	4+
+
+    2x Luchs (2 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 6
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 0
+Leopard 1 Panzer Kompanie HQ TG117a
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	28"/70cm 	32"/80cm 	2+
+
+    1x Leopard 1 (3 points)
+    2x Leopard 1 (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 9
+SIDE 5
+TOP 1
+M113 Panzergrenadier Kompanie HQ TG118a
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 rifle team
+    1x M113 (TG126) (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+M113 Transport TG126
+Tank Attachment, Amphibious, Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+M113 Panzergrenadier Zug TG119
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    2x Milan missile team
+    2x M113 (TG126) (4 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    3x Milan missile team
+    3x M113 (TG126) (7 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+M113 Transport TG126
+Tank Attachment, Amphibious, Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Fuchs Transport TG114a
+Tank Attachment, Amphibious, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	44"/110cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 0
+Fuchs Panzeraufklärungs Kompanie HQ TG127a
+Infantry Formation, HQ Transport, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 Rifle team
+    1x Fuchs (TG114a) (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Fuchs Panzeraufklärungs Zug TG113
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    2x Fuchs (TG114a) (3 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    3x Fuchs (TG114a) (4 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Fuchs Transport TG114a
+Tank Attachment, Amphibious, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	44"/110cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 0
+Leopard 2 Panzeraufklärungs Kompanie HQ TG128
+Tank Formation, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	20"/50cm 	32"/80cm 	32"/80cm 	2+
+
+    1x Leopard 2 (11/dynamic: 8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 18
+SIDE 7
+TOP 2
+Leopard 2A5 Panzeraufklärungs Kompanie HQ TG128z
+Tank Formation, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	20"/50cm 	32"/80cm 	32"/80cm 	2+
+
+    1x Leopard 2A5 (17/dynamic: 11 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 22
+SIDE 13
+TOP 2
+Marder 2 Späh Trupp TG129
+Tank Unit, Chobham Armour, Scout, Spearhead, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+    2x Marder 2 Scout (35mm) (3 points)
+
+    Replace any Marder 2 Scout (35mm) with Marder 2 Scout (50mm) for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+35mm Rh 503 gun 	28”/70cm 	3 	3 	11 	4+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+50mm Rh 503 gun 	36”/90cm 	3 	3 	13 	4+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 6
+SIDE 4
+TOP 1
+Fallschirmjäger Kompanie HQ TG131
+Infantry Formation
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 rifle team (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Fallschirmjäger Zug TG132
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (5 points)
+
+    Add 2x UH-1 Huey (TG135) for +2 points.
+    Replace all UH-1 Huey with one CH-53 Sea Stallion transport helicopter (TG135a).
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+Door MG3 MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Gebirgsjäger Kompanie HQ TG136
+Infantry Formation, Mountaineers
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 rifle team (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Gebirgsjäger Zug TG137
+Infantry Unit, Mountaineers, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank
+    1x Milan missile team (5 points)
+    7x MG3 & G3 team with Panzerfaust 44 anti-tank
+    2x Milan missile team (9 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Heimatschutzbrigade Jäger Kompanie HQ TG141
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x G3 rifle team (1 points)
+
+    Add 1x M113 (TG143) for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+Infantry 3+
+Heimatschutzbrigade Jäger Zug TG142
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (4 points)
+    7x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (5 points)
+
+    Add 3x M113 (TG143) for +1 point.
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+Infantry 3+
+M48 Panzer Kompanie HQ TG147
+Tank Formation, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	2+
+
+    1x M48 (3 points)
+    2x M48 (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 3+
+FRONT 13
+SIDE 8
+TOP 2
+Leopard 2A5 Panzer Kompanie HQ TG201
+Tank Formation, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	32"/80cm 	32"/80cm 	2+
+
+    1x Leopard 2A5 (17/dynamic: 11 points)
+    2x Leopard 2A5 (34/dynamic: 22 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 2+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 22
+SIDE 13
+TOP 2
+Leopard 2A5 Panzer Zug TG202
+Tank Unit, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	32"/80cm 	32"/80cm 	2+
+
+    2x Leopard 2A5 (34/dynamic: 22 points)
+    3x Leopard 2A5 (51/dynamic: 33 points)
+    4x Leopard 2A5 (68/dynamic: 44 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+120mm L/44 gun 	40”/100CM 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 22
+SIDE 13
+TOP 2
+M48 Panzer Zug TG148
+Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	2+
+
+    4x M48 (12 points)
+    3x M48 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG (ROF1) 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+FRONT 13
+SIDE 8
+TOP 2
+Marder 2 Panzergrenadier Kompanie HQ TG204
+Infantry Formation, HQ Transport, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x G3 rifle team
+    1x Marder 2 (35mm) (TG206) (2 points)
+    1x G3 rifle team
+    1x MG3 team with Panzerfaust 44 anti-tank
+    2x Marder 2 (35mm) (TG206) (5 points)
+
+    Replace all Marder 2 (35mm) with Marder 2 (50mm) (TG206) for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+G3 rifle team 	16”/40cm 	1 	1 	2 	6 	
+35mm Rh 503 gun 	28”/70cm 	3 	3 	11 	4+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+50mm Rh 503 gun 	36”/90cm 	3 	3 	13 	4+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 3+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Marder 2 Transport TG206
+Tank Attachment, Chobham Armour, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+35mm Rh 503 gun 	28”/70cm 	3 	3 	11 	4+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 6
+SIDE 4
+TOP 1
+Marder 2 Panzergrenadier Zug TG205
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    3x MG3 team with Panzerfaust 44 anti-tank
+    2x Milan missile team
+    3x Marder 2 (35mm) (TG206) (10 points)
+    2x MG3 team with Panzerfaust 44 anti-tank
+    1x Milan missile team
+    2x Marder 2 (35mm) (TG206) (6 points)
+
+    Add a Carl Gustav anti-tank team for +1 point.
+    Replace all Marder 2 (35mm) with Marder 2 (50mm) (TG206) for +1 point.
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+35mm Rh 503 gun 	28”/70cm 	3 	3 	11 	4+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Carl Gustav anti-tank team 	16”/40cm 	1 	1 	17 	3+ 	HEAT, Slow Firing
+50mm Rh 503 gun 	36”/90cm 	3 	3 	13 	4+ 	Advanced Stabiliser, Laser Rangefinder
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Marder 2 Transport TG206
+Tank Attachment, Chobham Armour, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+35mm Rh 503 gun 	28”/70cm 	3 	3 	11 	4+ 	Advanced Stabiliser, Laser Rangefinder
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 6
+SIDE 4
+TOP 1
+Lars Raketenwerfer Batterie TG120
+Unarmoured Tank Unit, Minelets
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	14"/35cm 	36"/90cm 	5+
+
+    2x LARS (3 points)
+    4x LARS (6 points)
+
+    Arm all LARS with Minelets for +1 point for the batterie.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+110mm LARS rocket 	80”/200cm 	SALVO 	SALVO 	3 	4+ 	Smoke Bombardment
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Rally 4+
+SKILL 3+
+Assault -
+Counterattack -
+IS HIT ON 4+
+Tank 5+
+M109G Panzerartillerie Batterie TG108a
+Tank Unit, Bomblets
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    5x M109G (12 points)
+    6x M109G (14 points)
+    3x M109G (7 points)
+    4x M109G (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+M126 155mm howitzer 	88”/220cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Smoke Bombardment
+M126 155mm howitzer or Direct fire 	24”/60cm 	1 	1 	12 	1+ 	Brutal, Slow Firing, Smoke
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 1
+227mm Mars Raketenwerfer Batterie TG209
+Tank Unit, Minelets, Mlrs
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	2+
+
+    4x 227mm MARS (12 points)
+    2x 227mm MARS (6 points)
+    3x 227mm MARS (9 points)
+
+    Arm all 227mm MARS with Minelets for +1 point for the Batterie.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+227mm MARS rocket 	120”/300cm 	SALVO 	SALVO 	3 	5+ 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault -
+Counterattack -
+IS HIT ON 4+
+FRONT 0
+SIDE 0
+TOP 1
+M113 OP TG121a
+Independent Tank Unit, Infra-Red (IR), Observer, Scout
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    1x M113 OP (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Heimatschutzbrigade Kanonenjagdpanzer Zug TG146
+Tank Unit, Forward Defence
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	18"/45cm 	28"/70cm 	32"/80cm 	3+
+
+    3x Kanonenjagdpanzer (4 points)
+    4x Kanonenjagdpanzer (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+90mm L/40 gun 	32”/80cm 	2 	1 	16 	2+ 	Forward Firing, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 5+
+SKILL 4+
+Assault 5+
+Counterattack 5+
+IS HIT ON 3+
+FRONT 6
+SIDE 3
+TOP 1
+Roland Flarakpanzer Batterie TG122
+Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+    2x Roland 2 (3/dynamic: 4 points)
+    4x Roland 2 (6/dynamic: 8 points)
+    6x Roland 2 (9/dynamic: 12 points)
+
+    Add a Fliegerfaust Gruppe (TG116a) with 2x Redeye team
+    Add a Fliegerfaust Gruppe (TG116a) with 3x Redeye team
+    Add a Fliegerfaust Gruppe (TG116a) with 4x Redeye team
+    Add a Fliegerfaust Gruppe (TG116a) with 6x Redeye team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Roland 2 AA missile 	56”/140cm 	3 	- 	- 	4+ 	Guided AA
+Redeye team 	48”/120cm 	3 	- 	- 	5+ 	Guided AA, Heavy Weapon
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault -
+Counterattack -
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 1
+Pah Anti-Tank Helicopter Flight TG123
+Helicopter Aircraft Unit, Hunter-Killer
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x PAH (HOT) (16/dynamic: 14 points)
+    4x PAH (HOT 2) (18/dynamic: 16 points)
+    2x PAH (HOT) (8/dynamic: 7 points)
+    2x PAH (HOT 2) (9/dynamic: 8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+HOT missile 	8”/20cm - 48”/120cm 	1 	- 	23 	3+ 	Guided, HEAT
+HOT 2 missile 	8”/20cm - 48”/120cm 	1 	- 	24 	3+ 	
+	
+COURAGE 4+
+Morale 3+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Tornado Strike Flight TG124
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    2x Tornado (4 points)
+    4x Tornado (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Mauser BK-27 auto-cannon 	8”/20cm 	- 	3 	7 	5+ 	Anti-helicopter
+MW-1 submunition dispenser with KB44 bomblet 	6"/15cm 	SALVO 	SALVO 	8 	3+ 	
+	
+COURAGE 4+
+Morale 3+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Marder Panzergrenadier Zug TG105a
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    2x Marder (TG115a) (4 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    2x Milan missile team
+    3x Marder (TG115a) (7 points)
+
+    Add a Carl Gustav anti-tank team for +1 point.
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+Carl Gustav anti-tank team 	16”/40cm 	1 	1 	17 	3+ 	HEAT, Slow Firing
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Marder Transport TG115a
+Tank Attachment, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	20"/50cm 	28"/70cm 	36"/90cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm Rh 202 gun 	20”/50cm 	3 	2 	7 	5+ 	Anti-helicopter
+7.62mm MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 1
+M113 Panzergrenadier Zug TG119
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    2x Milan missile team
+    2x M113 (TG126) (4 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    3x Milan missile team
+    3x M113 (TG126) (7 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+M113 Transport TG126
+Tank Attachment, Amphibious, Passengers 3
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Fuchs Panzeraufklärungs Zug TG113
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    2x Fuchs (TG114a) (3 points)
+    3x MG3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team
+    3x Fuchs (TG114a) (4 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 team 	16”/40cm 	3 	2 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Fuchs Transport TG114a
+Tank Attachment, Amphibious, Milan Mount, Passengers 2, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	44"/110cm 	4+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan missile 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 3+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 0
+Fallschirmjäger Zug TG132
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (5 points)
+
+    Add 2x UH-1 Huey (TG135) for +2 points.
+    Replace all UH-1 Huey with one CH-53 Sea Stallion transport helicopter (TG135a).
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+Door MG3 MGs 	16”/40cm 	4 	4 	2 	6 	Door Guns
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Heimatschutzbrigade Jäger Zug TG142
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (4 points)
+    7x MG3 & G3 team with Panzerfaust 44 anti-tank rocket
+    1x Milan missile team (5 points)
+
+    Add 3x M113 (TG143) for +1 point.
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 4+
+SKILL 4+
+Assault 4+
+Counterattack 4+
+IS HIT ON 3+
+Infantry 3+
+Gebirgsjäger Zug TG137
+Infantry Unit, Mountaineers, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    5x MG3 & G3 team with Panzerfaust 44 anti-tank
+    1x Milan missile team (5 points)
+    7x MG3 & G3 team with Panzerfaust 44 anti-tank
+    2x Milan missile team (9 points)
+
+    Replace the Milan missile teams with Milan 2 missile teams for +1 point per team
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MG3 & G3 team 	16”/40cm 	2 	1 	2 	5+ 	
+Panzerfaust 44 anti-tank 	12”/30cm 	1 	1 	15 	5+ 	HEAT, Slow Firing
+Milan Missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	21 	3+ 	Assault 5, Assault 5+, Guided, HEAT
+Milan 2 missile team (A5) 	8”/20cm - 36”/90cm 	1 	- 	24 	3+ 	Assault 5+, Guided, HEAT, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+

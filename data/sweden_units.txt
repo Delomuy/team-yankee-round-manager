@@ -1,0 +1,432 @@
+Strv 103 S-Tank Tank Company HQ TSV101
+Tank Formation, Ambush Tank, Amphibious, Slat Armour
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	4+
+
+    2x Strv 103 S-Tank (10/dynamic: 9 points)
+    3x Strv 103 S-Tank (15/dynamic: 14 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L74 gun 	48"/120cm 	2 	1 	21 	2+ 	Brutal, Forward Firing, Laser Rangefinder, Overworked, Smoke
+7.62mm AA Mgs 	16”/40cm 	4 	4 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 12
+SIDE 5
+TOP 2
+Strv 103 S-Tank Tank Platoon TSV102
+Tank Unit, Ambush Tank, Amphibious, Slat Armour
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	4+
+
+    3x Strv 103 S-Tank (15/dynamic: 14 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L74 gun 	48"/120cm 	2 	1 	21 	2+ 	Brutal, Forward Firing, Laser Rangefinder, Overworked, Smoke
+7.62mm AA Mgs 	16”/40cm 	4 	4 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 12
+SIDE 5
+TOP 2
+Pbv 302 Armoured Rifle Company HQ TSV103
+Infantry Formation
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    1x AK 4 rifle team
+    1x Pbv 302 (TSV105) (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+AK 4 rifle team 	16"/40cm 	1 	1 	2 	6 	
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Pbv 302 Transport TSV105
+Tank Attachment, Amphibious, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Pbv 302 Armoured Rifle Platoon TSV104
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    2x Ksp-58 MG team with P-skott m/68 anti-tank
+    2x Grg m/48 anti-tank team
+    2x Pbv 302 (TSV105) (4 points)
+    3x Ksp-58 MG team with P-skott m/68 anti-tank
+    3x Grg m/48 anti-tank team
+    3x Pbv 302 (TSV105) (7 points)
+
+    Replace all P-skott m/68 anti-tank weapons with P-skott m/86 anti-tank weapons for +1 point for the Unit.
+    Replace one Grg m/48 anti-tank team with RBS-56 BILL missile team for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Ksp-58 MG team 	16"/40cm 	3 	2 	2 	6 	
+P-skott m/68 anti-tank 	12”/30cm 	1 	1 	13 	5+ 	HEAT, Slow Firing
+Grg m/48 anti-tank team 	16"/40cm 	1 	1 	17 	3+ 	HEAT, Slow Firing
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+P-skott m/86 anti-tank 	16"/40cm 	1 	1 	17 	5+ 	HEAT, Slow Firing
+RBS-56 BILL missile team 	8"/20cm - 40"/100cm 	1 	- 	22 	3+ 	Assault +1, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 4+
+Rally 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Pbv 302 Transport TSV105
+Tank Attachment, Amphibious, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Strv 104 Centurion Tank Company HQ TSV107
+Tank Formation, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	18"/45cm 	18"/45cm 	2+
+
+    2x Strv 104 Centurion (6 points)
+    3x Strv 104 Centurion (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 2+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 14
+SIDE 6
+TOP 2
+Strv 104 Centurion Tank Platoon TSV108
+Tank Unit, ERA, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	18"/45cm 	18"/45cm 	2+
+
+    3x Strv 104 Centurion (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+105mm L7 gun 	40”/100cm 	2 	2 	19 	2+ 	Laser Rangefinder, Smoke, Stabiliser
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 14
+SIDE 6
+TOP 2
+Bandkanon 1 Armoured Howitzer Battery TSV112
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	14"/35cm 	16"/40cm 	3+
+
+    3x Bandkanon 1 (9 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+15.5cm Kanon M/60 	104"/260cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Autoloader, Forward Firing, Smoke Bombardment
+15.5cm Kanon M/60 Direct fire 	32”/80cm 	1 	1 	18 	1+ 	Brutal, Forward Firing, Slow Firing, Smoke
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 2
+SIDE 1
+TOP 1
+Epbv 3022 Forward Observer TSV113
+Independent Tank Unit, Amphibious, Observer, Scout, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    1x Epbv 3022 OP (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+
+Lvrbv 701 Anti-Aircraft Missile Platoon TSV111
+Tank Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	18"/45cm 	24"/60cm 	3+
+
+    3x Lvrbv 701 (4/dynamic: 5 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+RBS 70 AA missile 	56"/140cm 	2 	- 	- 	4+ 	Guided AA
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 0
+Hkp 9 Helicopter Platoon TSV117
+Helicopter Unit, Hunter-Killer, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x HKP 9 (12/dynamic: 11 points)
+    2x HKP 9 (6/dynamic: 6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Improved TOW missile 	8"/20cm - 48"/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 4+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Viggen Attack Group TSV118
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x Viggen (16 points)
+    2x Viggen (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+135mm rocket launcher 	16"/40cm 	SALVO 	SALVO 	5 	3+ 	One Shot
+30mm cannon 	8"/20cm 	- 	2 	7 	5+ 	Anti-helicopter
+Maverick missile 	8"/20cm - 36"/90cm 	- 	1 	27 	2+ 	Brutal, Guided, HEAT
+	
+COURAGE 4+
+Morale 4+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Ikv 91 Tracked Anti-Tank Platoon TSV106
+Tank Unit, Amphibious, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    3x Ikv 91 (5 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+9cm gun 	36"/90cm 	2 	1 	17 	3+ 	HEAT, Laser Rangefinder
+Additional 7.62mm MG 	16”/40cm 	1 	1 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 1
+Pbv 302 Armoured Recon Platoon TSV114
+Tank Unit, Amphibious, Infra-Red (IR), Scout, Spearhead
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    2x Pbv 302 Scout (2 points)
+    3x Pbv 302 Scout (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Pvrbv 551 Anti-Tank Missile Platoon TSV110
+Tank Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	18"/45cm 	24"/60cm 	3+
+
+    3x Pvrbv 551 (3 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+Improved TOW missile 	8"/20cm - 48"/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 1
+TOP 0
+Pvpjtgb Rbs Anti-Tank Missile Platoon TSV116
+Unarmoured Tank Unit, Scout, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	48"/120cm 	4+
+
+    2x Pvpjtgb RBS-55 (3 points)
+    2x Pvpjtgb RBS-56 (3 points)
+    3x Pvpjtgb RBS-55 (4 points)
+    3x Pvpjtgb RBS-56 (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+RBS-55 (iTOW) missile 	8"/20cm - 48"/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+RBS-56 BILL missile team 	8"/20cm - 40"/100cm 	1 	- 	22 	3+ 	Assault +1, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 4+
+Rally 4+
+SKILL 3+
+IS HIT ON 4+
+Tank Save 4+
+Viggen Attack Group TSV118
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	AUTO
+
+    4x Viggen (16 points)
+    2x Viggen (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+135mm rocket launcher 	16"/40cm 	SALVO 	SALVO 	5 	3+ 	One Shot
+30mm cannon 	8"/20cm 	- 	2 	7 	5+ 	Anti-helicopter
+Maverick missile 	8"/20cm - 36"/90cm 	- 	1 	27 	2+ 	Brutal, Guided, HEAT
+	
+COURAGE 4+
+Morale 4+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Pbv 302 Armoured Rifle Platoon TSV104
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	AUTO
+
+    2x Ksp-58 MG team with P-skott m/68 anti-tank
+    2x Grg m/48 anti-tank team
+    2x Pbv 302 (TSV105) (4 points)
+    3x Ksp-58 MG team with P-skott m/68 anti-tank
+    3x Grg m/48 anti-tank team
+    3x Pbv 302 (TSV105) (7 points)
+
+    Replace all P-skott m/68 anti-tank weapons with P-skott m/86 anti-tank weapons for +1 point for the Unit.
+    Replace one Grg m/48 anti-tank team with RBS-56 BILL missile team for +1 point.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Ksp-58 MG team 	16"/40cm 	3 	2 	2 	6 	
+P-skott m/68 anti-tank 	12”/30cm 	1 	1 	13 	5+ 	HEAT, Slow Firing
+Grg m/48 anti-tank team 	16"/40cm 	1 	1 	17 	3+ 	HEAT, Slow Firing
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+P-skott m/86 anti-tank 	16"/40cm 	1 	1 	17 	5+ 	HEAT, Slow Firing
+RBS-56 BILL missile team 	8"/20cm - 40"/100cm 	1 	- 	22 	3+ 	Assault +1, Guided, HEAT, Thermal Imaging
+	
+COURAGE 4+
+Morale 4+
+Rally 4+
+SKILL 3+
+Assault 4+
+Counterattack 4+
+IS HIT ON 4+
+Infantry 3+
+Pbv 302 Transport TSV105
+Tank Attachment, Amphibious, Passengers 2
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+20mm m/47 autocannon 	20”/50cm 	3 	2 	6 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 4+
+Morale 4+
+Remount 4+
+SKILL 3+
+Assault 5+
+Counterattack 5+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1

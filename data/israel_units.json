@@ -1,0 +1,2029 @@
+{
+  "units": [
+    {
+      "id": "TIS101",
+      "name": "Mekava 1 Tank Company HQ",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 2,
+      "morale": 2,
+      "remount": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Mekava 1",
+          "models": 2,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mekava 1"
+            }
+          ]
+        },
+        {
+          "label": "1x Mekava 1",
+          "models": 1,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Mekava 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS102",
+      "name": "Mekava 1 Tank Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 6,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Mekava 1",
+          "models": 2,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mekava 1"
+            }
+          ]
+        },
+        {
+          "label": "3x Mekava 1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Mekava 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS103",
+      "name": "Mekava 2 Tank Company HQ",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 2,
+      "morale": 2,
+      "remount": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 7,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Mekava 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mekava 2"
+            }
+          ]
+        },
+        {
+          "label": "1x Mekava 2",
+          "models": 1,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Mekava 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS104",
+      "name": "Mekava 2 Tank Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 7,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Mekava 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mekava 2"
+            }
+          ]
+        },
+        {
+          "label": "3x Mekava 2",
+          "models": 3,
+          "transport_models": 0,
+          "points": 21,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Mekava 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS105",
+      "name": "Magach 6 Tank Company HQ",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 2,
+      "morale": 2,
+      "remount": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "armour_front": 15,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Magach 6",
+          "models": 1,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Magach 6"
+            }
+          ]
+        },
+        {
+          "label": "2x Magach 6",
+          "models": 2,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Magach 6"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS106",
+      "name": "Magach 6 Tank Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 15,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x Magach 6",
+          "models": 3,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Magach 6"
+            }
+          ]
+        },
+        {
+          "label": "2x Magach 6",
+          "models": 2,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Magach 6"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS111",
+      "name": "M113 Mech Infantry Company HQ",
+      "nation": "Israeli",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x Galil assault rifle team + 1x M113",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Galil assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "M113",
+              "unit_id": "TIS114"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TIS114",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TIS114"
+      ],
+      "weapons": [
+        {
+          "name": "Galil assault rifle team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS112",
+      "name": "M113 Mech Infantry Platoon",
+      "nation": "Israeli",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "4x Galil assault rifle team wirh M72 LAW anti-tank + 3x FN MAG team with M72 LAW anti-tank + 3x RPG-7 anti-tank team + 1x M47 Dragon missile team + 1x 52mm mortar team + 4x M113",
+          "models": 12,
+          "transport_models": 4,
+          "points": 11,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Galil assault rifle team wirh M72 LAW anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "FN MAG team with M72 LAW anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 1,
+              "name": "52mm mortar team"
+            },
+            {
+              "count": 4,
+              "name": "M113",
+              "unit_id": "TIS114"
+            }
+          ]
+        },
+        {
+          "label": "3x Galil assault rifle team wirh M72 LAW anti-tank + 2x FN MAG team with M72 LAW anti-tank + 2x RPG-7 anti-tank team + 1x M47 Dragon missile team + 1x 52mm mortar team + 3x M113",
+          "models": 9,
+          "transport_models": 3,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Galil assault rifle team wirh M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "FN MAG team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 1,
+              "name": "52mm mortar team"
+            },
+            {
+              "count": 3,
+              "name": "M113",
+              "unit_id": "TIS114"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TIS114",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TIS114"
+      ],
+      "weapons": [
+        {
+          "name": "Galil assault rifle team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "FN MAG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "52mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon",
+            "Overhead Fire",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS114",
+      "name": "M113 Transport",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Dragon Mount",
+        "Passengers 3",
+        "Thermal Imaging"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS201",
+      "name": "Mekava 3 Tank Company HQ",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 2,
+      "morale": 2,
+      "remount": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 4,
+      "armour_front": 23,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Merkava 3",
+          "models": 1,
+          "transport_models": 0,
+          "points": 17,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Merkava 3"
+            }
+          ]
+        },
+        {
+          "label": "2x Merkava 3",
+          "models": 2,
+          "transport_models": 0,
+          "points": 34,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Merkava 3"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA Mgs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "IMI 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS202",
+      "name": "Mekava 3 Tank Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 23,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Merkava 3",
+          "models": 2,
+          "transport_models": 0,
+          "points": 34,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Merkava 3"
+            }
+          ]
+        },
+        {
+          "label": "3x Merkava 3",
+          "models": 3,
+          "transport_models": 0,
+          "points": 51,
+          "points_dynamic": 33,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Merkava 3"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA Mgs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "IMI 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS120",
+      "name": "M106 120mm Mortar Battery",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x M106 (120mm)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M106 (120mm)"
+            }
+          ]
+        },
+        {
+          "label": "3x M106 (120mm)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M106 (120mm)"
+            }
+          ]
+        },
+        {
+          "label": "4x M106 (120mm)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M106 (120mm)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "120mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 160,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 3,
+          "firepower": 3,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS121",
+      "name": "M109 SP Artillery Battery",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x M109 (155mm)",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M109 (155mm)"
+            }
+          ]
+        },
+        {
+          "label": "3x M109 (155mm)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M109 (155mm)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M185 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M185 155mm howitzer or Direct Fire",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS129",
+      "name": "M113 OP Artillery Observer",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Observer",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M113 OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS122",
+      "name": "Pereh Anti-Tank Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 5,
+      "armour_side": 4,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Pereh",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Pereh"
+            }
+          ]
+        },
+        {
+          "label": "3x Pereh",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Pereh"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA Mgs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Tamuz missile",
+          "range_cm_min": 40,
+          "range_cm": 160,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "NLOS"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS118",
+      "name": "Jeep (TOW) Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 4,
+      "options": [
+        {
+          "label": "2x Jeep (TOW)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Jeep (TOW)"
+            }
+          ]
+        },
+        {
+          "label": "4x Jeep (TOW)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Jeep (TOW)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS123",
+      "name": "M163 VADS AA Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x M163 VADS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M163 VADS"
+            }
+          ]
+        },
+        {
+          "label": "4x M163 VADS",
+          "models": 4,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M163 VADS"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M168 20mm Vulcan Gatling AA gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS124",
+      "name": "ZSU-23-4 Shilka AA Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x ZSU-23-4 Shilka",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "ZSU-23-4 Shilka"
+            }
+          ]
+        },
+        {
+          "label": "4x ZSU-23-4 Shilka",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "ZSU-23-4 Shilka"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "23mm 2A7 AA gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 6,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS125",
+      "name": "M48 Chaparral SAM Platoon",
+      "nation": "Israeli",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x M48 Chaparral",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M48 Chaparral"
+            }
+          ]
+        },
+        {
+          "label": "4x M48 Chaparral",
+          "models": 4,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M48 Chaparral"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "MIM-72 Sidewinder AA Missile",
+          "range_cm_min": 0,
+          "range_cm": 180,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 3,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS127",
+      "name": "AH-1 Viper Attack Helicopter Platoon",
+      "nation": "Israeli",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer",
+        "Thermal Imaging"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x AH-1 Viper",
+          "models": 4,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AH-1 Viper"
+            }
+          ]
+        },
+        {
+          "label": "2x AH-1 Viper",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AH-1 Viper"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "M159 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "M197 20mm Vulcan Gatling gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 6,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS126",
+      "name": "Redeye SAM Platoon",
+      "nation": "Israeli",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x Redeye team",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Redeye team"
+            }
+          ]
+        },
+        {
+          "label": "4x Redeye team",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Redeye team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Redeye team",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 5,
+          "rules": [
+            "Guided AA",
+            "Heavy Weapon"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TIS128",
+      "name": "Skyhawk Fighter Flight",
+      "nation": "Israeli",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x Skyhawk",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Skyhawk"
+            }
+          ]
+        },
+        {
+          "label": "4x Skyhawk",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Skyhawk"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all Skyhawk with Napalm bombs for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm DEFA gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "CBU-100 cluster bomb",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Napalm Bombs",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 1,
+          "firepower": -1,
+          "rules": [
+            "Napalm",
+            "One Shot"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

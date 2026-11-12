@@ -1,0 +1,4 @@
+{
+ "note": "Your own rule descriptions, for special rules that are not in the Special Rules PDF (for example the artillery ammunition rules Bomblets, Minelets, Krasnopol Projectile, Laser Guided Projectiles, or Landing Company). Same format as special_rules.json: add objects to the \"rules\" list. \"name\" is the rule as written on the card, \"text\" is the description. \"nation\" (e.g. \"Soviet\") and \"flavor\" are optional; leave \"nation\" empty for a rule everyone uses. Entries here are listed before the PDF text for the same rule.",
+ "rules": []
+}

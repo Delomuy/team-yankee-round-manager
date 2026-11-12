@@ -1,0 +1,534 @@
+Mekava 1 Tank Company HQ TIS101
+Tank Formation, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x Mekava 1 (12 points)
+    1x Mekava 1 (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 2+
+Morale 2+
+Remount 2+
+SKILL 2+
+Assault 4+
+Counterattack 2+
+IS HIT ON 4+
+FRONT 18
+SIDE 6
+TOP 2
+Mekava 1 Tank Platoon TIS102
+Tank Unit, Bazooka Skirts, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x Mekava 1 (12 points)
+    3x Mekava 1 (18 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 3+
+Morale 3+
+Remount 2+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 18
+SIDE 6
+TOP 2
+Mekava 2 Tank Company HQ TIS103
+Tank Formation, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x Mekava 2 (14 points)
+    1x Mekava 2 (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 2+
+Morale 2+
+Remount 2+
+SKILL 2+
+Assault 4+
+Counterattack 2+
+IS HIT ON 4+
+FRONT 19
+SIDE 7
+TOP 2
+Mekava 2 Tank Platoon TIS104
+Tank Unit, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x Mekava 2 (14 points)
+    3x Mekava 2 (21 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 3+
+Morale 3+
+Remount 2+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 19
+SIDE 7
+TOP 2
+Magach 6 Tank Company HQ TIS105
+Tank Formation, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	2+
+
+    1x Magach 6 (4 points)
+    2x Magach 6 (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 2+
+Morale 2+
+Remount 2+
+SKILL 2+
+Assault 4+
+Counterattack 2+
+IS HIT ON 4+
+FRONT 15
+SIDE 8
+TOP 2
+Magach 6 Tank Platoon TIS106
+Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	2+
+
+    3x Magach 6 (11 points)
+    2x Magach 6 (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+M68 105mm gun 	40"/100cm 	2 	2 	20 	2+ 	Advanced Stabiliser, Laser Rangefinder
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 15
+SIDE 8
+TOP 2
+M113 Mech Infantry Company HQ TIS111
+Infantry Formation, HQ Transport
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    1x Galil assault rifle team
+    1x M113 (TIS114) (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Galil assault rifle team 	8”/20cm 	3 	3 	2 	5+ 	Pinned ROF 1
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 2+
+Morale 2+
+Rally 2+
+SKILL 2+
+Assault 4+
+Counterattack 2+
+IS HIT ON 4+
+Infantry 3+
+M113 Transport TIS114
+Tank Attachment, Amphibious, Dragon Mount, Passengers 3, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+M113 Mech Infantry Platoon TIS112
+Infantry Unit, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    4x Galil assault rifle team wirh M72 LAW anti-tank
+    3x FN MAG team with M72 LAW anti-tank
+    3x RPG-7 anti-tank team
+    1x M47 Dragon missile team
+    1x 52mm mortar team
+    4x M113 (TIS114) (11 points)
+    3x Galil assault rifle team wirh M72 LAW anti-tank
+    2x FN MAG team with M72 LAW anti-tank
+    2x RPG-7 anti-tank team
+    1x M47 Dragon missile team
+    1x 52mm mortar team
+    3x M113 (TIS114) (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Galil assault rifle team 	8”/20cm 	3 	3 	2 	5+ 	Pinned ROF 1
+M72 LAW anti-tank 	12”/30cm 	1 	1 	12 	5+ 	HEAT, Slow Firing
+FN MAG team 	16”/40cm 	5 	2 	2 	6 	Assault +1, Heavy Weapon
+RPG-7 anti-tank team 	12”/30cm 	1 	1 	17 	4+ 	Assault +1, HEAT, Slow Firing
+M47 Dragon missile 	8"/20cm - 28"/70cm 	1 	- 	18 	3+ 	Assault +1, Guided, HEAT
+52mm mortar 	16"/40cm 	1 	1 	2 	4 	Assault +1, Heavy Weapon, Overhead Fire, Slow Firing, Smoke
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+M113 Transport TIS114
+Tank Attachment, Amphibious, Dragon Mount, Passengers 3, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Mekava 3 Tank Company HQ TIS201
+Tank Formation, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    1x Merkava 3 (17/dynamic: 11 points)
+    2x Merkava 3 (34/dynamic: 22 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA Mgs 	16”/40cm 	4 	4 	2 	6 	
+IMI 120mm gun 	40"/100cm 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder, Smoke
+	
+COURAGE 2+
+Morale 2+
+Remount 2+
+SKILL 2+
+Assault 4+
+Counterattack 2+
+IS HIT ON 4+
+FRONT 23
+SIDE 10
+TOP 2
+Mekava 3 Tank Platoon TIS202
+Tank Unit, Chobham Armour, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+14"/35cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    2x Merkava 3 (34/dynamic: 22 points)
+    3x Merkava 3 (51/dynamic: 33 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal MG 	20”/50cm 	3 	2 	4 	5+ 	Anti-helicopter
+7.62mm AA Mgs 	16”/40cm 	4 	4 	2 	6 	
+IMI 120mm gun 	40"/100cm 	2 	2 	22 	2+ 	Advanced Stabiliser, Laser Rangefinder, Smoke
+	
+COURAGE 3+
+Morale 3+
+Remount 2+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 23
+SIDE 10
+TOP 2
+M109 SP Artillery Battery TIS121
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    6x M109 (155mm) (14 points)
+    3x M109 (155mm) (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+M185 155mm howitzer 	96"/240cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Smoke Bombardment
+M185 155mm howitzer or Direct Fire 	36"/90cm 	1 	1 	15 	1+ 	Brutal, Slow Firing, Smoke
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 1
+M106 120mm Mortar Battery TIS120
+Tank Unit, Amphibious
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    2x M106 (120mm) (2 points)
+    3x M106 (120mm) (3 points)
+    4x M106 (120mm) (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+120mm mortar 	64"/160cm 	ARTILLERY 	ARTILLERY 	3 	3+ 	Smoke Bombardment
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 0
+M109 SP Artillery Battery TIS121
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	28"/70cm 	3+
+
+    6x M109 (155mm) (14 points)
+    3x M109 (155mm) (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+.50 cal AA MG 	20”/50cm 	3 	2 	4 	5+ 	
+M185 155mm howitzer 	96"/240cm 	ARTILLERY 	ARTILLERY 	4 	2+ 	Smoke Bombardment
+M185 155mm howitzer or Direct Fire 	36"/90cm 	1 	1 	15 	1+ 	Brutal, Slow Firing, Smoke
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 2
+SIDE 2
+TOP 1
+M113 OP Artillery Observer TIS129
+Independent Tank Unit, Amphibious, Infra-Red (IR), Observer, Scout
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    1x M113 OP (1 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA MG 	16”/40cm 	3 	3 	2 	6 	
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 1
+Pereh Anti-Tank Platoon TIS122
+Tank Unit, BDD Armour, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	2+
+
+    2x Pereh (5 points)
+    3x Pereh (7 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+7.62mm AA Mgs 	16”/40cm 	4 	4 	2 	6 	
+Tamuz missile 	16"/40cm - 64"/160cm 	1 	- 	21 	3+ 	HEAT, NLOS
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+FRONT 5
+SIDE 4
+TOP 1
+Jeep (TOW) Platoon TIS118
+Unarmoured Tank Unit, Scout, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	12"/30cm 	20"/50cm 	48"/120cm 	4+
+
+    2x Jeep (TOW) (3 points)
+    4x Jeep (TOW) (6 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Improved TOW missile 	8"/20cm - 48"/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+IS HIT ON 4+
+Vehicle 4+
+M163 VADS AA Platoon TIS123
+Tank Unit, Amphibious
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	16"/40cm 	24"/60cm 	32"/80cm 	3+
+
+    2x M163 VADS (4/dynamic: 5 points)
+    4x M163 VADS (7/dynamic: 10 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+M168 20mm Vulcan Gatling AA gun 	20”/50cm 	7 	4 	6 	5+ 	Dedicated AA, Radar
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 3+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 3
+SIDE 2
+TOP 0
+ZSU-23-4 Shilka AA Platoon TIS124
+Tank Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/60cm 	3+
+
+    2x ZSU-23-4 Shilka (3/dynamic: 4 points)
+    4x ZSU-23-4 Shilka (6/dynamic: 8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+23mm 2A7 AA gun 	20”/50cm 	6 	4 	6 	5+ 	Dedicated AA, Radar
+	
+COURAGE 3+
+Morale 3+
+Remount 3+
+SKILL 2+
+Assault 5+
+Counterattack 4+
+IS HIT ON 4+
+FRONT 1
+SIDE 1
+TOP 1
+M48 Chaparral SAM Platoon TIS125
+Unarmoured Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/70cm 	3+
+
+    2x M48 Chaparral (4/dynamic: 6 points)
+    4x M48 Chaparral (9/dynamic: 12 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MIM-72 Sidewinder AA Missile 	72”/180cm 	2 	- 	- 	3+ 	Guided AA
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+IS HIT ON 4+
+Vehicle 5+
+M48 Chaparral SAM Platoon TIS125
+Unarmoured Tank Unit, Infra-Red (IR)
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+10"/25cm 	14"/35cm 	20"/50cm 	24"/70cm 	3+
+
+    2x M48 Chaparral (4/dynamic: 6 points)
+    4x M48 Chaparral (9/dynamic: 12 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+MIM-72 Sidewinder AA Missile 	72”/180cm 	2 	- 	- 	3+ 	Guided AA
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+IS HIT ON 4+
+Vehicle 5+
+AH-1 Viper Attack Helicopter Platoon TIS127
+Helicopter Aircraft Unit, Hunter-Killer, Thermal Imaging
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	Auto
+
+    4x AH-1 Viper (16 points)
+    2x AH-1 Viper (8 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Improved TOW missile 	8"/20cm - 48"/120cm 	1 	- 	21 	3+ 	Guided, HEAT
+M159 rocket launcher 	16"/40cm 	SALVO 	SALVO 	4 	6 	One Shot
+M197 20mm Vulcan Gatling gun 	8"/20cm 	6 	3 	6 	5+ 	Anti-helicopter
+	
+COURAGE 3+
+Morale 3+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+
+Redeye SAM Platoon TIS126
+Infantry Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+8"/20cm 	8"/20cm 	12"/30cm 	12"/30cm 	Auto
+
+    2x Redeye team (2 points)
+    4x Redeye team (4 points)
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+Redeye team 	48”/120cm 	3 	- 	- 	5+ 	Guided AA, Heavy Weapon
+	
+COURAGE 3+
+Morale 3+
+Rally 3+
+SKILL 3+
+Assault 4+
+Counterattack 3+
+IS HIT ON 4+
+Infantry 3+
+Skyhawk Fighter Flight TIS128
+Strike Aircraft Unit
+TACT. 	TERR. DASH 	CROSS C. DASH 	ROAD DASH 	CROSS
+Unlimited 	Unlimited 	Unlimited 	Unlimited 	Auto
+
+    2x Skyhawk (3 points)
+    4x Skyhawk (6 points)
+
+    Arm all Skyhawk with Napalm bombs for +1 point each.
+
+weapon. 	Range 	h. ROF 	m. ROF 	AT 	FP 	Note
+30mm DEFA gun 	8"/20cm 	- 	3 	7 	5+ 	Anti-helicopter
+CBU-100 cluster bomb 	6"/15cm 	SALVO 	SALVO 	7 	5+ 	
+Napalm Bombs 	6"/15cm 	ARTILLERY 	ARTILLERY 	1 	Auto 	Napalm, One Shot
+	
+COURAGE 3+
+Morale 3+
+SKILL 3+
+IS HIT ON 4+
+Aircraft 5+

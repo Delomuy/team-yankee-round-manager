@@ -1,0 +1,2834 @@
+{
+  "_help": "Cards made, copied or changed in the program (Cards > New card / Edit / Copy). They replace the card with the same id in data/french_units.json. Remove one with 'Restore original' or 'Delete card'.",
+  "nation": "French",
+  "units": [
+    {
+      "id": "TF101",
+      "name": "Amx-30 Escadron Blindé HQ",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 4,
+      "courage": 2,
+      "morale": 4,
+      "rally": 0,
+      "remount": 4,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 11,
+      "armour_side": 4,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x AMX-30",
+          "models": 1,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AMX-30"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm F1 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "20mm M693 MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF102",
+      "name": "Amx-30 Peloton Blindé",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 11,
+      "armour_side": 4,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x AMX-30",
+          "models": 4,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AMX-30"
+            }
+          ]
+        },
+        {
+          "label": "3x AMX-30",
+          "models": 3,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "AMX-30"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm F1 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "20mm M693 MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF103a",
+      "name": "Amx-10P Compagnie De Chasseurs HQ",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 4,
+      "rally": 3,
+      "remount": 0,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "transport_id": "TF105a",
+      "transport_name": "AMX-10P",
+      "transport_ids": [
+        "TF105a"
+      ],
+      "options": [
+        {
+          "label": "1x FAMAS assault rifle team + 1x AMX-10P",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "FAMAS assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "AMX-10P",
+              "unit_id": "TF105a"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "FAMAS assault rifle team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 6,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "20mm gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF104a",
+      "name": "Amx-10P Section De Chasseurs",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "transport_id": "TF105a",
+      "transport_name": "AMX-10P",
+      "transport_ids": [
+        "TF105a"
+      ],
+      "options": [
+        {
+          "label": "3x FAMAS team with AC-58 anti-tank grenade + 2x LRAC 89mm anti-tank team + 3x AMX-10P",
+          "models": 5,
+          "transport_models": 3,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "FAMAS team with AC-58 anti-tank grenade"
+            },
+            {
+              "count": 2,
+              "name": "LRAC 89mm anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "AMX-10P",
+              "unit_id": "TF105a"
+            }
+          ]
+        },
+        {
+          "label": "5x FAMAS team with AC-58 anti-tank grenade + 2x LRAC 89mm anti-tank team + 4x AMX-10P",
+          "models": 7,
+          "transport_models": 4,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 5,
+              "name": "FAMAS team with AC-58 anti-tank grenade"
+            },
+            {
+              "count": 2,
+              "name": "LRAC 89mm anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "AMX-10P",
+              "unit_id": "TF105a"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 2x Milan missile teams (TF114) and 1x AMX-10P (TF105a) for +2 points",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "or, Add 2x Milan 2 missile teams (TF114) and 1x AMX-10P (TF105a) for +4 points",
+          "cost": 4,
+          "per_model": false
+        },
+        {
+          "text": "Replace 1x LRAC 89mm anti-tank team with APILAS anti-tank team (TF114) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace LRAC 89mm anti-tank teams with Eryx missile teams (TF114) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AC-58 anti-tank grenade",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "FAMAS team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "LRAC 89mm anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "20mm gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Eryx missile",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 4,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "No Assault",
+            "Tandem Warhead",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF105a",
+      "name": "Amx-10P Transport",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Milan Mount",
+        "Passengers 2"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "is_attachment": true,
+      "passengers": 2,
+      "options": [],
+      "weapons": [
+        {
+          "name": "20mm gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF108a",
+      "name": "VAB Mephisto Peloton Antichar",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Hammerhead",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 45,
+      "road_dash": 120,
+      "cross_skill": 5,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "4x VAB Mephisto (HOT 2)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "VAB Mephisto (HOT 2)"
+            }
+          ]
+        },
+        {
+          "label": "2x VAB Mephisto (HOT)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "VAB Mephisto (HOT)"
+            }
+          ]
+        },
+        {
+          "label": "2x VAB Mephisto (HOT 2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "VAB Mephisto (HOT 2)"
+            }
+          ]
+        },
+        {
+          "label": "4x VAB Mephisto (HOT)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "VAB Mephisto (HOT)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "HOT 2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": []
+        },
+        {
+          "name": "HOT missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF109a",
+      "name": "Vab Compagnie D’Infanterie HQ",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 4,
+      "rally": 3,
+      "remount": 0,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "transport_id": "TF111a",
+      "transport_name": "VAB",
+      "transport_ids": [
+        "TF111a"
+      ],
+      "options": [
+        {
+          "label": "1x FAMAS assault rifle team + 1x VAB",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "FAMAS assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "FAMAS assault rifle team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 6,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF110a",
+      "name": "Vab Section D’Infanterie",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "transport_id": "TF111a",
+      "transport_name": "VAB",
+      "transport_ids": [
+        "TF111a"
+      ],
+      "options": [
+        {
+          "label": "5x FAMAS team with AC-58 anti-tank grenade + 2x LRAC 89mm anti-tank team + 3x VAB",
+          "models": 7,
+          "transport_models": 3,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 5,
+              "name": "FAMAS team with AC-58 anti-tank grenade"
+            },
+            {
+              "count": 2,
+              "name": "LRAC 89mm anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "7x FAMAS team with AC-58 anti-tank grenade + 2x LRAC 89mm anti-tank team + 4x VAB",
+          "models": 9,
+          "transport_models": 4,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 7,
+              "name": "FAMAS team with AC-58 anti-tank grenade"
+            },
+            {
+              "count": 2,
+              "name": "LRAC 89mm anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x Milan missile team (TF123) for +1 point",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "or, Add 1x Milan 2 missile team (TF123) for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Replace 1x LRAC 89mm anti-tank team with an APILAS anti-tank team (TF123) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace LRAC 89mm anti-tank teams with Eryx missile teams (TF123) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Replace up to 2x VAB with VAB T20 transports (TF131) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AC-58 anti-tank grenade",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "FAMAS team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "LRAC 89mm anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Eryx missile",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 4,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "No Assault",
+            "Tandem Warhead",
+            "Thermal Imaging"
+          ]
+        },
+        {
+          "name": "20mm M693 MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF111a",
+      "name": "VAB Transport",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Milan Mount",
+        "Passengers 3"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 45,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "is_attachment": true,
+      "passengers": 3,
+      "options": [],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF112a",
+      "name": "Milan Section Antichar",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "transport_id": "TF111a",
+      "transport_name": "VAB",
+      "transport_ids": [
+        "TF111a"
+      ],
+      "options": [
+        {
+          "label": "6x Milan 2 missile team + 3x VAB",
+          "models": 6,
+          "transport_models": 3,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Milan 2 missile team"
+            },
+            {
+              "count": 3,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "8x Milan missile team + 4x VAB",
+          "models": 8,
+          "transport_models": 4,
+          "points": 11,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 8,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 4,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "8x Milan 2 missile team + 4x VAB",
+          "models": 8,
+          "transport_models": 4,
+          "points": 13,
+          "points_dynamic": 13,
+          "composition": [
+            {
+              "count": 8,
+              "name": "Milan 2 missile team"
+            },
+            {
+              "count": 4,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "4x Milan missile team + 2x VAB",
+          "models": 4,
+          "transport_models": 2,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 2,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "4x Milan 2 missile team + 2x VAB",
+          "models": 4,
+          "transport_models": 2,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Milan 2 missile team"
+            },
+            {
+              "count": 2,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "6x Milan missile team + 3x VAB",
+          "models": 6,
+          "transport_models": 3,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 3,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Milan Missile team",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF113a",
+      "name": "AMX Roland Batterie De Missiles Sol-Air",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 5,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x AMX Roland",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AMX Roland"
+            }
+          ]
+        },
+        {
+          "label": "4x AMX Roland",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AMX Roland"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Roland AA missile",
+          "range_cm_min": 0,
+          "range_cm": 140,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF115",
+      "name": "AMX Auf1 Batterie D’Artillerie",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 5,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 4,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x AMX AuF1",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AMX AuF1"
+            }
+          ]
+        },
+        {
+          "label": "5x AMX AuF1",
+          "models": 5,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 5,
+              "name": "AMX AuF1"
+            }
+          ]
+        },
+        {
+          "label": "3x AMX AuF1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "AMX AuF1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "155mm GCT howitzer",
+          "range_cm_min": 0,
+          "range_cm": 260,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Autoloader",
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "155mm GCT howitzer or Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": -1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF116a",
+      "name": "AMX-10P VOA Véhicule D’Observation",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Observer",
+        "Scout"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 3,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "1x AMX-10P VOA",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AMX-10P VOA"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF117a",
+      "name": "Gazelle Hot Patrouille D’Hélicoptères Antichar",
+      "nation": "French",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "special_rules": [
+        "Hunter-Killer"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 4,
+      "rally": 0,
+      "remount": 0,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 5,
+      "aircraft_type": "helicopter",
+      "options": [
+        {
+          "label": "4x Gazelle HOT",
+          "models": 4,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Gazelle HOT"
+            }
+          ]
+        },
+        {
+          "label": "4x Gazelle HOT 2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Gazelle HOT 2"
+            }
+          ]
+        },
+        {
+          "label": "2x Gazelle HOT",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Gazelle HOT"
+            }
+          ]
+        },
+        {
+          "label": "2x Gazelle HOT 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Gazelle HOT 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "HOT missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "HOT 2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF118",
+      "name": "Gazelle 20mm Patrouille D’Hélicoptères D’Attaque",
+      "nation": "French",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "special_rules": [
+        "Gun Slinger"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 4,
+      "rally": 0,
+      "remount": 0,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 5,
+      "aircraft_type": "helicopter",
+      "options": [
+        {
+          "label": "2x Gazelle 20mm",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Gazelle 20mm"
+            }
+          ]
+        },
+        {
+          "label": "4x Gazelle 20mm",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Gazelle 20mm"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "20mm gun (halted)",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "20mm gun (moving)",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF119",
+      "name": "Mirage 5 Patrouille De Chasse",
+      "nation": "French",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 4,
+      "rally": 0,
+      "remount": 0,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 5,
+      "aircraft_type": "jet",
+      "options": [
+        {
+          "label": "2x Mirage 5",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mirage 5"
+            }
+          ]
+        },
+        {
+          "label": "4x Mirage 5",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mirage 5"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm auto-cannon",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "BLG-66 cluster bomb",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF120",
+      "name": "AMX-13 Dca Peloton De Défense Anti-Aérien",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x AMX-13 DCA",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "AMX-13 DCA"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Twin 30mm AA gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 5,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF121",
+      "name": "Leclerc Escadron Blindé HQ",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 2,
+      "morale": 4,
+      "rally": 0,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 22,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Leclerc",
+          "models": 1,
+          "transport_models": 0,
+          "points": 19,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leclerc"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "120mm L/52 gun",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF122",
+      "name": "Leclerc Peloton Blindé",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 22,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Leclerc",
+          "models": 2,
+          "transport_models": 0,
+          "points": 36,
+          "points_dynamic": 23,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leclerc"
+            }
+          ]
+        },
+        {
+          "label": "3x Leclerc",
+          "models": 3,
+          "transport_models": 0,
+          "points": 55,
+          "points_dynamic": 34,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Leclerc"
+            }
+          ]
+        },
+        {
+          "label": "4x Leclerc",
+          "models": 4,
+          "transport_models": 0,
+          "points": 74,
+          "points_dynamic": 46,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Leclerc"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "120mm L/52 gun",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF125",
+      "name": "120mm Peloton De Mortier",
+      "nation": "French",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Heavy Weapon"
+      ],
+      "tactical": 10,
+      "terrain_dash": 10,
+      "cross_dash": 15,
+      "road_dash": 20,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 5,
+      "rally": 4,
+      "remount": 0,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 4,
+      "transport_id": "TF111a",
+      "transport_name": "VAB",
+      "transport_ids": [
+        "TF111a"
+      ],
+      "options": [
+        {
+          "label": "3x 120mm mortar + 3x VAB",
+          "models": 3,
+          "transport_models": 3,
+          "points": 6,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "120mm mortar"
+            },
+            {
+              "count": 3,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        },
+        {
+          "label": "6x 120mm mortar + 6x VAB",
+          "models": 6,
+          "transport_models": 6,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 6,
+              "name": "120mm mortar"
+            },
+            {
+              "count": 6,
+              "name": "VAB",
+              "unit_id": "TF111a"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all VAB with AMX-10P (TF105a) for +1 point for the unit.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 160,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 3,
+          "firepower": 3,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "20mm gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF126",
+      "name": "M270 Batterie De Lance-Roquettes Multiples",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x M270 LRM",
+          "models": 4,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M270 LRM"
+            }
+          ]
+        },
+        {
+          "label": "2x M270 LRM",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M270 LRM"
+            }
+          ]
+        },
+        {
+          "label": "3x M270 LRM",
+          "models": 3,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M270 LRM"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all M270 LRM with Minelets for +1 point for the Unit.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M270 LRM",
+          "range_cm_min": 0,
+          "range_cm": 300,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF129",
+      "name": "Vab T20 Section D’Appui-Feu",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 45,
+      "road_dash": 120,
+      "cross_skill": 5,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x VAB T20",
+          "models": 3,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 3,
+              "name": "VAB T20"
+            }
+          ]
+        },
+        {
+          "label": "4x VAB T20",
+          "models": 4,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 4,
+              "name": "VAB T20"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "20mm M693 MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF132",
+      "name": "Vbl Escadron D’Éclairage HQ",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 2,
+      "morale": 4,
+      "rally": 0,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x VBL",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "VBL"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all APILAS anti-tank weapons with Eryx missiles for +1 point for the unit.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Eryx missile",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 4,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "No Assault",
+            "Tandem Warhead",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF133",
+      "name": "Vbl Patrouille D’Éclairage",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x VBL",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "VBL"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all APILAS anti-tank weapons with Eryx missiles for +1 point for the unit.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "APILAS anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Eryx missile",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 4,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "No Assault",
+            "Tandem Warhead",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF134",
+      "name": "Vbl Groupe De Antichar Milan",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x VBL (Milan)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "VBL (Milan)"
+            }
+          ]
+        },
+        {
+          "label": "3x VBL (Milan 2)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "VBL (Milan 2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Milan 2 missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF136",
+      "name": "Escadron De Cavalerie HQ",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 45,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 2,
+      "morale": 4,
+      "rally": 0,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "1x VAB",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "VAB"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TF137",
+      "name": "Amx-10 RC Peloton De Cavalerie",
+      "nation": "French",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 45,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 5,
+      "rally": 0,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x AMX-10 RC",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 3,
+              "name": "AMX-10 RC"
+            }
+          ]
+        },
+        {
+          "label": "4x AMX-10 RC",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AMX-10 RC"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm F2 gun",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "HEAT",
+            "Laser Rangefinder",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

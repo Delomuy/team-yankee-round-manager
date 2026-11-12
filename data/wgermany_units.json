@@ -1,0 +1,4018 @@
+{
+  "units": [
+    {
+      "id": "TG101a",
+      "name": "Leopard 2 Panzer Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 7,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Leopard 2",
+          "models": 1,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 2"
+            }
+          ]
+        },
+        {
+          "label": "2x Leopard 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leopard 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG102a",
+      "name": "Leopard 2 Panzer Zug",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 7,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Leopard 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leopard 2"
+            }
+          ]
+        },
+        {
+          "label": "3x Leopard 2",
+          "models": 3,
+          "transport_models": 0,
+          "points": 33,
+          "points_dynamic": 24,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Leopard 2"
+            }
+          ]
+        },
+        {
+          "label": "4x Leopard 2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 44,
+          "points_dynamic": 32,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Leopard 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG104a",
+      "name": "Marder Panzergrenadier Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 rifle team + 1x Marder",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Marder",
+              "unit_id": "TG115a"
+            }
+          ]
+        },
+        {
+          "label": "1x G3 rifle team + 1x MG3 team with Panzerfaust 44 anti-tank rocket + 2x Marder",
+          "models": 2,
+          "transport_models": 2,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 2,
+              "name": "Marder",
+              "unit_id": "TG115a"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TG115a",
+      "transport_name": "Marder",
+      "transport_ids": [
+        "TG115a"
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "20mm Rh 202 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG110a",
+      "name": "Leopard 1 Panzeraufklärungs Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 9,
+      "armour_side": 5,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x Leopard 1",
+          "models": 1,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG111a",
+      "name": "Luchs Späh Trupp",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 6,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x Luchs",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Luchs"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "20mm Rh 202 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG117a",
+      "name": "Leopard 1 Panzer Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 9,
+      "armour_side": 5,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x Leopard 1",
+          "models": 1,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 1"
+            }
+          ]
+        },
+        {
+          "label": "2x Leopard 1",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leopard 1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG118a",
+      "name": "M113 Panzergrenadier Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 rifle team + 1x M113",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "M113",
+              "unit_id": "TG126"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TG126",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TG126"
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG127a",
+      "name": "Fuchs Panzeraufklärungs Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 Rifle team + 1x Fuchs",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 Rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Fuchs",
+              "unit_id": "TG114a"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TG114a",
+      "transport_name": "Fuchs",
+      "transport_ids": [
+        "TG114a"
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG128",
+      "name": "Leopard 2 Panzeraufklärungs Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 7,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Leopard 2",
+          "models": 1,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG128z",
+      "name": "Leopard 2A5 Panzeraufklärungs Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 50,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 22,
+      "armour_side": 13,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Leopard 2A5",
+          "models": 1,
+          "transport_models": 0,
+          "points": 17,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 2A5"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG129",
+      "name": "Marder 2 Späh Trupp",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 6,
+      "armour_side": 4,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Marder 2 Scout (35mm)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Marder 2 Scout (35mm)"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any Marder 2 Scout (35mm) with Marder 2 Scout (50mm) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "35mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "50mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG131",
+      "name": "Fallschirmjäger Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 rifle team",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG136",
+      "name": "Gebirgsjäger Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "Mountaineers"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 rifle team",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG141",
+      "name": "Heimatschutzbrigade Jäger Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x G3 rifle team",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "G3 rifle team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x M113 (TG143) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG147",
+      "name": "M48 Panzer Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 13,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M48",
+          "models": 1,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M48"
+            }
+          ]
+        },
+        {
+          "label": "2x M48",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M48"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG201",
+      "name": "Leopard 2A5 Panzer Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 22,
+      "armour_side": 13,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x Leopard 2A5",
+          "models": 1,
+          "transport_models": 0,
+          "points": 17,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 1,
+              "name": "Leopard 2A5"
+            }
+          ]
+        },
+        {
+          "label": "2x Leopard 2A5",
+          "models": 2,
+          "transport_models": 0,
+          "points": 34,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leopard 2A5"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG202",
+      "name": "Leopard 2A5 Panzer Zug",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 22,
+      "armour_side": 13,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x Leopard 2A5",
+          "models": 2,
+          "transport_models": 0,
+          "points": 34,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Leopard 2A5"
+            }
+          ]
+        },
+        {
+          "label": "3x Leopard 2A5",
+          "models": 3,
+          "transport_models": 0,
+          "points": 51,
+          "points_dynamic": 33,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Leopard 2A5"
+            }
+          ]
+        },
+        {
+          "label": "4x Leopard 2A5",
+          "models": 4,
+          "transport_models": 0,
+          "points": 68,
+          "points_dynamic": 44,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Leopard 2A5"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm L/44 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG148",
+      "name": "M48 Panzer Zug",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 13,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "4x M48",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M48"
+            }
+          ]
+        },
+        {
+          "label": "3x M48",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M48"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG204",
+      "name": "Marder 2 Panzergrenadier Kompanie HQ",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x G3 rifle team + 1x Marder 2 (35mm)",
+          "models": 1,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Marder 2 (35mm)",
+              "unit_id": "TG206"
+            }
+          ]
+        },
+        {
+          "label": "1x G3 rifle team + 1x MG3 team with Panzerfaust 44 anti-tank + 2x Marder 2 (35mm)",
+          "models": 2,
+          "transport_models": 2,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 1,
+              "name": "G3 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "MG3 team with Panzerfaust 44 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Marder 2 (35mm)",
+              "unit_id": "TG206"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all Marder 2 (35mm) with Marder 2 (50mm) (TG206) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TG206",
+      "transport_name": "Marder 2 (35mm)",
+      "transport_ids": [
+        "TG206"
+      ],
+      "weapons": [
+        {
+          "name": "G3 rifle team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "35mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "50mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG205",
+      "name": "Marder 2 Panzergrenadier Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x MG3 team with Panzerfaust 44 anti-tank + 2x Milan missile team + 3x Marder 2 (35mm)",
+          "models": 5,
+          "transport_models": 3,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 3,
+              "name": "MG3 team with Panzerfaust 44 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 3,
+              "name": "Marder 2 (35mm)",
+              "unit_id": "TG206"
+            }
+          ]
+        },
+        {
+          "label": "2x MG3 team with Panzerfaust 44 anti-tank + 1x Milan missile team + 2x Marder 2 (35mm)",
+          "models": 3,
+          "transport_models": 2,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "MG3 team with Panzerfaust 44 anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 2,
+              "name": "Marder 2 (35mm)",
+              "unit_id": "TG206"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a Carl Gustav anti-tank team for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace all Marder 2 (35mm) with Marder 2 (50mm) (TG206) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "transport_id": "TG206",
+      "transport_name": "Marder 2 (35mm)",
+      "transport_ids": [
+        "TG206"
+      ],
+      "weapons": [
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "35mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Carl Gustav anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "50mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 13,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG206",
+      "name": "Marder 2 Transport",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Chobham Armour",
+        "Milan Mount",
+        "Passengers 2",
+        "Thermal Imaging"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 6,
+      "armour_side": 4,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "35mm Rh 503 gun",
+          "range_cm_min": 0,
+          "range_cm": 70,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 4,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG120",
+      "name": "Lars Raketenwerfer Batterie",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Minelets"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 35,
+      "road_dash": 90,
+      "cross_skill": 5,
+      "courage": 4,
+      "morale": 3,
+      "rally": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x LARS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "LARS"
+            }
+          ]
+        },
+        {
+          "label": "4x LARS",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "LARS"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all LARS with Minelets for +1 point for the batterie.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "110mm LARS rocket",
+          "range_cm_min": 0,
+          "range_cm": 200,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 4,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG108a",
+      "name": "M109G Panzerartillerie Batterie",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bomblets"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "5x M109G",
+          "models": 5,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 5,
+              "name": "M109G"
+            }
+          ]
+        },
+        {
+          "label": "6x M109G",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M109G"
+            }
+          ]
+        },
+        {
+          "label": "3x M109G",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M109G"
+            }
+          ]
+        },
+        {
+          "label": "4x M109G",
+          "models": 4,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M109G"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M126 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 220,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M126 155mm howitzer or Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG209",
+      "name": "227mm Mars Raketenwerfer Batterie",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Minelets",
+        "Mlrs"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x 227mm MARS",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "227mm MARS"
+            }
+          ]
+        },
+        {
+          "label": "2x 227mm MARS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "227mm MARS"
+            }
+          ]
+        },
+        {
+          "label": "3x 227mm MARS",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "227mm MARS"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all 227mm MARS with Minelets for +1 point for the Batterie.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "227mm MARS rocket",
+          "range_cm_min": 0,
+          "range_cm": 300,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG121a",
+      "name": "M113 OP",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Observer",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M113 OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG146",
+      "name": "Heimatschutzbrigade Kanonenjagdpanzer Zug",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Forward Defence"
+      ],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 5,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 6,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x Kanonenjagdpanzer",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Kanonenjagdpanzer"
+            }
+          ]
+        },
+        {
+          "label": "4x Kanonenjagdpanzer",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Kanonenjagdpanzer"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "90mm L/40 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 16,
+          "firepower": 2,
+          "rules": [
+            "Forward Firing",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG122",
+      "name": "Roland Flarakpanzer Batterie",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Roland 2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Roland 2"
+            }
+          ]
+        },
+        {
+          "label": "4x Roland 2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Roland 2"
+            }
+          ]
+        },
+        {
+          "label": "6x Roland 2",
+          "models": 6,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Roland 2"
+            }
+          ]
+        }
+      ],
+      "notes": [
+        "Add a Fliegerfaust Gruppe (TG116a) with 2x Redeye team",
+        "Add a Fliegerfaust Gruppe (TG116a) with 3x Redeye team",
+        "Add a Fliegerfaust Gruppe (TG116a) with 4x Redeye team",
+        "Add a Fliegerfaust Gruppe (TG116a) with 6x Redeye team"
+      ],
+      "weapons": [
+        {
+          "name": "Roland 2 AA missile",
+          "range_cm_min": 0,
+          "range_cm": 140,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        },
+        {
+          "name": "Redeye team",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 5,
+          "rules": [
+            "Guided AA",
+            "Heavy Weapon"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG123",
+      "name": "Pah Anti-Tank Helicopter Flight",
+      "nation": "WestGerman",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "4x PAH (HOT)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 4,
+              "name": "PAH (HOT)"
+            }
+          ]
+        },
+        {
+          "label": "4x PAH (HOT 2)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "PAH (HOT 2)"
+            }
+          ]
+        },
+        {
+          "label": "2x PAH (HOT)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "PAH (HOT)"
+            }
+          ]
+        },
+        {
+          "label": "2x PAH (HOT 2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "PAH (HOT 2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "HOT missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "HOT 2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG124",
+      "name": "Tornado Strike Flight",
+      "nation": "WestGerman",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 3,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x Tornado",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Tornado"
+            }
+          ]
+        },
+        {
+          "label": "4x Tornado",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Tornado"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Mauser BK-27 auto-cannon",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "MW-1 submunition dispenser with KB44 bomblet",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG105a",
+      "name": "Marder Panzergrenadier Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x MG3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team + 2x Marder",
+          "models": 3,
+          "transport_models": 2,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 2,
+              "name": "Marder",
+              "unit_id": "TG115a"
+            }
+          ]
+        },
+        {
+          "label": "3x MG3 team with Panzerfaust 44 anti-tank rocket + 2x Milan missile team + 3x Marder",
+          "models": 5,
+          "transport_models": 3,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 2,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 3,
+              "name": "Marder",
+              "unit_id": "TG115a"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a Carl Gustav anti-tank team for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "transport_id": "TG115a",
+      "transport_name": "Marder",
+      "transport_ids": [
+        "TG115a"
+      ],
+      "weapons": [
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "20mm Rh 202 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Carl Gustav anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG115a",
+      "name": "Marder Transport",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Milan Mount",
+        "Passengers 2",
+        "Thermal Imaging"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 50,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "20mm Rh 202 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG119",
+      "name": "M113 Panzergrenadier Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x MG3 team with Panzerfaust 44 anti-tank rocket + 2x Milan missile team + 2x M113",
+          "models": 4,
+          "transport_models": 2,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 2,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 2,
+              "name": "M113",
+              "unit_id": "TG126"
+            }
+          ]
+        },
+        {
+          "label": "3x MG3 team with Panzerfaust 44 anti-tank rocket + 3x Milan missile team + 3x M113",
+          "models": 6,
+          "transport_models": 3,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 3,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 3,
+              "name": "M113",
+              "unit_id": "TG126"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "transport_id": "TG126",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TG126"
+      ],
+      "weapons": [
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG126",
+      "name": "M113 Transport",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Passengers 3"
+      ],
+      "is_attachment": true,
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG113",
+      "name": "Fuchs Panzeraufklärungs Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x MG3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team + 2x Fuchs",
+          "models": 3,
+          "transport_models": 2,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 2,
+              "name": "Fuchs",
+              "unit_id": "TG114a"
+            }
+          ]
+        },
+        {
+          "label": "3x MG3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team + 3x Fuchs",
+          "models": 4,
+          "transport_models": 3,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "MG3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            },
+            {
+              "count": 3,
+              "name": "Fuchs",
+              "unit_id": "TG114a"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "transport_id": "TG114a",
+      "transport_name": "Fuchs",
+      "transport_ids": [
+        "TG114a"
+      ],
+      "weapons": [
+        {
+          "name": "MG3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG114a",
+      "name": "Fuchs Transport",
+      "nation": "WestGerman",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Milan Mount",
+        "Passengers 2",
+        "Thermal Imaging"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG132",
+      "name": "Fallschirmjäger Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team",
+          "models": 6,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 5,
+              "name": "MG3 & G3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 2x UH-1 Huey (TG135) for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "notes": [
+        "Replace all UH-1 Huey with one CH-53 Sea Stallion transport helicopter (TG135a)."
+      ],
+      "weapons": [
+        {
+          "name": "MG3 & G3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Door MG3 MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG142",
+      "name": "Heimatschutzbrigade Jäger Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x MG3 & G3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team",
+          "models": 6,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 5,
+              "name": "MG3 & G3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            }
+          ]
+        },
+        {
+          "label": "7x MG3 & G3 team with Panzerfaust 44 anti-tank rocket + 1x Milan missile team",
+          "models": 8,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 7,
+              "name": "MG3 & G3 team with Panzerfaust 44 anti-tank rocket"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 3x M113 (TG143) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "MG3 & G3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TG137",
+      "name": "Gebirgsjäger Zug",
+      "nation": "WestGerman",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Mountaineers",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x MG3 & G3 team with Panzerfaust 44 anti-tank + 1x Milan missile team",
+          "models": 6,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 5,
+              "name": "MG3 & G3 team with Panzerfaust 44 anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "Milan missile team"
+            }
+          ]
+        },
+        {
+          "label": "7x MG3 & G3 team with Panzerfaust 44 anti-tank + 2x Milan missile team",
+          "models": 9,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 7,
+              "name": "MG3 & G3 team with Panzerfaust 44 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "Milan missile team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the Milan missile teams with Milan 2 missile teams for +1 point per team",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "count_models": "Milan missile"
+        }
+      ],
+      "weapons": [
+        {
+          "name": "MG3 & G3 team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Panzerfaust 44 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Milan Missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault 5",
+            "Assault 5+",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Milan 2 missile team (A5)",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Assault 5+",
+            "Guided",
+            "HEAT",
+            "Guided",
+            "HEAT",
+            "Thermal Imaging"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

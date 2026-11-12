@@ -1,0 +1,498 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "American",
+  "formations": [
+    {
+      "id": "american_combined_arms_heavy_company",
+      "name": "Combined Arms (Heavy) Company",
+      "hq": "TU161",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_combined_arms_light_company",
+      "name": "Combined Arms (Light) Company",
+      "hq": "TU163",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_lav_company",
+      "name": "LAV Company",
+      "hq": "TU151a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_light_attack_company",
+      "name": "Light Attack Company",
+      "hq": "TU166",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1_abrams_armored_cavalry_troop",
+      "name": "M1 Abrams Armored Cavalry Troop",
+      "division": "1st squadron, 11th armored calvary",
+      "hq": "TU180",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_9",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_10",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU118"
+          ]
+        },
+        {
+          "id": "slot_11",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU107a"
+          ]
+        },
+        {
+          "id": "slot_12",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU122"
+          ]
+        },
+        {
+          "id": "slot_13",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU172",
+            "TU111a"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1_abrams_armored_combat_team",
+      "name": "M1 Abrams Armored Combat Team",
+      "hq": "TU101b",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1_ipm1_abrams_armored_cavalry_troop",
+      "name": "M1 IPM1 Abrams Armored Cavalry Troop",
+      "hq": "TU180z",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1a1_abrams_armored_combat_team",
+      "name": "M1A1 Abrams Armored Combat Team",
+      "hq": "TU201",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1a1hc_abrams_armored_cavalry_troop",
+      "name": "M1A1HC Abrams Armored Cavalry Troop",
+      "hq": "TU181z",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1a1hc_abrams_armored_combat_team",
+      "name": "M1A1HC Abrams Armored Combat Team",
+      "hq": "TU201z",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m2_bradley_mech_combat_team",
+      "name": "M2 Bradley Mech Combat Team",
+      "hq": "TU203",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m3_bradley_armored_cavalry_troop",
+      "name": "M3 Bradley Armored Cavalry Troop",
+      "hq": "TU170",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m48_patton_armored_combat_team",
+      "name": "M48 Patton Armored Combat Team",
+      "hq": "TU191",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m60_patton_armored_combat_team",
+      "name": "M60 Patton Armored Combat Team",
+      "hq": "TU131a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m113_armored_cavalry_troop",
+      "name": "M113 Armored Cavalry Troop",
+      "hq": "TU117a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m113_mech_combat_team",
+      "name": "M113 Mech Combat Team",
+      "hq": "TU103b",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_marine_m60_patton_tank_company",
+      "name": "Marine M60 Patton Tank Company",
+      "hq": "TU141a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_rifle_company",
+      "name": "Rifle Company",
+      "hq": "TU145a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_team_yankee_militia_group",
+      "name": "Team Yankee: Militia Group",
+      "hq": "TU182",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1_abrams_armored_cavalry_troop_copy",
+      "name": "M1A1 Abrams Armored Cavalry Troop",
+      "division": "1st squadron, 11th armored calvary",
+      "hq": "TU181",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_9",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_10",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU118"
+          ]
+        },
+        {
+          "id": "slot_11",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU107a"
+          ]
+        },
+        {
+          "id": "slot_12",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU122"
+          ]
+        },
+        {
+          "id": "slot_13",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU172",
+            "TU111a"
+          ]
+        }
+      ],
+      "exclusive": []
+    },
+    {
+      "id": "american_m1a1_abrams_armored_cavalry_troop_copy",
+      "name": "M3 Bradley Armored Cavalry Troop",
+      "division": "1st squadron, 11th armored calvary",
+      "hq": "TU170",
+      "slots": [
+        {
+          "id": "slot_1",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_2",
+          "group": "Recon",
+          "compulsory": true,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_3",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_4",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_5",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_6",
+          "group": "Recon",
+          "compulsory": false,
+          "units": [
+            "TU171"
+          ]
+        },
+        {
+          "id": "slot_7",
+          "group": "Armour",
+          "compulsory": true,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_8",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_9",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU202",
+            "TU102a"
+          ]
+        },
+        {
+          "id": "slot_10",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU118"
+          ]
+        },
+        {
+          "id": "slot_11",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU107a"
+          ]
+        },
+        {
+          "id": "slot_12",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU122"
+          ]
+        },
+        {
+          "id": "slot_13",
+          "group": "Armour",
+          "compulsory": false,
+          "units": [
+            "TU172",
+            "TU111a"
+          ]
+        }
+      ],
+      "exclusive": []
+    }
+  ]
+}

@@ -1,0 +1,793 @@
+{
+  "_help": "Cards made, copied or changed in the program (Cards > New card / Edit / Copy). They replace the card with the same id in data/ussr_units.json. Remove one with 'Restore original' or 'Delete card'.",
+  "nation": "Soviet",
+  "units": [
+    {
+      "id": "TS153",
+      "name": "BMD Air Assault Battalion HQ",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "HQ trasnport",
+        "Airbone"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "remount": 0,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "transport_id": "TS155",
+      "transport_name": "VDV BMD-1",
+      "transport_ids": [
+        "TS155",
+        "TS158"
+      ],
+      "options": [
+        {
+          "label": "1x AK-74 team with RPG-18 + 6x RPG-7 anti-tank team + 7x BMD-1",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1.0,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1.0,
+              "name": "VDV BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 10x BMD-1",
+          "models": 1,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1.0,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1.0,
+              "name": "VDV BMD-1",
+              "unit_id": "TS158"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS154",
+      "name": "VDV BMD-1 Air Assault Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Parachute"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "remount": 0,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "transport_id": "TS155",
+      "transport_name": "VDV BMD-1",
+      "transport_ids": [
+        "TS155"
+      ],
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 + 6x RPG-7 anti-tank team + 7x BMD-1",
+          "models": 13,
+          "transport_models": 7,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 7.0,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 6.0,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 7.0,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 10x BMD-1",
+          "models": 19,
+          "transport_models": 10,
+          "points": 21,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 10.0,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9.0,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 10.0,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 + 3x RPG-7 anti-tank team + 4x BMD-1",
+          "models": 7,
+          "transport_models": 4,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4.0,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 3.0,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4.0,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS156) & BTR-D (TS159) for +1 point.",
+          "cost": 1.0,
+          "per_model": false
+        },
+        {
+          "text": "Add a PKM LMG team & BTR-D (TS159) for +1 point.",
+          "cost": 1.0,
+          "per_model": false
+        },
+        {
+          "text": "Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.",
+          "cost": 1.0,
+          "per_model": false,
+          "per": "model",
+          "group": 8.0
+        },
+        {
+          "text": "Add up to 2 SA-14 Gremlin AA missile team (TS156) & BTR-D (TS159) for +1 point each.",
+          "cost": 1.0,
+          "per_model": true
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2.0,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Door PK MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS155",
+      "name": "VDV BMD-1 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "rally": 0,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "is_attachment": true,
+      "passengers": 2,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS159",
+      "name": "BTR-D Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "rally": 0,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "is_attachment": true,
+      "passengers": 2,
+      "options": [],
+      "weapons": [
+        {
+          "name": "AGS-17 grenade MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS163",
+      "name": "ASU-85 Assault Gun Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)",
+        "Parachute"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "rally": 0,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 0,
+      "armour_front": 5,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "5x ASU-85",
+          "models": 5,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 5.0,
+              "name": "ASU-85"
+            }
+          ]
+        },
+        {
+          "label": "6x ASU-85",
+          "models": 6,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 6.0,
+              "name": "ASU-85"
+            }
+          ]
+        },
+        {
+          "label": "7x ASU-85",
+          "models": 7,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 7.0,
+              "name": "ASU-85"
+            }
+          ]
+        },
+        {
+          "label": "8x ASU-85",
+          "models": 8,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 8.0,
+              "name": "ASU-85"
+            }
+          ]
+        },
+        {
+          "label": "9x ASU-85",
+          "models": 9,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 9.0,
+              "name": "ASU-85"
+            }
+          ]
+        },
+        {
+          "label": "10x ASU-85",
+          "models": 10,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 10.0,
+              "name": "ASU-85"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "85mm 2A15 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 3,
+          "rules": [
+            "Forward Firing",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 40,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS164",
+      "name": "BTR-ZD 23mm AA Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-red (IR)",
+        "Parachute"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "rally": 0,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "save": 0,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x BTR-ZD",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2.0,
+              "name": "BTR-ZD"
+            }
+          ]
+        },
+        {
+          "label": "3x BTR-ZD",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3.0,
+              "name": "BTR-ZD"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "ZU-23-2 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Manual Tracking"
+          ]
+        },
+        {
+          "name": "SA-14 Gremlin AA missile",
+          "range_cm_min": 48,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 5,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS172",
+      "name": "Afgantsy BMD-1 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "rally": 0,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 0,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "is_attachment": true,
+      "passengers": 2,
+      "options": [],
+      "weapons": [
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

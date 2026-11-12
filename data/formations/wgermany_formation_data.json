@@ -1,0 +1,119 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "WestGerman",
+  "formations": [
+    {
+      "id": "westgerman_fallschirmj_ger_kompanie",
+      "name": "Fallschirmjäger Kompanie",
+      "hq": "TG131",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_fuchs_panzeraufkl_rungs_kompanie",
+      "name": "Fuchs Panzeraufklärungs Kompanie",
+      "hq": "TG127a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_gebirgsj_ger_kompanie",
+      "name": "Gebirgsjäger Kompanie",
+      "hq": "TG136",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_heimatschutzbrigade_j_ger_kompanie",
+      "name": "Heimatschutzbrigade Jäger Kompanie",
+      "hq": "TG141",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_1_panzer_kompanie",
+      "name": "Leopard 1 Panzer Kompanie",
+      "hq": "TG117a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_1_panzeraufkl_rungs_kompanie",
+      "name": "Leopard 1 Panzeraufklärungs Kompanie",
+      "hq": "TG110a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_2_panzer_kompanie",
+      "name": "Leopard 2 Panzer Kompanie",
+      "hq": "TG101a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_2_panzeraufkl_rungs_kompanie",
+      "name": "Leopard 2 Panzeraufklärungs Kompanie",
+      "hq": "TG128",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_2a5_panzer_kompanie",
+      "name": "Leopard 2A5 Panzer Kompanie",
+      "hq": "TG201",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_leopard_2a5_panzeraufkl_rungs_kompanie",
+      "name": "Leopard 2A5 Panzeraufklärungs Kompanie",
+      "hq": "TG128z",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_m48_panzer_kompanie",
+      "name": "M48 Panzer Kompanie",
+      "hq": "TG147",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_m113_panzergrenadier_kompanie",
+      "name": "M113 Panzergrenadier Kompanie",
+      "hq": "TG118a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_marder_2_panzergrenadier_kompanie",
+      "name": "Marder 2 Panzergrenadier Kompanie",
+      "hq": "TG204",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "westgerman_marder_panzergrenadier_kompanie",
+      "name": "Marder Panzergrenadier Kompanie",
+      "hq": "TG104a",
+      "slots": [],
+      "exclusive": []
+    }
+  ]
+}

@@ -1,0 +1,5739 @@
+{
+  "units": [
+    {
+      "id": "TU107a",
+      "name": "M109 Field Artillery Battery",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bomblets",
+        "Laser Guided Projectiles",
+        "Minelets"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x M109",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "3x M109",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M109"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all M109 with Bomblets for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Arm all M109 with Laser-Guided Projectiles for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        },
+        {
+          "text": "Arm all M109 with Minelets for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M185 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M185 155mm howitzer or Direct Fire",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU156",
+      "name": "Marine M109 Artillery Battery",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bomblets",
+        "Laser Guided Projectiles",
+        "Minelets"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 4,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x M109",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M109"
+            }
+          ]
+        },
+        {
+          "label": "3x M109",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M109"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all M109 with Bomblets for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Arm all M109 with Laser-Guided Projectiles for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        },
+        {
+          "text": "Arm all M109 with Minelets for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M185 155mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "M185 155mm howitzer or Direct Fire",
+          "range_cm_min": 0,
+          "range_cm": 90,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 15,
+          "firepower": 1,
+          "rules": [
+            "Brutal",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU173",
+      "name": "M270 MLRS Rocket Launcher Battery",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Minelets",
+        "MLRS"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x M270 MLRS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M270 MLRS"
+            }
+          ]
+        },
+        {
+          "label": "3x M270 MLRS",
+          "models": 3,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M270 MLRS"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Arm all M270 MLRS with Minelets for +1 point for the Battery.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M269 MLRS",
+          "range_cm_min": 0,
+          "range_cm": 300,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU109a",
+      "name": "M113 FIST",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Observer",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M113 FIST",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 FIST"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU157",
+      "name": "Marine HMMWV OP Observation Post",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Observer",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 4,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "1x HMMWV OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "HMMWV OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU110",
+      "name": "M163 VADS AA Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x M163 VADS",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M163 VADS"
+            }
+          ]
+        },
+        {
+          "label": "4x M163 VADS",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M163 VADS"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M168 20mm Vulcan Gatling AA gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU119",
+      "name": "M247 Sergeant York AA Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 4,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x M247 Sergeant York",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M247 Sergeant York"
+            }
+          ]
+        },
+        {
+          "label": "4x M247 Sergeant York",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M247 Sergeant York"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Twin 40mm AA gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 4,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU120",
+      "name": "M48 Chaparral SAM Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 4,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x M48 Chaparral",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M48 Chaparral"
+            }
+          ]
+        },
+        {
+          "label": "4x M48 Chaparral",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M48 Chaparral"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "MIM-72 Sidewinder AA Missile",
+          "range_cm_min": 0,
+          "range_cm": 180,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 3,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU111a",
+      "name": "AH-1 Cobra Attack Helicopter Platoon",
+      "nation": "American",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer",
+        "Thermal Imaging"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "4x AH-1 Cobra (TOW)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 13,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AH-1 Cobra (TOW)"
+            }
+          ]
+        },
+        {
+          "label": "4x AH-1 Cobra (TOW-2)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AH-1 Cobra (TOW-2)"
+            }
+          ]
+        },
+        {
+          "label": "2x AH-1 Cobra (TOW)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AH-1 Cobra (TOW)"
+            }
+          ]
+        },
+        {
+          "label": "2x AH-1 Cobra (TOW-2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AH-1 Cobra (TOW-2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "M159 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "M197 20mm Vulcan Gatling gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 6,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU172",
+      "name": "AH-64 Apache Attack Helicopter Platoon",
+      "nation": "American",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Hunter-Killer",
+        "Thermal Imaging"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "skill": 4,
+      "is_hit_on": 4,
+      "save": 4,
+      "options": [
+        {
+          "label": "2x AH-64 Apache",
+          "models": 2,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AH-64 Apache"
+            }
+          ]
+        },
+        {
+          "label": "4x AH-64 Apache",
+          "models": 4,
+          "transport_models": 0,
+          "points": 24,
+          "points_dynamic": 20,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AH-64 Apache"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AGM-117 Hellfire missile",
+          "range_cm_min": 40,
+          "range_cm": 160,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 25,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "M159 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "M230 30mm chain gun",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 6,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU130",
+      "name": "HMMWV SAM Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x HMMWV Stinger",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HMMWV Stinger"
+            }
+          ]
+        },
+        {
+          "label": "4x HMMWV Stinger",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "HMMWV Stinger"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Stinger AA missile",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU160",
+      "name": "Marine LAV-AD Air Defense Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 4,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x LAV-AD",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "LAV-AD"
+            }
+          ]
+        },
+        {
+          "label": "4x LAV-AD",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "LAV-AD"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "GAU-12 25mm Gatling Gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        },
+        {
+          "name": "Stinger AA missile",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU112",
+      "name": "A-10 Warthog Fighter Flight",
+      "nation": "American",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x A-10 Warthog",
+          "models": 2,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 2,
+              "name": "A-10 Warthog"
+            }
+          ]
+        },
+        {
+          "label": "4x A-10 Warthog",
+          "models": 4,
+          "transport_models": 0,
+          "points": 20,
+          "points_dynamic": 20,
+          "composition": [
+            {
+              "count": 4,
+              "name": "A-10 Warthog"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "CBU-52 cluster bomb",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "GAU-8/A 30mm Gatling gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "Maverick missile",
+          "range_cm_min": 20,
+          "range_cm": 90,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 27,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU158",
+      "name": "AV-8 Harrier Attack Flight",
+      "nation": "American",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [
+        "Jump Jet"
+      ],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 4,
+      "skill": 4,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x AV-8 Harrier",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AV-8 Harrier"
+            }
+          ]
+        },
+        {
+          "label": "4x AV-8 Harrier",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AV-8 Harrier"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm Aden gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "CBU-100 cluster bomb",
+          "range_cm_min": 0,
+          "range_cm": 15,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU182",
+      "name": "Team Yankee: Militia Group",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "Resistance"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x Assault Rifle team with RPG-18 anti-tank + 2x RPG-7 anti-tank team",
+          "models": 5,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Assault Rifle team with RPG-18 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        },
+        {
+          "label": "5x Assault Rifle team with RPG-18 anti-tank + 2x RPG-7 anti-tank team",
+          "models": 7,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 5,
+              "name": "Assault Rifle team with RPG-18 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x M224 60mm mortar team for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add 4x Pickup Trucks (TU183) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Arm any or all Pickup Trucks with 7.62mm MGs for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Assault Rifle team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M224 60mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU152",
+      "name": "LAV Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 4,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x LAV-25",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "LAV-25"
+            }
+          ]
+        },
+        {
+          "label": "4x LAV-25",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "LAV-25"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU171",
+      "name": "M3 Bradley Scout Section",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Appliqué Armour",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x M3 Bradley",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M3 Bradley"
+            }
+          ]
+        },
+        {
+          "label": "2x M3A2 Bradley",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M3A2 Bradley"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm Bushmaster gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU167",
+      "name": "Light Attack Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 6,
+      "counterattack": 6,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x HMMWV-M2 + 1x HMMWV (Minigun) + 1x HMMWV-MK19",
+          "models": 4,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HMMWV-M2"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV (Minigun)"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-MK19"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace 1x HMMWV-M2 with a HMMWV (Minigun) at no cost.",
+          "cost": 0,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M134 Minigun MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "40mm grenade launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU129a",
+      "name": "HMMWV Scout Section",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 4,
+      "skill": 4,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "1x HMMWV-M2 + 1x HMMWV-MK19 + 1x HMMWV-TOW",
+          "models": 3,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "HMMWV-M2"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-MK19"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-TOW"
+            }
+          ]
+        },
+        {
+          "label": "1x HMMWV-M2 + 1x HMMWV-MK19 + 1x HMMWV-TOW-2",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "HMMWV-M2"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-MK19"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-TOW-2"
+            }
+          ]
+        },
+        {
+          "label": "1x HMMWV-M2 + 1x HMMWV-MK19 + 2x HMMWV-TOW",
+          "models": 4,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "HMMWV-M2"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-MK19"
+            },
+            {
+              "count": 2,
+              "name": "HMMWV-TOW"
+            }
+          ]
+        },
+        {
+          "label": "1x HMMWV-M2 + 1x HMMWV-MK19 + 2x HMMWV-TOW-2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "HMMWV-M2"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV-MK19"
+            },
+            {
+              "count": 2,
+              "name": "HMMWV-TOW-2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "40mm grenade launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU113a",
+      "name": "M113 Scout Section",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Spearhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 6,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M113 Scout + 1x M901 ITV (TOW)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 Scout"
+            },
+            {
+              "count": 1,
+              "name": "M901 ITV (TOW)"
+            }
+          ]
+        },
+        {
+          "label": "1x M113 Scout + 1x M901 ITV (TOW-2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 Scout"
+            },
+            {
+              "count": 1,
+              "name": "M901 ITV (TOW-2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU204",
+      "name": "M2 Bradley Mech Platoon",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x M249 SAW team with M72 LAW anti-tank + 2x M47 Dragon missile team + 3x M2 Bradley",
+          "models": 5,
+          "transport_models": 3,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 3,
+              "name": "M2 Bradley",
+              "unit_id": "TU205"
+            }
+          ]
+        },
+        {
+          "label": "4x M249 SAW team with M72 LAW anti-tank + 3x M47 Dragon missile team + 4x M2 Bradley",
+          "models": 7,
+          "transport_models": 4,
+          "points": 15,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 4,
+              "name": "M2 Bradley",
+              "unit_id": "TU205"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace all M2 Bradley with M2A2 Bradley [TU205] for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace the M47 Dragon missile teams with M47 Dragon 2 missile teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TU205",
+      "transport_name": "M2 Bradley",
+      "transport_ids": [
+        "TU205"
+      ],
+      "weapons": [
+        {
+          "name": "M249 SAW team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm Bushmaster gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "M47 Dragon 2 missile team",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU164",
+      "name": "Light Motor Infantry Platoon",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "6x M249 SAW team with M72 LAW anti-tank + 1x M60 GPMG team + 3x M47 Dragon missile team + 10x HMMWV",
+          "models": 10,
+          "transport_models": 10,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "M60 GPMG team"
+            },
+            {
+              "count": 3,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 10,
+              "name": "HMMWV",
+              "unit_id": "TU165"
+            }
+          ]
+        },
+        {
+          "label": "6x M249 SAW team with M72 LAW anti-tank + 2x M47 Dragon missile team + 8x HMMWV",
+          "models": 8,
+          "transport_models": 8,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 8,
+              "name": "HMMWV",
+              "unit_id": "TU165"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the M47 Dragon missile teams with M47 Dragon 2 missile teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TU165",
+      "transport_name": "HMMWV",
+      "transport_ids": [
+        "TU165"
+      ],
+      "weapons": [
+        {
+          "name": "M249 SAW team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M60 GPMG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M47 Dragon 2 missile team",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU146",
+      "name": "Rifle Platoon",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 4,
+      "rally": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "6x M249 SAW team with M72 LAW anti-tank + 2x AAVP7",
+          "models": 6,
+          "transport_models": 2,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 6,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "AAVP7",
+              "unit_id": "TU147"
+            }
+          ]
+        },
+        {
+          "label": "9x M249 SAW team with M72 LAW anti-tank + 2x AAVP7",
+          "models": 9,
+          "transport_models": 2,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 9,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "AAVP7",
+              "unit_id": "TU147"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x M224 60mm mortar team (TU148) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add up to 2x M47 Dragon missile team (TU148) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Add up to 2x SMAW team (TU148) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Replace all AAVP7 with up to 4x UH-1 Huey (TU159) at no cost.",
+          "cost": 0,
+          "per_model": false
+        },
+        {
+          "text": "Replace the M47 Dragon missile teams with M47 Dragon 2 missile teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace up to 2x M249 SAW team with M60 GPMG teams at no cost.",
+          "cost": 0,
+          "per_model": false
+        }
+      ],
+      "notes": [
+        "Replace all UH-1 Huey with one CH-53 Sea Stallion transport helicopter (TG135a).",
+        "Replace all UH-1 Huey with three CH-46 Sea Knight transport helicopter (TU123a).",
+        "Replace all UH-1 Huey with two CH-47 Chinook transport helicopter (TU123b)."
+      ],
+      "transport_id": "TU147",
+      "transport_name": "AAVP7",
+      "transport_ids": [
+        "TU147"
+      ],
+      "weapons": [
+        {
+          "name": "M249 SAW team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "40mm grenade launcher",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M224 60mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "Overhead Fire",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "SMAW team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "Door MG3 MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "M47 Dragon 2 missile team",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "M60 GPMG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 5,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU122",
+      "name": "Uh-1 Huey Rifle Platoon",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "5x M249 SAW team with M72 LAW anti-tank + 1x M47 Dragon missile team + 2x UH-1 Huey",
+          "models": 6,
+          "transport_models": 2,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 5,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 2,
+              "name": "UH-1 Huey",
+              "unit_id": "TU123"
+            }
+          ]
+        },
+        {
+          "label": "7x M249 SAW team with M72 LAW anti-tank + 1x M47 Dragon missile team + 3x UH-1 Huey",
+          "models": 8,
+          "transport_models": 3,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 7,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 1,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 3,
+              "name": "UH-1 Huey",
+              "unit_id": "TU123"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the M47 Dragon missile teams with M47 Dragon 2 missile teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TU123",
+      "transport_name": "UH-1 Huey",
+      "transport_ids": [
+        "TU123"
+      ],
+      "weapons": [
+        {
+          "name": "M249 SAW team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Door MG3 MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "M47 Dragon 2 missile team",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU123",
+      "name": "UH-1 Huey Transport",
+      "nation": "American",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Attachment",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Passengers 4"
+      ],
+      "is_attachment": true,
+      "passengers": 4,
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 4,
+      "is_hit_on": 4,
+      "save": 5,
+      "options": [],
+      "weapons": [
+        {
+          "name": "Door MG3 MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU104",
+      "name": "M113 Mech Platoon",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 4,
+      "rally": 4,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "3x M249 SAW team with M72 LAW anti-tank + 2x M47 Dragon missile team + 3x M113",
+          "models": 5,
+          "transport_models": 3,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 3,
+              "name": "M113",
+              "unit_id": "TU105"
+            }
+          ]
+        },
+        {
+          "label": "4x M249 SAW team with M72 LAW anti-tank + 3x M47 Dragon missile team + 4x M113",
+          "models": 7,
+          "transport_models": 4,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M249 SAW team with M72 LAW anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "M47 Dragon missile team"
+            },
+            {
+              "count": 4,
+              "name": "M113",
+              "unit_id": "TU105"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace the M47 Dragon missile teams with M47 Dragon 2 missile teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TU105",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TU105"
+      ],
+      "weapons": [
+        {
+          "name": "M249 SAW team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M72 LAW anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "M47 Dragon missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M47 Dragon 2 missile team",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Assault +1",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU202z",
+      "name": "M1A1HC Abrams Tank Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 2,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 21,
+      "armour_side": 11,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x M1A1HC Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 36,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        },
+        {
+          "label": "3x M1A1HC Abrams",
+          "models": 3,
+          "transport_models": 0,
+          "points": 54,
+          "points_dynamic": 33,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        },
+        {
+          "label": "4x M1A1HC Abrams",
+          "models": 4,
+          "transport_models": 0,
+          "points": 72,
+          "points_dynamic": 44,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU192",
+      "name": "M48 Patton Tank Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 13,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x M48",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M48"
+            }
+          ]
+        },
+        {
+          "label": "4x M48",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M48"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU202",
+      "name": "M1A1 Abrams Tank Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 2,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x M1A1 Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 28,
+          "points_dynamic": 19,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "3x M1A1 Abrams",
+          "models": 3,
+          "transport_models": 0,
+          "points": 42,
+          "points_dynamic": 29,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "4x M1A1 Abrams",
+          "models": 4,
+          "transport_models": 0,
+          "points": 56,
+          "points_dynamic": 38,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU162",
+      "name": "RDF/LT Assault Gun Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Hammerhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 4,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x RDF/LT",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "RDF/LT"
+            }
+          ]
+        },
+        {
+          "label": "3x RDF/LT",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 3,
+              "name": "RDF/LT"
+            }
+          ]
+        },
+        {
+          "label": "4x RDF/LT",
+          "models": 4,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 4,
+              "name": "RDF/LT"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "XM274 75mm Ares gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU102a",
+      "name": "M1 Abrams Tank Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 2,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x M1 Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "3x M1 Abrams",
+          "models": 3,
+          "transport_models": 0,
+          "points": 24,
+          "points_dynamic": 24,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "4x M1 Abrams",
+          "models": 4,
+          "transport_models": 0,
+          "points": 32,
+          "points_dynamic": 32,
+          "composition": [
+            {
+              "count": 4,
+              "name": "M1 Abrams"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any or all M1 Abrams with IPM1 Abrams for +1 point per tank.",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU168",
+      "name": "HMMWV Fire Support Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x HMMWV-TOW",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HMMWV-TOW"
+            }
+          ]
+        },
+        {
+          "label": "2x HMMWV-TOW-2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HMMWV-TOW-2"
+            }
+          ]
+        },
+        {
+          "label": "4x HMMWV-TOW",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "HMMWV-TOW"
+            }
+          ]
+        },
+        {
+          "label": "4x HMMWV-TOW-2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "HMMWV-TOW-2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Improved TOW missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU101b",
+      "name": "M1 Abrams Armored Combat Team HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x M1 Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "1x M1 Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1 Abrams"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any or all M1 Abrams with IPM1 Abrams for +1 point per tank.",
+          "cost": 1,
+          "per_model": true
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU103b",
+      "name": "M113 Mech Combat Team HQ",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x M16 rifle team + 1x M113",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M16 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "M113",
+              "unit_id": "TU105"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TU105",
+      "transport_name": "M113",
+      "transport_ids": [
+        "TU105"
+      ],
+      "weapons": [
+        {
+          "name": "M16 rife team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": []
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU105",
+      "name": "M113 Transport",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Dragon Mount",
+        "Passengers 3",
+        "Thermal Imaging"
+      ],
+      "passengers": 3,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "is_attachment": true,
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU117a",
+      "name": "M113 Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M113 Scout + 1x M16 rifle team + 2x HMMWV-M2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M113 Scout"
+            },
+            {
+              "count": 1,
+              "name": "M16 rifle team"
+            },
+            {
+              "count": 2,
+              "name": "HMMWV-M2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "attached_ids": [
+        "TU117a-2",
+        "TU117a-3"
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU117a-2",
+      "name": "M113 Armored Cavalry Troop HQ: M16 rifle team",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [],
+      "weapons": [
+        {
+          "name": "M16 rife team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": []
+        }
+      ],
+      "is_attachment": true,
+      "part_of": "TU117a",
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU117a-3",
+      "name": "M113 Armored Cavalry Troop HQ: HMMWV-M2",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 2,
+      "remount": 4,
+      "skill": 3,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        }
+      ],
+      "is_attachment": true,
+      "part_of": "TU117a",
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU131a",
+      "name": "M60 Patton Armored Combat Team HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 15,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M60 Patton",
+          "models": 1,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M60 Patton"
+            }
+          ]
+        },
+        {
+          "label": "2x M60 Patton",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M60 Patton"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun (stbl)",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU141a",
+      "name": "Marine M60 Patton Tank Company HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 2,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 15,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M60 Patton",
+          "models": 1,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M60 Patton"
+            }
+          ]
+        },
+        {
+          "label": "2x M60 Patton",
+          "models": 2,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M60 Patton"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun (stbl)",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU145a",
+      "name": "Rifle Company HQ",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 3,
+      "rally": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x M16 rifle team",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M16 rifle team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "M16 rife team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU151a",
+      "name": "LAV Company HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Amphibious",
+        "Scout",
+        "Passengers 1",
+        "Thermal Imaging"
+      ],
+      "passengers": 1,
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 120,
+      "cross_skill": 4,
+      "courage": 2,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x LAV-25",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "LAV-25"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU161",
+      "name": "Combined Arms (Heavy) Company HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Hammerhead",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 90,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 4,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x RDF/LT",
+          "models": 1,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "RDF/LT"
+            }
+          ]
+        },
+        {
+          "label": "2x RDF/LT",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "RDF/LT"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "XM274 75mm Ares gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU163",
+      "name": "Combined Arms (Light) Company HQ",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x M16 rifle team + 1x HMMWV",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M16 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "HMMWV",
+              "unit_id": "TU165"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TU165",
+      "transport_name": "HMMWV",
+      "transport_ids": [
+        "TU165"
+      ],
+      "weapons": [
+        {
+          "name": "M16 rife team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU165",
+      "name": "HMMWV Transport",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Transport Attachment",
+      "special_rules": [
+        "Passengers 1"
+      ],
+      "is_attachment": true,
+      "passengers": 1,
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 3,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU166",
+      "name": "Light Attack Company HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 30,
+      "cross_dash": 50,
+      "road_dash": 100,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 2,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 0,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x HMMWV-M2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "HMMWV-M2"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace any or all HMMWV-M2 with HMMWV (Minigun) at no cost.",
+          "cost": 0,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M134 Minigun MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU170",
+      "name": "M3 Bradley Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Amphibious",
+        "Appliqué Armour",
+        "Scout",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x M3 Bradley",
+          "models": 1,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M3 Bradley"
+            }
+          ]
+        },
+        {
+          "label": "1x M3A2 Bradley",
+          "models": 1,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M3A2 Bradley"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm Bushmaster gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU180",
+      "name": "M1 Abrams Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 18,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1 Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "1x IPM1 Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 1,
+              "name": "IPM1 Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU180z",
+      "name": "M1 IPM1 Abrams Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1 IPM1 Abrams Armored Cavalry Troop HQ",
+          "models": 1,
+          "transport_models": 0,
+          "points": 0,
+          "points_dynamic": 0,
+          "composition": []
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M68 105mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU181",
+      "name": "M1A1 Abrams Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1A1 Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "1x M1A1HC Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU181z",
+      "name": "M1A1HC Abrams Armored Cavalry Troop HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 21,
+      "armour_side": 11,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1A1HC Abrams Armored Cavalry Troop HQ",
+          "models": 1,
+          "transport_models": 0,
+          "points": 0,
+          "points_dynamic": 0,
+          "composition": []
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU191",
+      "name": "M48 Patton Armored Combat Team HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 13,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M48",
+          "models": 1,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M48"
+            }
+          ]
+        },
+        {
+          "label": "2x M48",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M48"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "105mm L7 gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder",
+            "Smoke",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU201",
+      "name": "M1A1 Abrams Armored Combat Team HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 19,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1A1 Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        },
+        {
+          "label": "2x M1A1 Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 28,
+          "points_dynamic": 19,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1A1 Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU201z",
+      "name": "M1A1HC Abrams Armored Combat Team HQ",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Chobham Armour",
+        "Thermal Imaging"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 3,
+      "remount": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 21,
+      "armour_side": 11,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x M1A1HC Abrams",
+          "models": 1,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        },
+        {
+          "label": "2x M1A1HC Abrams",
+          "models": 2,
+          "transport_models": 0,
+          "points": 36,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 2,
+              "name": "M1A1HC Abrams"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M256 120mm gun",
+          "range_cm_min": 0,
+          "range_cm": 100,
+          "rof_static": 2,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Laser Rangefinder"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU203",
+      "name": "M2 Bradley Mech Combat Team HQ",
+      "nation": "American",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Thermal Imaging"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x M16 rifle team + 1x M2 Bradley",
+          "models": 1,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "M16 rifle team"
+            },
+            {
+              "count": 1,
+              "name": "M2 Bradley",
+              "unit_id": "TU205"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Replace M2 Bradley with a M2A2 Bradley (TU205) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TU205",
+      "transport_name": "M2 Bradley",
+      "transport_ids": [
+        "TU205"
+      ],
+      "weapons": [
+        {
+          "name": "M16 rife team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 2,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm Bushmaster gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU205",
+      "name": "M2 Bradley Transport",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Appliqué Armour",
+        "Passengers 2",
+        "Thermal Imaging"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "M242 25mm Bushmaster gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 8,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "TOW-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TU118",
+      "name": "M106 Cavalry Mortar Platoon",
+      "nation": "American",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 4,
+      "remount": 4,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 3,
+      "armour_side": 2,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "3x M106",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "M106"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": ".50 cal AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "M30 107mm mortar",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 2,
+          "firepower": 4,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

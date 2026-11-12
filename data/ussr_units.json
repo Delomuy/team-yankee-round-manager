@@ -1,0 +1,7724 @@
+{
+  "units": [
+    {
+      "id": "TS108",
+      "name": "2S1 Carnation SP Howitzer Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x 2S1 Carnation",
+          "models": 6,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 6,
+              "name": "2S1 Carnation"
+            }
+          ]
+        },
+        {
+          "label": "3x 2S1 Carnation",
+          "models": 3,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "2S1 Carnation"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "122mm 2A31 howitzer",
+          "range_cm_min": 0,
+          "range_cm": 220,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 3,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "122mm 2A31 howitzer Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "HEAT",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS133",
+      "name": "2S3 Acacia Heavy SP Howitzer Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x 2S3 Acacia",
+          "models": 6,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 6,
+              "name": "2S3 Acacia"
+            }
+          ]
+        },
+        {
+          "label": "6x 2S3 Acacia with Krasnopol Projectiles",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "2S3 Acacia with Krasnopol Projectiles"
+            }
+          ]
+        },
+        {
+          "label": "3x 2S3 Acacia",
+          "models": 3,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "2S3 Acacia"
+            }
+          ]
+        },
+        {
+          "label": "3x 2S3 Acacia with Krasnopol Projectiles",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "2S3 Acacia with Krasnopol Projectiles"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "152mm howitzer",
+          "range_cm_min": 0,
+          "range_cm": 220,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 2,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "152mm howitzer Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": -1,
+          "rules": [
+            "Brutal",
+            "HEAT",
+            "Slow Firing",
+            "Smoke"
+          ]
+        },
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Krasnopol Projectiles",
+          "range_cm_min": 0,
+          "range_cm": 220,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": -1,
+          "rules": [
+            "Brutal",
+            "Krasnopol Projectile"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS145",
+      "name": "TOS-1 Thermobaric Rocket Launcher Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 5,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "3x TOS-1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 3,
+              "name": "TOS-1"
+            }
+          ]
+        },
+        {
+          "label": "6x TOS-1",
+          "models": 6,
+          "transport_models": 0,
+          "points": 20,
+          "points_dynamic": 20,
+          "composition": [
+            {
+              "count": 6,
+              "name": "TOS-1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "TOS-1 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": -1,
+          "rules": [
+            "Brutal"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS109",
+      "name": "BM-21 Hail Rocket Launcher Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 35,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 3,
+      "save": 5,
+      "options": [
+        {
+          "label": "3x BM-21 Hail",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BM-21 Hail"
+            }
+          ]
+        },
+        {
+          "label": "6x BM-21 Hail",
+          "models": 6,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 6,
+              "name": "BM-21 Hail"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "BM-21 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 240,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 4,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS147",
+      "name": "BM-27 Hurricane Rocket Launcher Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Minelets"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 40,
+      "road_dash": 80,
+      "cross_skill": 5,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 3,
+      "save": 5,
+      "options": [
+        {
+          "label": "6x BM-27 Hurricane",
+          "models": 6,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 6,
+              "name": "BM-27 Hurricane"
+            }
+          ]
+        },
+        {
+          "label": "3x BM-27 Hurricane",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BM-27 Hurricane"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "BM-27 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 300,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 3,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS117b",
+      "name": "BMP-1 OP",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Independent Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Observer",
+        "Scout"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "1x BMP-1 OP",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "BMP-1 OP"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS113",
+      "name": "SA-13 Gopher SAM Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x SA-13 Gopher",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "SA-13 Gopher"
+            }
+          ]
+        },
+        {
+          "label": "4x SA-13 Gopher",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "SA-13 Gopher"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "SA-13 Gopher AA missile",
+          "range_cm_min": 0,
+          "range_cm": 140,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 4,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS129",
+      "name": "SA-9 Gaskin SAM Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x SA-9 Gaskin",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "SA-9 Gaskin"
+            }
+          ]
+        },
+        {
+          "label": "4x SA-9 Gaskin",
+          "models": 4,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 4,
+              "name": "SA-9 Gaskin"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "SA-9 Gaskin AA missile",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 5,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS132",
+      "name": "SA-8 Gecko SAM Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Unarmoured Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Thermal Imaging"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 40,
+      "road_dash": 90,
+      "cross_skill": 5,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 0,
+      "counterattack": 0,
+      "is_hit_on": 3,
+      "save": 5,
+      "options": [
+        {
+          "label": "2x SA-8 Gecko",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "SA-8 Gecko"
+            }
+          ]
+        },
+        {
+          "label": "4x SA-8 Gecko",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "SA-8 Gecko"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "SA-8 Gecko AA missile",
+          "range_cm_min": 0,
+          "range_cm": 180,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 3,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS110",
+      "name": "BMP-1 Recon Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Spearhead"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x BMP-1",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BMP-1"
+            }
+          ]
+        },
+        {
+          "label": "3x BMP-1",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BMP-1"
+            }
+          ]
+        },
+        {
+          "label": "4x BMP-1",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "BMP-1"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS111",
+      "name": "BMP-2 Recon Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Spearhead"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x BMP-2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BMP-2"
+            }
+          ]
+        },
+        {
+          "label": "3x BMP-2",
+          "models": 3,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BMP-2"
+            }
+          ]
+        },
+        {
+          "label": "4x BMP-2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "BMP-2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS146",
+      "name": "BMP-3 Recon Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Spearhead"
+      ],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 5,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x BMP-3",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BMP-3"
+            }
+          ]
+        },
+        {
+          "label": "3x BMP-3",
+          "models": 3,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BMP-3"
+            }
+          ]
+        },
+        {
+          "label": "4x BMP-3",
+          "models": 4,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 4,
+              "name": "BMP-3"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "100mm 2A70 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun (BMP-3)",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS130",
+      "name": "Spandrel Anti-Tank Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [
+        {
+          "label": "2x Spandrel",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Spandrel"
+            }
+          ]
+        },
+        {
+          "label": "3x Spandrel",
+          "models": 3,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Spandrel"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS131a",
+      "name": "Storm Anti-Tank Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 6,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x Storm (AT-6 Spiral)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Storm (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "2x Storm-2 (AT-9 Spiral-2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Storm-2 (AT-9 Spiral-2)"
+            }
+          ]
+        },
+        {
+          "label": "3x Storm (AT-6 Spiral)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Storm (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "3x Storm-2 (AT-9 Spiral-2)",
+          "models": 3,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 3,
+              "name": "Storm-2 (AT-9 Spiral-2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AT-6 Spiral missile",
+          "range_cm_min": 20,
+          "range_cm": 50,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-9 Spiral-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 60,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS114a",
+      "name": "MI-24 Hind Assault Helicopter Company",
+      "nation": "Soviet",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Passengers 2"
+      ],
+      "passengers": 2,
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 5,
+      "is_hit_on": 3,
+      "save": 4,
+      "options": [
+        {
+          "label": "4x Mi-24 Hind (AT-6 Spiral)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mi-24 Hind (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "4x Mi-24 Hind (AT-9 Spiral-2)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mi-24 Hind (AT-9 Spiral-2)"
+            }
+          ]
+        },
+        {
+          "label": "6x Mi-24 Hind (AT-6 Spiral)",
+          "models": 6,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Mi-24 Hind (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "6x Mi-24 Hind (AT-9 Spiral-2)",
+          "models": 6,
+          "transport_models": 0,
+          "points": 18,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 6,
+              "name": "Mi-24 Hind (AT-9 Spiral-2)"
+            }
+          ]
+        },
+        {
+          "label": "2x Mi-24 Hind (AT-6 Spiral)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mi-24 Hind (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "2x Mi-24 Hind (AT-9 Spiral-2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mi-24 Hind (AT-9 Spiral-2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm Yak-B Gatling gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "57mm UB-32 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "AT-6 Spiral missile",
+          "range_cm_min": 20,
+          "range_cm": 50,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-9 Spiral-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 60,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS115a",
+      "name": "MI-24 Hind Assault Landing Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Attachment",
+      "special_rules": [
+        "Landing Company"
+      ],
+      "is_attachment": true,
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x AK-74 team with RPG-18 anti-tank + 2x RPG-7 anti-tank team",
+          "models": 4,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 2,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 4x RPG-7 anti-tank team",
+          "models": 8,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 4,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        },
+        {
+          "label": "6x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team",
+          "models": 12,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 6,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS116",
+      "name": "SU-25 Frogfoot Aviation Company",
+      "nation": "Soviet",
+      "category": "air",
+      "unit_type": "Strike Aircraft Unit",
+      "aircraft_type": "jet",
+      "special_rules": [],
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "skill": 5,
+      "is_hit_on": 3,
+      "save": 4,
+      "options": [
+        {
+          "label": "4x SU-25 Frogfoot",
+          "models": 4,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 4,
+              "name": "SU-25 Frogfoot"
+            }
+          ]
+        },
+        {
+          "label": "6x SU-25 Frogfoot",
+          "models": 6,
+          "transport_models": 0,
+          "points": 21,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 6,
+              "name": "SU-25 Frogfoot"
+            }
+          ]
+        },
+        {
+          "label": "2x SU-25 Frogfoot",
+          "models": 2,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "SU-25 Frogfoot"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "30mm GSh-30-2 gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 7,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "57mm UB-32 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "Kh-25 air-ground missile",
+          "range_cm_min": 20,
+          "range_cm": 70,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 27,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS136",
+      "name": "T-62M Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 14,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "5x T-62M",
+          "models": 5,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "6x T-62M",
+          "models": 6,
+          "transport_models": 0,
+          "points": 13,
+          "points_dynamic": 13,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "7x T-62M",
+          "models": 7,
+          "transport_models": 0,
+          "points": 17,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "8x T-62M",
+          "models": 8,
+          "transport_models": 0,
+          "points": 21,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "9x T-62M",
+          "models": 9,
+          "transport_models": 0,
+          "points": 25,
+          "points_dynamic": 25,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "10x T-62M",
+          "models": 10,
+          "transport_models": 0,
+          "points": 29,
+          "points_dynamic": 29,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "3x T-62M",
+          "models": 3,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-62M"
+            }
+          ]
+        },
+        {
+          "label": "4x T-62M",
+          "models": 4,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-62M"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-10 Stabber missiles to all T-62M tanks for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "115mm 2A20 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS167",
+      "name": "T-64BV Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 18,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x T-64BV",
+          "models": 3,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "4x T-64BV",
+          "models": 4,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "5x T-64BV",
+          "models": 5,
+          "transport_models": 0,
+          "points": 28,
+          "points_dynamic": 23,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "6x T-64BV",
+          "models": 6,
+          "transport_models": 0,
+          "points": 34,
+          "points_dynamic": 27,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "7x T-64BV",
+          "models": 7,
+          "transport_models": 0,
+          "points": 40,
+          "points_dynamic": 32,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "8x T-64BV",
+          "models": 8,
+          "transport_models": 0,
+          "points": 46,
+          "points_dynamic": 36,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "9x T-64BV",
+          "models": 9,
+          "transport_models": 0,
+          "points": 52,
+          "points_dynamic": 41,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-64BV"
+            }
+          ]
+        },
+        {
+          "label": "10x T-64BV",
+          "models": 10,
+          "transport_models": 0,
+          "points": 58,
+          "points_dynamic": 46,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-64BV"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-8 Songster missiles to all T-64BV tanks for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Fit up to three T-64BV tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-8 Songster missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS144",
+      "name": "T-55AM Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 14,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "7x T-55AM",
+          "models": 7,
+          "transport_models": 0,
+          "points": 11,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-55AM"
+            }
+          ]
+        },
+        {
+          "label": "8x T-55AM",
+          "models": 8,
+          "transport_models": 0,
+          "points": 13,
+          "points_dynamic": 13,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-55AM"
+            }
+          ]
+        },
+        {
+          "label": "9x T-55AM",
+          "models": 9,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 15,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-55AM"
+            }
+          ]
+        },
+        {
+          "label": "10x T-55AM",
+          "models": 10,
+          "transport_models": 0,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-55AM"
+            }
+          ]
+        },
+        {
+          "label": "5x T-55AM",
+          "models": 5,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-55AM"
+            }
+          ]
+        },
+        {
+          "label": "6x T-55AM",
+          "models": 6,
+          "transport_models": 0,
+          "points": 9,
+          "points_dynamic": 9,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-55AM"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-10 Stabber missiles to all T-55AM tanks for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "100mm D10-T gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS151",
+      "name": "T-72B Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 18,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x T-72B",
+          "models": 3,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 13,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "4x T-72B",
+          "models": 4,
+          "transport_models": 0,
+          "points": 21,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "5x T-72B",
+          "models": 5,
+          "transport_models": 0,
+          "points": 27,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "6x T-72B",
+          "models": 6,
+          "transport_models": 0,
+          "points": 33,
+          "points_dynamic": 26,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "7x T-72B",
+          "models": 7,
+          "transport_models": 0,
+          "points": 39,
+          "points_dynamic": 31,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "8x T-72B",
+          "models": 8,
+          "transport_models": 0,
+          "points": 45,
+          "points_dynamic": 35,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "9x T-72B",
+          "models": 9,
+          "transport_models": 0,
+          "points": 51,
+          "points_dynamic": 40,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-72B"
+            }
+          ]
+        },
+        {
+          "label": "10x T-72B",
+          "models": 10,
+          "transport_models": 0,
+          "points": 57,
+          "points_dynamic": 44,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-72B"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missiles to all T-72B tanks for +1 point per tank.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        },
+        {
+          "text": "Fit up to three T-72B tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun (T-72B)",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS102",
+      "name": "T-72 Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 16,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x T-72",
+          "models": 3,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 11,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "4x T-72",
+          "models": 4,
+          "transport_models": 0,
+          "points": 17,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "5x T-72",
+          "models": 5,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 19,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "6x T-72",
+          "models": 6,
+          "transport_models": 0,
+          "points": 27,
+          "points_dynamic": 23,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "7x T-72",
+          "models": 7,
+          "transport_models": 0,
+          "points": 32,
+          "points_dynamic": 27,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "8x T-72",
+          "models": 8,
+          "transport_models": 0,
+          "points": 37,
+          "points_dynamic": 31,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "9x T-72",
+          "models": 9,
+          "transport_models": 0,
+          "points": 42,
+          "points_dynamic": 35,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-72"
+            }
+          ]
+        },
+        {
+          "label": "10x T-72",
+          "models": 10,
+          "transport_models": 0,
+          "points": 47,
+          "points_dynamic": 39,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-72"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Fit up to three T-72 tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun (T-72)",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS123",
+      "name": "T-64 Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 17,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x T-64",
+          "models": 3,
+          "transport_models": 0,
+          "points": 13,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "4x T-64",
+          "models": 4,
+          "transport_models": 0,
+          "points": 19,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "5x T-64",
+          "models": 5,
+          "transport_models": 0,
+          "points": 25,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "6x T-64",
+          "models": 6,
+          "transport_models": 0,
+          "points": 31,
+          "points_dynamic": 25,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "7x T-64",
+          "models": 7,
+          "transport_models": 0,
+          "points": 37,
+          "points_dynamic": 29,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "8x T-64",
+          "models": 8,
+          "transport_models": 0,
+          "points": 43,
+          "points_dynamic": 33,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "9x T-64",
+          "models": 9,
+          "transport_models": 0,
+          "points": 49,
+          "points_dynamic": 38,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-64"
+            }
+          ]
+        },
+        {
+          "label": "10x T-64",
+          "models": 10,
+          "transport_models": 0,
+          "points": 55,
+          "points_dynamic": 42,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-64"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-8 Songster missiles to all T-64 tanks for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Fit up to three T-64 tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-8 Songster missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS125a",
+      "name": "BTR-60 Motor Rifle Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team + 1x PKM LMG team + 8x BTR-60",
+          "models": 14,
+          "transport_models": 8,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 8,
+              "name": "BTR-60",
+              "unit_id": "TS126"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 1x PKM LMG team + 11x BTR-60",
+          "models": 20,
+          "transport_models": 11,
+          "points": 15,
+          "points_dynamic": 15,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 1,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 11,
+              "name": "BTR-60",
+              "unit_id": "TS126"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team + 4x BTR-60",
+          "models": 7,
+          "transport_models": 4,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BTR-60",
+              "unit_id": "TS126"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS127a) & BTR-60 for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add a SA-14 Gremlin AA missile team (TS127a) & BTR-60 for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add up to two AT-4 Spigot missile team (TS127a), each in BTR-60, for +2 points each.",
+          "cost": 2,
+          "per_model": true
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS126",
+      "transport_name": "BTR-60",
+      "transport_ids": [
+        "TS126"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "PKM LMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "14.5mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS119a",
+      "name": "Air Assault Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Air Assault"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team + 2x PKM LMG team",
+          "models": 15,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 2x PKM LMG team",
+          "models": 21,
+          "transport_models": 0,
+          "points": 15,
+          "points_dynamic": 15,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team",
+          "models": 7,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS120a) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add a AT-4 Spigot missile team (TS120a) for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Add a SA-14 Gremlin AA missile team (TS120a) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "group": 8
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "PKM LMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "AGS-17 grenade launcher team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 9,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": [
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "AT-4 Spigot missile team",
+          "range_cm_min": 20,
+          "range_cm": 100,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "SA-14 Gremlin AA missile team",
+          "range_cm_min": 0,
+          "range_cm": 120,
+          "rof_static": 3,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 5,
+          "rules": [
+            "Guided AA",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "Door PK MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS141",
+      "name": "BMP-3 Motor Rifle Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team + 4x BMP-3",
+          "models": 7,
+          "transport_models": 4,
+          "points": 10,
+          "points_dynamic": 10,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BMP-3",
+              "unit_id": "TS142"
+            }
+          ]
+        },
+        {
+          "label": "7x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team + 2x PKM LMG team + 9x BMP-3",
+          "models": 15,
+          "transport_models": 9,
+          "points": 22,
+          "points_dynamic": 22,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 9,
+              "name": "BMP-3",
+              "unit_id": "TS142"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 2x PKM LMG team + 12x BMP-3",
+          "models": 21,
+          "transport_models": 12,
+          "points": 30,
+          "points_dynamic": 30,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 12,
+              "name": "BMP-3",
+              "unit_id": "TS142"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS134a) & BMP-3 for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Add a SA-14 Gremlin AA missile team (TS134a) & BMP-3 for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS142",
+      "transport_name": "BMP-3",
+      "transport_ids": [
+        "TS142"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "100mm 2A70 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun (BMP-3)",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "PKM LMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS106a",
+      "name": "BMP-2 Motor Rifle Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team + 2x PKM LMG team + 9x BMP-2",
+          "models": 15,
+          "transport_models": 9,
+          "points": 18,
+          "points_dynamic": 18,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 9,
+              "name": "BMP-2",
+              "unit_id": "TS107"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 2x PKM LMG team + 12x BMP-2",
+          "models": 21,
+          "transport_models": 12,
+          "points": 24,
+          "points_dynamic": 24,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 12,
+              "name": "BMP-2",
+              "unit_id": "TS107"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team + 4x BMP-2",
+          "models": 7,
+          "transport_models": 4,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BMP-2",
+              "unit_id": "TS107"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS134a) & BMP-2 for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Add a SA-14 Gremlin AA missile team (TS134a) & BMP-2 for +2 points.",
+          "cost": 2,
+          "per_model": false
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS107",
+      "transport_name": "BMP-2",
+      "transport_ids": [
+        "TS107"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "PKM LMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS104a",
+      "name": "BMP-1 Motor Rifle Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 4,
+      "morale": 3,
+      "rally": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 anti-tank + 6x RPG-7 anti-tank team + 2x PKM LMG team + 9x BMP-1",
+          "models": 15,
+          "transport_models": 9,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 9,
+              "name": "BMP-1",
+              "unit_id": "TS105"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 2x PKM LMG team + 12x BMP-1",
+          "models": 21,
+          "transport_models": 12,
+          "points": 19,
+          "points_dynamic": 19,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "PKM LMG team"
+            },
+            {
+              "count": 12,
+              "name": "BMP-1",
+              "unit_id": "TS105"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team + 4x BMP-1",
+          "models": 7,
+          "transport_models": 4,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BMP-1",
+              "unit_id": "TS105"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS134a) & BMP-1 for +1 points.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add a SA-14 Gremlin AA missile team (TS134a) & BMP-1 for +1 points.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS105",
+      "transport_name": "BMP-1",
+      "transport_ids": [
+        "TS105"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "PKM LMG team",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 7,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Assault +1",
+            "Heavy Weapon"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS154",
+      "name": "VDV BMD-1 Air Assault Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Parachute"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 + 6x RPG-7 anti-tank team + 7x BMD-1",
+          "models": 13,
+          "transport_models": 7,
+          "points": 14,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 7,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 10x BMD-1",
+          "models": 19,
+          "transport_models": 10,
+          "points": 21,
+          "points_dynamic": 21,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 10,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 + 3x RPG-7 anti-tank team + 4x BMD-1",
+          "models": 7,
+          "transport_models": 4,
+          "points": 7,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BMD-1",
+              "unit_id": "TS155"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS156) & BTR-D (TS159) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add a PKM LMG team & BTR-D (TS159) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "group": 8
+        },
+        {
+          "text": "Add up to 2 SA-14 Gremlin AA missile team (TS156) & BTR-D (TS159) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS155",
+      "transport_name": "BMD-1",
+      "transport_ids": [
+        "TS155"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Door PK MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS155",
+      "name": "VDV BMD-1 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS157",
+      "name": "VDV BMD-2 Air Assault Company",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Parachute"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "7x AK-74 team with RPG-18 + 6x RPG-7 anti-tank team + 7x BMD-2",
+          "models": 13,
+          "transport_models": 7,
+          "points": 16,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 7,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 6,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 7,
+              "name": "BMD-2",
+              "unit_id": "TS158"
+            }
+          ]
+        },
+        {
+          "label": "10x AK-74 team with RPG-18 anti-tank + 9x RPG-7 anti-tank team + 10x BMD-2",
+          "models": 19,
+          "transport_models": 10,
+          "points": 24,
+          "points_dynamic": 24,
+          "composition": [
+            {
+              "count": 10,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 9,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 10,
+              "name": "BMD-2",
+              "unit_id": "TS158"
+            }
+          ]
+        },
+        {
+          "label": "4x AK-74 team with RPG-18 + 3x RPG-7 anti-tank team + 4x BMD-2",
+          "models": 7,
+          "transport_models": 4,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 4,
+              "name": "BMD-2",
+              "unit_id": "TS158"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add a AGS-17 grenade launcher team (TS156) & BTR-D (TS159) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add a PKM LMG team & BTR-D (TS159) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add up to 2 SA-14 Gremlin AA missile team (TS156) & BTR-D (TS159) for +1 point each.",
+          "cost": 1,
+          "per_model": true
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +2 points.",
+          "cost": 2,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS158",
+      "transport_name": "BMD-2",
+      "transport_ids": [
+        "TS158"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS158",
+      "name": "VDV BMD-2 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS171",
+      "name": "Afgantsy BMD Air Assault Platoon",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Unit",
+      "special_rules": [
+        "Parachute"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 3,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x AK-74 team with RPG-18 + 2x RPG-7 anti-tank team + 2x Afgantsy BMD-1",
+          "models": 4,
+          "transport_models": 2,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "AK-74 team with RPG-18"
+            },
+            {
+              "count": 2,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 2,
+              "name": "Afgantsy BMD-1",
+              "unit_id": "TS172"
+            }
+          ]
+        },
+        {
+          "label": "3x AK-74 team with RPG-18 anti-tank + 3x RPG-7 anti-tank team + 3x Afgantsy BMD-1",
+          "models": 6,
+          "transport_models": 3,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 3,
+              "name": "AK-74 team with RPG-18 anti-tank"
+            },
+            {
+              "count": 3,
+              "name": "RPG-7 anti-tank team"
+            },
+            {
+              "count": 3,
+              "name": "Afgantsy BMD-1",
+              "unit_id": "TS172"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "group": 8
+        },
+        {
+          "text": "Replace all Afgantsy BMD-1 with Afgantsy BMD-2 (TS173) for +1 point for the platoon.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Replace all RPG-7 anti-tank teams with RPG-7VR anti-tank teams for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS172",
+      "transport_name": "Afgantsy BMD-1",
+      "transport_ids": [
+        "TS172"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "RPG-18 anti-tank",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 14,
+          "firepower": 5,
+          "rules": [
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "RPG-7 anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 30,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 17,
+          "firepower": 4,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "Door PK MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "RPG-7VR anti-tank team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 2,
+          "rules": [
+            "Assault +1",
+            "HEAT",
+            "Slow Firing",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS121a",
+      "name": "Afgantsy Mi-24 Hind Assault Helicopter Company",
+      "nation": "Soviet",
+      "category": "air",
+      "unit_type": "Helicopter Aircraft Unit",
+      "aircraft_type": "helicopter",
+      "special_rules": [
+        "Air Assault",
+        "Passengers 2"
+      ],
+      "passengers": 2,
+      "tactical": -1,
+      "terrain_dash": -1,
+      "cross_dash": -1,
+      "road_dash": -1,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "skill": 4,
+      "is_hit_on": 3,
+      "save": 4,
+      "options": [
+        {
+          "label": "4x Mi-24 Hind (AT-6 Spiral)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 14,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mi-24 Hind (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "4x Mi-24 Hind (AT-9 Spiral-2)",
+          "models": 4,
+          "transport_models": 0,
+          "points": 14,
+          "points_dynamic": 16,
+          "composition": [
+            {
+              "count": 4,
+              "name": "Mi-24 Hind (AT-9 Spiral-2)"
+            }
+          ]
+        },
+        {
+          "label": "2x Mi-24 Hind (AT-6 Spiral)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mi-24 Hind (AT-6 Spiral)"
+            }
+          ]
+        },
+        {
+          "label": "2x Mi-24 Hind (AT-9 Spiral-2)",
+          "models": 2,
+          "transport_models": 0,
+          "points": 7,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 2,
+              "name": "Mi-24 Hind (AT-9 Spiral-2)"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm Yak-B Gatling gun",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 0,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter"
+          ]
+        },
+        {
+          "name": "57mm UB-32 rocket launcher",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": true,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": [
+            "One Shot"
+          ]
+        },
+        {
+          "name": "AT-6 Spiral missile",
+          "range_cm_min": 20,
+          "range_cm": 50,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 23,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-9 Spiral-2 missile",
+          "range_cm_min": 20,
+          "range_cm": 60,
+          "rof_static": 0,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 24,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS118a",
+      "name": "Air Assault Battalion HQ",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "Air Assault"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 2,
+      "rally": 2,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 2,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x AK-74 assault rifle team",
+          "models": 1,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS101b",
+      "name": "T-72 Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 16,
+      "armour_side": 8,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-72",
+          "models": 1,
+          "transport_models": 0,
+          "points": 5,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-72"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun (T-72)",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS103c",
+      "name": "BMP Motor Rifle Battalion HQ",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 2,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x AK-74 assault rifle team + 1x BMP-1",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "BMP-1",
+              "unit_id": "TS105"
+            }
+          ]
+        },
+        {
+          "label": "1x AK-74 assault rifle team + 1x BMP-2",
+          "models": 1,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "BMP-2",
+              "unit_id": "TS107"
+            }
+          ]
+        },
+        {
+          "label": "1x AK-74 assault rifle team + 1x BMP-3",
+          "models": 1,
+          "transport_models": 1,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "BMP-3",
+              "unit_id": "TS142"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TS105",
+      "transport_name": "BMP-1",
+      "transport_ids": [
+        "TS105",
+        "TS107",
+        "TS142"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "100mm 2A70 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun (BMP-3)",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS105",
+      "name": "BMP-1 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (Ir)",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS107",
+      "name": "BMP-2 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (Ir)",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 2,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS142",
+      "name": "BMP-3 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (Ir)",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 5,
+      "armour_side": 3,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [
+        {
+          "name": "100mm 2A70 gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun (BMP-3)",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS122a",
+      "name": "T-64 Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "BDD Armour",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 17,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-64",
+          "models": 1,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-64"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-8 Songster missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-8 Songster missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS124a",
+      "name": "BTR-60 Motor Rifle Battalion HQ",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 2,
+      "rally": 2,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 2,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x AK-74 assault rifle team + 1x BTR-60",
+          "models": 1,
+          "transport_models": 1,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "BTR-60",
+              "unit_id": "TS126"
+            }
+          ]
+        }
+      ],
+      "transport_id": "TS126",
+      "transport_name": "BTR-60",
+      "transport_ids": [
+        "TS126"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "14.5mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS126",
+      "name": "BTR-60 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 40,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 0,
+      "armour_top": 0,
+      "options": [],
+      "weapons": [
+        {
+          "name": "14.5mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "Additional 7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS135a",
+      "name": "T-62M Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 14,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-62M",
+          "models": 1,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-62M"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-10 Stabber missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "115mm 2A20 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS137",
+      "name": "T-80 Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 20,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-80",
+          "models": 1,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-80"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS138",
+      "name": "T-80 Tank Company",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 5,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 20,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "3x T-80",
+          "models": 3,
+          "transport_models": 0,
+          "points": 22,
+          "points_dynamic": 17,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "4x T-80",
+          "models": 4,
+          "transport_models": 0,
+          "points": 31,
+          "points_dynamic": 23,
+          "composition": [
+            {
+              "count": 4,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "5x T-80",
+          "models": 5,
+          "transport_models": 0,
+          "points": 40,
+          "points_dynamic": 29,
+          "composition": [
+            {
+              "count": 5,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "6x T-80",
+          "models": 6,
+          "transport_models": 0,
+          "points": 49,
+          "points_dynamic": 34,
+          "composition": [
+            {
+              "count": 6,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "7x T-80",
+          "models": 7,
+          "transport_models": 0,
+          "points": 58,
+          "points_dynamic": 40,
+          "composition": [
+            {
+              "count": 7,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "8x T-80",
+          "models": 8,
+          "transport_models": 0,
+          "points": 68,
+          "points_dynamic": 46,
+          "composition": [
+            {
+              "count": 8,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "9x T-80",
+          "models": 9,
+          "transport_models": 0,
+          "points": 78,
+          "points_dynamic": 51,
+          "composition": [
+            {
+              "count": 9,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "10x T-80",
+          "models": 10,
+          "transport_models": 0,
+          "points": 88,
+          "points_dynamic": 57,
+          "composition": [
+            {
+              "count": 10,
+              "name": "T-80"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missiles to all T-80 tanks for +1 point per tank.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        },
+        {
+          "text": "Fit up to three T-80 tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS143",
+      "name": "T-55AM Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "Bazooka Skirts",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 14,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-55AM",
+          "models": 1,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-55AM"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-10 Stabber missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "100mm D10-T gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 18,
+          "firepower": 2,
+          "rules": [
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-10 Stabber missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 11,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS201",
+      "name": "T-80 Shock Tank Company HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 2,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 4,
+      "armour_front": 20,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-80",
+          "models": 1,
+          "transport_models": 0,
+          "points": 10,
+          "points_dynamic": 7,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-80"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS139",
+      "name": "2S6 Tunguska AA Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 4,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "4x 2S6 Tunguska",
+          "models": 4,
+          "transport_models": 0,
+          "points": 8,
+          "points_dynamic": 8,
+          "composition": [
+            {
+              "count": 4,
+              "name": "2S6 Tunguska"
+            }
+          ]
+        },
+        {
+          "label": "2x 2S6 Tunguska",
+          "models": 2,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 2,
+              "name": "2S6 Tunguska"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "Twin 30mm 2A38M gun",
+          "range_cm_min": 0,
+          "range_cm": 60,
+          "rof_static": 7,
+          "rof_moving": 5,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        },
+        {
+          "name": "SA-19 Grendel AA missile",
+          "range_cm_min": 0,
+          "range_cm": 160,
+          "rof_static": 2,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 0,
+          "firepower": 3,
+          "rules": [
+            "Guided AA"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS112",
+      "name": "ZSU-23-4 Shilka AA Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [],
+      "tactical": 25,
+      "terrain_dash": 35,
+      "cross_dash": 50,
+      "road_dash": 60,
+      "cross_skill": 3,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 1,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x ZSU-23-4 Shilka",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "ZSU-23-4 Shilka"
+            }
+          ]
+        },
+        {
+          "label": "4x ZSU-23-4 Shilka",
+          "models": 4,
+          "transport_models": 0,
+          "points": 4,
+          "points_dynamic": 4,
+          "composition": [
+            {
+              "count": 4,
+              "name": "ZSU-23-4 Shilka"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "23mm 2A7 AA gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 6,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 6,
+          "firepower": 5,
+          "rules": [
+            "Dedicated AA",
+            "Radar"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS128",
+      "name": "BRDM-2 Recon Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Spearhead"
+      ],
+      "tactical": 25,
+      "terrain_dash": 25,
+      "cross_dash": 45,
+      "road_dash": 110,
+      "cross_skill": 4,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 5,
+      "assault": 6,
+      "counterattack": 4,
+      "options": [
+        {
+          "label": "4x BRDM-2",
+          "models": 4,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 4,
+              "name": "BRDM-2"
+            }
+          ]
+        },
+        {
+          "label": "2x BRDM-2",
+          "models": 2,
+          "transport_models": 0,
+          "points": 1,
+          "points_dynamic": 1,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BRDM-2"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "14.5mm MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 5,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS202",
+      "name": "T-80 Shock Tank Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 45,
+      "cross_dash": 70,
+      "road_dash": 80,
+      "cross_skill": 2,
+      "courage": 4,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 4,
+      "armour_front": 20,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "2x T-80",
+          "models": 2,
+          "transport_models": 0,
+          "points": 19,
+          "points_dynamic": 19,
+          "composition": [
+            {
+              "count": 2,
+              "name": "T-80"
+            }
+          ]
+        },
+        {
+          "label": "3x T-80",
+          "models": 3,
+          "transport_models": 0,
+          "points": 29,
+          "points_dynamic": 29,
+          "composition": [
+            {
+              "count": 3,
+              "name": "T-80"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missiles to all T-80 tanks for +1 point per tank.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model"
+        },
+        {
+          "text": "Fit one T-80 tanks with Mine Clearing Devices for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS150",
+      "name": "T-72B Tank Company HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 18,
+      "armour_side": 9,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-72B",
+          "models": 1,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-72B"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-11 Sniper missiles to T-72B tanks for +1 point",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun (T-72B)",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "Laser Rangefinder",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-11 Sniper missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT",
+            "Tandem Warhead"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS161",
+      "name": "2S9 Nona-S SP Mortar Battery",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 4,
+      "assault": 3,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "6x 2S9 NONA-S",
+          "models": 6,
+          "transport_models": 0,
+          "points": 12,
+          "points_dynamic": 12,
+          "composition": [
+            {
+              "count": 6,
+              "name": "2S9 NONA-S"
+            }
+          ]
+        },
+        {
+          "label": "3x 2S9 NONA-S",
+          "models": 3,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 3,
+              "name": "2S9 NONA-S"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "120mm 2A51 gun-mortar",
+          "range_cm_min": 0,
+          "range_cm": 160,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 4,
+          "firepower": 3,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "120mm 2A51 gun-mortar or Direct fire",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 20,
+          "firepower": 2,
+          "rules": [
+            "Brutal",
+            "HEAT",
+            "Slow Firing",
+            "Smoke"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS174",
+      "name": "Afgantsy BM-37 Mortar Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Mortar Group",
+      "special_rules": [
+        "Parachute"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 3,
+      "morale": 3,
+      "rally": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "2x BM-37 82mm mortar team + 2x Afgantsy BTR-D",
+          "models": 2,
+          "transport_models": 2,
+          "points": 5,
+          "points_dynamic": 5,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BM-37 82mm mortar team"
+            },
+            {
+              "count": 2,
+              "name": "Afgantsy BTR-D",
+              "unit_id": "TS175"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add one Mi-8 Hip transport helicopter (TS121b) for every eight (or part thereof) Infantry teams for +1 point each.",
+          "cost": 1,
+          "per_model": false,
+          "per": "model",
+          "group": 8
+        }
+      ],
+      "weapons": [
+        {
+          "name": "BM-37 82mm mortar team",
+          "range_cm_min": 0,
+          "range_cm": 140,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": true,
+          "anti_tank": 1,
+          "firepower": 4,
+          "rules": [
+            "Smoke Bombardment"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AGS-17 grenade MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 3,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "Door PK MGs",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 4,
+          "rof_moving": 4,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": [
+            "Door Guns"
+          ]
+        }
+      ],
+      "max_copies": 2,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS175",
+      "name": "Afgantsy BTR-D Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS162",
+      "name": "BTR-RD Anti-Tank Platoon",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Unit",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute"
+      ],
+      "tactical": 25,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 5,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [
+        {
+          "label": "2x BTR-RD",
+          "models": 2,
+          "transport_models": 0,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 2,
+              "name": "BTR-RD"
+            }
+          ]
+        },
+        {
+          "label": "3x BTR-RD",
+          "models": 3,
+          "transport_models": 0,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 3,
+              "name": "BTR-RD"
+            }
+          ]
+        }
+      ],
+      "weapons": [
+        {
+          "name": "7.62mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS170",
+      "name": "Afgantsy BMD Air Assault Company HQ",
+      "nation": "Soviet",
+      "category": "ground",
+      "unit_type": "Infantry Formation",
+      "special_rules": [
+        "HQ Transport",
+        "Airborne"
+      ],
+      "tactical": 20,
+      "terrain_dash": 20,
+      "cross_dash": 30,
+      "road_dash": 30,
+      "cross_skill": -1,
+      "courage": 2,
+      "morale": 2,
+      "rally": 2,
+      "skill": 2,
+      "assault": 3,
+      "counterattack": 2,
+      "is_hit_on": 3,
+      "save": 3,
+      "options": [
+        {
+          "label": "1x AK-74 assault rifle team + 1x Afgantsy BMD-1",
+          "models": 1,
+          "transport_models": 1,
+          "points": 2,
+          "points_dynamic": 2,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Afgantsy BMD-1",
+              "unit_id": "TS172"
+            }
+          ]
+        },
+        {
+          "label": "1x AK-74 assault rifle team + 1x Afgantsy BMD-2",
+          "models": 1,
+          "transport_models": 1,
+          "points": 3,
+          "points_dynamic": 3,
+          "composition": [
+            {
+              "count": 1,
+              "name": "AK-74 assault rifle team"
+            },
+            {
+              "count": 1,
+              "name": "Afgantsy BMD-2",
+              "unit_id": "TS173"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add 1x AGS-17 grenade launcher team (TS176) & Afgantsy BTR-D (TS175) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add 1x PKM LMG team (TS176) & Afgantsy BTR-D (TS175) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        },
+        {
+          "text": "Add 1x SA-14 Gremlin AA missile team (TS176) & Afgantsy BTR-D (TS175) for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "transport_id": "TS172",
+      "transport_name": "Afgantsy BMD-1",
+      "transport_ids": [
+        "TS172",
+        "TS173"
+      ],
+      "weapons": [
+        {
+          "name": "AK-74 assault rife team",
+          "range_cm_min": 0,
+          "range_cm": 20,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 1,
+          "firepower": 5,
+          "rules": [
+            "Pinned ROF 1"
+          ]
+        },
+        {
+          "name": "7.62mm MG",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 3,
+          "rof_moving": 3,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "73mm 2A28 gun",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 12,
+          "firepower": 3,
+          "rules": [
+            "HEAT"
+          ]
+        },
+        {
+          "name": "AT-3 Sagger missile",
+          "range_cm_min": 40,
+          "range_cm": 110,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 19,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        },
+        {
+          "name": "30mm 2A42 gun",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 10,
+          "firepower": 5,
+          "rules": [
+            "Anti-helicopter",
+            "Stabiliser"
+          ]
+        },
+        {
+          "name": "AT-5 Spandrel missile",
+          "range_cm_min": 20,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 0,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": [
+            "Guided",
+            "HEAT"
+          ]
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS172",
+      "name": "Afgantsy BMD-1 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 4,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS173",
+      "name": "Afgantsy BMD-2 Transport",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Attachment",
+      "special_rules": [
+        "Amphibious",
+        "Infra-Red (IR)",
+        "Parachute",
+        "Passengers 2"
+      ],
+      "is_attachment": true,
+      "passengers": 2,
+      "tactical": 25,
+      "terrain_dash": 45,
+      "cross_dash": 80,
+      "road_dash": 90,
+      "cross_skill": 4,
+      "courage": 3,
+      "morale": 3,
+      "remount": 3,
+      "skill": 3,
+      "assault": 4,
+      "counterattack": 4,
+      "is_hit_on": 3,
+      "armour_front": 2,
+      "armour_side": 1,
+      "armour_top": 1,
+      "options": [],
+      "weapons": [],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    },
+    {
+      "id": "TS166",
+      "name": "T-64BV Tank Battalion HQ",
+      "nation": "Soviet",
+      "category": "armored",
+      "unit_type": "Tank Formation",
+      "special_rules": [
+        "ERA",
+        "Infra-Red (IR)"
+      ],
+      "tactical": 35,
+      "terrain_dash": 40,
+      "cross_dash": 60,
+      "road_dash": 70,
+      "cross_skill": 3,
+      "courage": 3,
+      "morale": 2,
+      "remount": 3,
+      "skill": 4,
+      "assault": 5,
+      "counterattack": 3,
+      "is_hit_on": 3,
+      "armour_front": 18,
+      "armour_side": 10,
+      "armour_top": 2,
+      "options": [
+        {
+          "label": "1x T-64BV",
+          "models": 1,
+          "transport_models": 0,
+          "points": 6,
+          "points_dynamic": 6,
+          "composition": [
+            {
+              "count": 1,
+              "name": "T-64BV"
+            }
+          ]
+        }
+      ],
+      "upgrades": [
+        {
+          "text": "Add AT-8 Songster missile for +1 point.",
+          "cost": 1,
+          "per_model": false
+        }
+      ],
+      "weapons": [
+        {
+          "name": "12.7mm AA MG",
+          "range_cm_min": 0,
+          "range_cm": 50,
+          "rof_static": 3,
+          "rof_moving": 2,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 4,
+          "firepower": 5,
+          "rules": []
+        },
+        {
+          "name": "125mm 2A46 gun",
+          "range_cm_min": 0,
+          "range_cm": 80,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 22,
+          "firepower": 2,
+          "rules": [
+            "Advanced Stabiliser",
+            "Brutal",
+            "Laser Rangefinder"
+          ]
+        },
+        {
+          "name": "7.62mm MG (ROF1)",
+          "range_cm_min": 0,
+          "range_cm": 40,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 2,
+          "firepower": 6,
+          "rules": []
+        },
+        {
+          "name": "AT-8 Songster missile",
+          "range_cm_min": 40,
+          "range_cm": 120,
+          "rof_static": 1,
+          "rof_moving": 1,
+          "salvo": false,
+          "artillery": false,
+          "anti_tank": 21,
+          "firepower": 3,
+          "rules": []
+        }
+      ],
+      "max_copies": 1,
+      "exclusive_with": [],
+      "formation_only": false
+    }
+  ]
+}

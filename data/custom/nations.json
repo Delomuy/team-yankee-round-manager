@@ -1,0 +1,11 @@
+{
+  "_help": "Nations added in the program (Cards > Nations ... / New nation). name = as in the unit files, label = shown, prefix = file prefix, color = card colour.",
+  "nations": [
+    {
+      "name": "French",
+      "label": "France",
+      "prefix": "french",
+      "color": "#4a5a8a"
+    }
+  ]
+}

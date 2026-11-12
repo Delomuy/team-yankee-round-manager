@@ -1,0 +1,56 @@
+{
+  "_help": [
+    "One file per nation: data/formations/<prefix>_formation_data.json, with the same prefix as the unit file (us, ussr, wgermany ...).",
+    "nation: exactly the nation name used in the unit file (American, Soviet, WestGerman, British ...).",
+    "formations: one entry per formation.",
+    "Formations can be made and changed in the program (main menu > Formations), which rewrites this file.",
+    "  id: any unique text (used inside saved armies). name: shown in the army editor. hq: card id of the HQ unit.",
+    "  division: the division the formation belongs to (e.g. 228th Guards); optional.",
+    "  slots: the boxes of the formation diagram, in order. Each slot holds ONE unit.",
+    "    id: unique inside the formation (used by 'exclusive'). group: the small heading of the box (Infantry, Armour, Red Banner ...).",
+    "    compulsory: true = black box (must be filled to field the formation), false = grey box (optional).",
+    "    units: the card ids that may fill the slot. Several ids = the OR choices of the diagram (pick one).",
+    "    A unit that can be taken three times is three slots (see company_1 .. company_3).",
+    "  exclusive: lists of slot ids of which only ONE may be filled, e.g. [[\"recon\", \"anti_tank\"]] = recon OR anti-tank.",
+    "Units inside a formation do not count towards the unit limits of the army; the slots are the limit.",
+    "Fields starting with _ are ignored."
+  ],
+  "nation": "EastGerman",
+  "formations": [
+    {
+      "id": "eastgerman_bmp_mot_sch_tzen_bataillon",
+      "name": "BMP Mot-Schützen Bataillon",
+      "hq": "TV103a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "eastgerman_btr_60_mot_sch_tzen_bataillon",
+      "name": "BTR-60 Mot-Schützen Bataillon",
+      "hq": "TV111a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "eastgerman_t_55am2_panzer_bataillon",
+      "name": "T-55AM2 Panzer Bataillon",
+      "hq": "TV109a",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "eastgerman_t_72b_tank_battalion",
+      "name": "T-72B Tank Battalion",
+      "hq": "TV134",
+      "slots": [],
+      "exclusive": []
+    },
+    {
+      "id": "eastgerman_t_72m_panzer_bataillon",
+      "name": "T-72M Panzer Bataillon",
+      "hq": "TV101a",
+      "slots": [],
+      "exclusive": []
+    }
+  ]
+}
